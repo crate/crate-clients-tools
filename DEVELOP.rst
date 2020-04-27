@@ -2,10 +2,12 @@
 Developer Guide
 ===============
 
+
 Documentation
 =============
 
 The documentation is written using `Sphinx`_ and `ReStructuredText`_.
+
 
 Working on the documentation
 ----------------------------
@@ -40,6 +42,7 @@ For help, run:
       reset   Reset the build cache
 
 You must install `fswatch`_ to use the ``dev`` target.
+
 
 Continuous integration and deployment
 -------------------------------------
