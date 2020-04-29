@@ -1,4 +1,4 @@
-from crate.theme.rtd.conf.standalone import *
+from crate.theme.rtd.conf.crate_clients_tools import *
 
 # crate.theme sets html_favicon to favicon.png which causes a warning because
 # it should be a .ico and in addition there is no favicon.png in this project
