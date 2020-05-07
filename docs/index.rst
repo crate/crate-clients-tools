@@ -104,8 +104,9 @@ Pick your library, and start building!
     Check out the `client compatibility notes`_ and `implementation
     differences`_ for information about known limitations.
 
-    If you run into issues, please `let us know`_. We regularly update CrateDB
-    to accomodate new PostgreSQL clients.
+    If you run into issues, please let us know using the *Feedback* section at
+    the bottom of this page. We regularly update CrateDB to accomodate new
+    PostgreSQL clients.
 
 
 Tools
@@ -168,4 +169,3 @@ Some of our favourite tools include:
 .. _SQLAlchemy: https://crate.io/docs/clients/python/en/latest/sqlalchemy.html
 .. _StreamSets: https://streamsets.com/opensource
 .. _superuser: https://crate.io/docs/crate/reference/en/latest/admin/user-management.html#introduction
-
