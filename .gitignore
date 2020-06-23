@@ -2,4 +2,6 @@
 .DS_Store
 .env
 .style
+.utils
+.clone
 *.lint
