@@ -29,21 +29,54 @@ Responsiblities of Power Users:
 * Ensuring guides are up to date.
 
 
-Power Users (*Tool, User, Tool Version // CrateDB Version, Issues*) :
-------------
+Power Users
+-----------
 
-* Grafana, `@proddata <https://github.com/proddata>`_, *X.Y*//*X.Y.Z*, `Known Issues <https://github.com/crate/crate/labels/tool%3A%20Grafana>`_
-* PowerBI, `@WolfgangHerbst <https://github.com/WolfgangHerbst>`_, *X.Y*//*X.Y.Z*, `Known Issues <https://github.com/crate/crate/labels/tool%3A%20PowerBI>`_
-* Tableau, `@marregui <https://github.com/marregui>`_, *X.Y*//*X.Y.Z*, `Known Issues <https://github.com/crate/crate/labels/tool%3A%20Tableau>`_
-* Zeppelin
-* Looker, `@proddata <https://github.com/proddata>`_, *X.Y*//*X.Y.Z*, `Known Issues <https://github.com/crate/crate/labels/tool%3A%20Looker>`_ 
-* Node-Red, `@proddata <https://github.com/proddata>`_, *X.Y*//*X.Y.Z*, `Known Issues <https://github.com/crate/crate/labels/tool%3A%20Node-Red>`_ 
-* NiFi, `@proddata <https://github.com/proddata>`_, *X.Y*//*X.Y.Z*, `Known Issues <https://github.com/crate/crate/labels/tool%3A%20NiFi>`_ 
-* Telegraf
-* Prometheus, `@infoverload <https://github.com/infoverload>`_, *X.Y*//*X.Y.Z*, `Known Issues DB <https://github.com/crate/crate/labels/tool%3A%20Prometheus>`_, `Known Issues Adapter <https://github.com/crate/crate_adapter/issues>`_ 
-* R, `@autophagy <https://github.com/autophagy>`_, *X.Y*//*X.Y.Z*, `Known Issues <https://github.com/crate/crate/labels/tool%3A%20R>`_ 
-* Azure Functions, `@autophagy <https://github.com/autophagy>`_, *X.Y*//*X.Y.Z*, `Known Issues <https://github.com/crate/crate/labels/tool%3A%20Azure%20Functions>`_
 
+
++-----------------+-------------------+---------+-----------------+------------------------------------------------------+
+| Tool            | User              | Version | CrateDB Version |                                                      |
++=================+===================+=========+=================+======================================================+
+| Grafana         | `proddata`_       | *X.Y*   | *X.Y.Z*         | `Known Issues Grafana`_                              |
++-----------------+-------------------+---------+-----------------+------------------------------------------------------+
+| PowerBI         | `WolfgangHerbst`_ | *X.Y*   | *X.Y.Z*         | `Known Issues PowerBI`_                              |
++-----------------+-------------------+---------+-----------------+------------------------------------------------------+
+| Tableau         | `marregui`_       | *X.Y*   | *X.Y.Z*         | `Known Issues Tableau`_                              |
++-----------------+-------------------+---------+-----------------+------------------------------------------------------+
+| Zeppelin        |                   |         |                 |                                                      |
++-----------------+-------------------+---------+-----------------+------------------------------------------------------+
+| Looker          | `proddata`_       | *X.Y*   | *X.Y.Z*         | `Known Issues Looker`_                               |
++-----------------+-------------------+---------+-----------------+------------------------------------------------------+
+| Node-Red        | `proddata`_       | *X.Y*   | *X.Y.Z*         | `Known Issues Node Red`_                             |
++-----------------+-------------------+---------+-----------------+------------------------------------------------------+
+| NiFi            | `proddata`_       | *X.Y*   | *X.Y.Z*         | `Known Issues NiFi`_                                 |
++-----------------+-------------------+---------+-----------------+------------------------------------------------------+
+| Telegraf        |                   |         |                 |                                                      |
++-----------------+-------------------+---------+-----------------+------------------------------------------------------+
+| Prometheus      | `infoverload`_    | *X.Y*   | *X.Y.Z*         | `Known Issues Prometheus`_, `Known Issues Adapter`_  |
++-----------------+-------------------+---------+-----------------+------------------------------------------------------+
+| R               | `autophagy`_      | *X.Y*   | *X.Y.Z*         | `Known Issues R`_                                    |
++-----------------+-------------------+---------+-----------------+------------------------------------------------------+
+| Azure Functions | `autophagy`_      | *X.Y*   | *X.Y.Z*         | `Known Issues Azure Functions`_                      |
++-----------------+-------------------+---------+-----------------+------------------------------------------------------+
+
+.. _proddata: https://github.com/proddata
+.. _WolfgangHerbst: https://github.com/WolfgangHerbst
+.. _marregui: https://github.com/marregui
+.. _infoverload: https://github.com/infoverload
+.. _autophagy: https://github.com/autophagy
+
+
+.. _Known Issues Grafana: https://github.com/crate/crate/labels/tool%3A%20Grafana
+.. _Known Issues PowerBI: https://github.com/crate/crate/labels/tool%3A%20PowerBI
+.. _Known Issues Tableau: https://github.com/crate/crate/labels/tool%3A%20Tableau
+.. _Known Issues Looker: https://github.com/crate/crate/labels/tool%3A%20Looker
+.. _Known Issues Node Red: https://github.com/crate/crate/labels/tool%3A%20Node-Red
+.. _Known Issues NiFi: https://github.com/crate/crate/labels/tool%3A%20NiFi
+.. _Known Issues R: https://github.com/crate/crate/labels/tool%3A%20R
+.. _Known Issues Azure Functions: https://github.com/crate/crate/labels/tool%3A%20Azure%20Functions
+.. _Known Issues Prometheus: https://github.com/crate/crate/labels/tool%3A%20Prometheus
+.. _Known Issues Adapter: https://github.com/crate/crate_adapter/issues
 
 Help
 ====
