@@ -40,7 +40,7 @@ Power Users (*Tool, User, Tool Version // CrateDB Version, Issues*) :
 * Node-Red, `@proddata <https://github.com/proddata>`_, *X.Y*//*X.Y.Z*, `Known Issues <https://github.com/crate/crate/labels/tool%3A%20Node-Red>`_ 
 * NiFi, `@proddata <https://github.com/proddata>`_, *X.Y*//*X.Y.Z*, `Known Issues <https://github.com/crate/crate/labels/tool%3A%20NiFi>`_ 
 * Telegraf
-* Prometheus
+* Prometheus, `@infoverload <https://github.com/infoverload>`_, *X.Y*//*X.Y.Z*, `Known Issues DB <https://github.com/crate/crate/labels/tool%3A%20Prometheus>`_, `Known Issues Adapter <https://github.com/crate/crate_adapter/issues>`_ 
 * R, `@autophagy <https://github.com/autophagy>`_, *X.Y*//*X.Y.Z*, `Known Issues <https://github.com/crate/crate/labels/tool%3A%20R>`_ 
 * Azure Functions, `@autophagy <https://github.com/autophagy>`_, *X.Y*//*X.Y.Z*, `Known Issues <https://github.com/crate/crate/labels/tool%3A%20Azure%20Functions>`_
 
