@@ -35,6 +35,10 @@ Pick your library, and start building!
     * - C# (.NET)
       - Crate.IO
       - ✔️
+      - `CrateDB Npgsql fork`_
+    * - C# (.NET)
+      - Crate.IO
+      - ✔️ (>= CrateDB 4.2.0)
       - `Npgsql`_
     * - Erlang
       - Community
@@ -137,13 +141,13 @@ Some of our favourite tools include:
 .. _Authenticate: https://crate.io/docs/crate/reference/en/latest/admin/auth/index.html
 .. _blog post: https://crate.io/a/visualize-crate-data-with-metabase/
 .. _client compatibility notes: https://crate.io/docs/crate/reference/en/latest/interfaces/postgres.html#client-compatibility
-.. _crate_ruby: https://rubygems.org/gems/crate_ruby
+.. _CrateDB Npgsql fork: https://crate.io/docs/clients/npgsql/en/latest/
+.. _CrateDB PDO: https://crate.io/docs/clients/pdo/en/latest/
 .. _crate-connect: https://www.npmjs.com/package/crate-connect
 .. _crate-jdbc: https://crate.io/docs/clients/jdbc/en/latest/
 .. _crate-python: https://crate.io/docs/clients/python/en/latest/
 .. _crate-scala: https://github.com/alexanderjarvis/crate-scala
-.. _Crate.Client: https://github.com/mfussenegger/crate-mono
-.. _CrateDB PDO: https://crate.io/docs/clients/pdo/en/latest/
+.. _crate_ruby: https://rubygems.org/gems/crate_ruby
 .. _cratejs: https://www.npmjs.com/package/cratejs
 .. _craterl: https://github.com/crate/craterl
 .. _DBAL: https://crate.io/docs/clients/dbal/en/latest/
@@ -158,7 +162,7 @@ Some of our favourite tools include:
 .. _Metabase: http://www.metabase.com/
 .. _node-crate: https://www.npmjs.com/package/node-crate
 .. _node-postgres: https://node-postgres.com/
-.. _Npgsql: https://crate.io/docs/clients/npgsql/en/latest/
+.. _Npgsql: https://www.npgsql.org/
 .. _our JDBC driver: https://crate.io/docs/reference/jdbc
 .. _Pentaho: http://community.pentaho.com
 .. _Petaho Kettle: https://github.com/pentaho/pentaho-kettle
