@@ -55,7 +55,7 @@ Pick your library, and start building!
       - ✔️
     * - `Npgsql`_
       - C# (.NET)
-      - Crate.IO
+      - Community
       - ✔️ (>= CrateDB 4.2.0)
     * - `craterl`_
       - Erlang
