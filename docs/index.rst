@@ -69,6 +69,10 @@ Pick your library, and start building!
       - Java
       - Crate.IO
       - ✔️
+    * - `PostgreSQL JDBC`_
+      - Java
+      - Community
+      - ✔️  (>= CrateDB 4.2, `with known issues`_)
     * - `node-postgres`_
       - Node.JS
       - Community
@@ -173,15 +177,15 @@ CrateDB integrates with many different tools. Some of these are:
 .. _Azure Function: https://azure.microsoft.com/en-in/services/functions/
 .. _building data stream pipelines: https://crate.io/docs/crate/clients-tools/en/latest/tools/streamsets.html
 .. _client compatibility notes: https://crate.io/docs/crate/reference/en/latest/interfaces/postgres.html#client-compatibility
+.. _crate-connect: https://www.npmjs.com/package/crate-connect
 .. _CrateDB Npgsql fork: https://crate.io/docs/clients/npgsql/en/latest/
 .. _CrateDB PDO: https://crate.io/docs/clients/pdo/en/latest/
-.. _crate-connect: https://www.npmjs.com/package/crate-connect
 .. _crate-jdbc: https://crate.io/docs/clients/jdbc/en/latest/
-.. _crate-python: https://crate.io/docs/clients/python/en/latest/
-.. _crate-scala: https://github.com/alexanderjarvis/crate-scala
-.. _crate_ruby: https://rubygems.org/gems/crate_ruby
 .. _cratejs: https://www.npmjs.com/package/cratejs
+.. _crate-python: https://crate.io/docs/clients/python/en/latest/
 .. _craterl: https://github.com/crate/craterl
+.. _crate_ruby: https://rubygems.org/gems/crate_ruby
+.. _crate-scala: https://github.com/alexanderjarvis/crate-scala
 .. _create a data enrichment pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/azure-functions.html
 .. _create a Machine Learning pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/r.html
 .. _DBAL: https://crate.io/docs/clients/dbal/en/latest/
@@ -202,6 +206,7 @@ CrateDB integrates with many different tools. Some of these are:
 .. _Pentaho: http://www.pentaho.com
 .. _Petaho Kettle: https://github.com/pentaho/pentaho-kettle
 .. _pgx: https://github.com/jackc/pgx
+.. _PostgreSQL JDBC: https://jdbc.postgresql.org/
 .. _PostgreSQL wire protocol: https://crate.io/docs/crate/reference/en/latest/interfaces/postgres.html
 .. _R: https://www.r-project.org
 .. _schema: https://crate.io/docs/crate/reference/en/latest/general/ddl/create-table.html#schemas
@@ -210,3 +215,4 @@ CrateDB integrates with many different tools. Some of these are:
 .. _SQLPad: https://rickbergfalk.github.io/sqlpad/
 .. _StreamSets: https://streamsets.com/opensource
 .. _superuser: https://crate.io/docs/crate/reference/en/latest/admin/user-management.html#introduction
+.. _with known issues: https://github.com/crate/crate/issues?q=is%3Aopen+is%3Aissue+label%3A%22driver%3A+PostgreSQL+JDBC%22
