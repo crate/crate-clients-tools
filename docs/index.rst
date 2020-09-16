@@ -7,11 +7,6 @@ CrateDB Clients and Tools
 CrateDB is a distributed SQL database that makes it simple to store and analyze
 massive amounts of machine data in real-time.
 
-.. toctree::
-   :hidden:
-
-   tools/streamsets
-
 
 .. TIP::
 
@@ -175,7 +170,7 @@ CrateDB integrates with many different tools. Some of these are:
 .. _asyncpg: https://github.com/MagicStack/asyncpg
 .. _Authenticate: https://crate.io/docs/crate/reference/en/latest/admin/auth/index.html
 .. _Azure Function: https://azure.microsoft.com/en-in/services/functions/
-.. _building data stream pipelines: https://crate.io/docs/crate/clients-tools/en/latest/tools/streamsets.html
+.. _building data stream pipelines: https://crate.io/docs/crate/howtos/en/latest/integrations/streamsets.html
 .. _client compatibility notes: https://crate.io/docs/crate/reference/en/latest/interfaces/postgres.html#client-compatibility
 .. _crate-connect: https://www.npmjs.com/package/crate-connect
 .. _CrateDB Npgsql fork: https://crate.io/docs/clients/npgsql/en/latest/
