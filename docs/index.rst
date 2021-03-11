@@ -55,7 +55,7 @@ Pick your library, and start building!
     * - `craterl`_
       - Erlang
       - Crate.IO
-      - ❌
+      -
     * - `pgx`_
       - Go
       - Community
@@ -75,15 +75,15 @@ Pick your library, and start building!
     * - `crate-connect`_
       - Node.JS
       - Community
-      - ❌
+      -
     * - `cratejs`_
       - Node.JS
       - Community
-      - ❌
+      -
     * - `node-crate`_
       - Node.JS
       - Community
-      - ❌
+      -
     * - `CrateDB PDO`_
       - PHP
       - Crate.IO
@@ -95,11 +95,11 @@ Pick your library, and start building!
     * - `CrateDB driver for Laravel`_
       - PHP
       - Community
-      - ❌
+      -
     * - `DBD::Crate`_
       - Perl
       - Community
-      - ❌
+      -
     * - `crate-python`_
       - Python
       - Crate.IO
@@ -111,15 +111,15 @@ Pick your library, and start building!
     * - `crate_ruby`_
       - Ruby
       - Crate.IO
-      - ❌
+      -
     * - `activerecord-crate-adaptor`_
       - Ruby
       - Crate.IO
-      - ❌
+      -
     * - `crate-scala`_
       - Scala
       - Community
-      - ❌
+      -
 
 
 Tools
