@@ -88,6 +88,14 @@ Pick your library, and start building!
       - PHP
       - Crate.IO
       - ✔️
+    * - `CrateDB DBAL`_
+      - PHP
+      - Crate.IO
+      - ✔️
+    * - `CrateDB driver for Laravel`_
+      - PHP
+      - Community
+      - ❌
     * - `DBD::Crate`_
       - Perl
       - Community
@@ -123,7 +131,7 @@ CrateDB integrates with many different tools. Some of these are:
 
   An `Azure Function`_ is a short-lived, serverless computation that is
   triggered by external events. Learn how to `create a data enrichment
-  pipeline`_ in our tutorial. 
+  pipeline`_ in our tutorial.
 
 - **Grafana**
 
@@ -141,12 +149,12 @@ CrateDB integrates with many different tools. Some of these are:
 
   `R`_  is a programming language and software environment geared towards
   statistical computing. Read our guide on how to `create a Machine
-  Learning pipeline`_. 
+  Learning pipeline`_.
 
 - **SQLPad**
 
   `SQLPad`_ is a web app for writing, running, and visualizing queries. Read
-  our tutorial on how to `set up CrateDB with SQLPad`_.  
+  our tutorial on how to `set up CrateDB with SQLPad`_.
 
 - **StreamSets Data Collector**
 
@@ -175,6 +183,8 @@ CrateDB integrates with many different tools. Some of these are:
 .. _crate-connect: https://www.npmjs.com/package/crate-connect
 .. _CrateDB Npgsql fork: https://crate.io/docs/clients/npgsql/en/latest/
 .. _CrateDB PDO: https://crate.io/docs/clients/pdo/en/latest/
+.. _CrateDB DBAL: https://crate.io/docs/clients/dbal/en/latest/
+.. _CrateDB driver for Laravel: https://github.com/RatkoR/laravel-crate.io
 .. _crate-jdbc: https://crate.io/docs/clients/jdbc/en/latest/
 .. _cratejs: https://www.npmjs.com/package/cratejs
 .. _crate-python: https://crate.io/docs/clients/python/en/latest/
@@ -183,7 +193,6 @@ CrateDB integrates with many different tools. Some of these are:
 .. _crate-scala: https://github.com/alexanderjarvis/crate-scala
 .. _create a data enrichment pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/azure-functions.html
 .. _create a Machine Learning pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/r.html
-.. _DBAL: https://crate.io/docs/clients/dbal/en/latest/
 .. _DBD::Crate: https://github.com/mamod/DBD-Crate
 .. _edit this page: https://github.com/crate/crate-tutorials/blob/master/docs/getting-started/start-building/index.rst
 .. _get in touch: https://crate.io/contact/
