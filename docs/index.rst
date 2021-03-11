@@ -40,84 +40,84 @@ Pick your library, and start building!
 .. list-table::
     :header-rows: 1
 
-    * - Name
-      - Language
-      - Maintainers
+    * - Language
+      - Name
+      - Maintainer
       - Official support
-    * - `CrateDB Npgsql fork`_
-      - C# (.NET)
-      - Crate.IO
-      - ✔️
-    * - `Npgsql`_
-      - C# (.NET)
+    * - C# (.NET)
+      - `Npgsql`_
       - Community
       - ✔️ (>= CrateDB 4.2.0)
-    * - `craterl`_
-      - Erlang
+    * - C# (.NET)
+      - `CrateDB Npgsql fork`_
+      - Crate.IO
+      - ✔️
+    * - Erlang
+      - `craterl`_
       - Crate.IO
       -
-    * - `pgx`_
-      - Go
+    * - Go
+      - `pgx`_
       - Community
       - ✔️
-    * - `crate-jdbc`_
-      - Java
-      - Crate.IO
-      - ✔️
-    * - `PostgreSQL JDBC`_
-      - Java
+    * - Java
+      - `PostgreSQL JDBC`_
       - Community
       - ✔️  (>= CrateDB 4.2, `with known issues`_)
-    * - `node-postgres`_
-      - Node.JS
-      - Community
-      - ✔️
-    * - `crate-connect`_
-      - Node.JS
-      - Community
-      -
-    * - `cratejs`_
-      - Node.JS
-      - Community
-      -
-    * - `node-crate`_
-      - Node.JS
-      - Community
-      -
-    * - `CrateDB PDO`_
-      - PHP
+    * - Java
+      - `crate-jdbc`_
       - Crate.IO
       - ✔️
-    * - `CrateDB DBAL`_
-      - PHP
-      - Crate.IO
-      - ✔️
-    * - `CrateDB driver for Laravel`_
-      - PHP
-      - Community
-      -
-    * - `DBD::Crate`_
-      - Perl
-      - Community
-      -
-    * - `crate-python`_
-      - Python
-      - Crate.IO
-      - ✔️
-    * - `asyncpg`_
-      - Python
+    * - Node.JS
+      - `node-postgres`_
       - Community
       - ✔️
-    * - `crate_ruby`_
-      - Ruby
+    * - Node.JS
+      - `crate-connect`_
+      - Community
+      -
+    * - Node.JS
+      - `cratejs`_
+      - Community
+      -
+    * - Node.JS
+      - `node-crate`_
+      - Community
+      -
+    * - Perl
+      - `DBD::Crate`_
+      - Community
+      -
+    * - PHP
+      - `CrateDB PDO`_
+      - Crate.IO
+      - ✔️
+    * - PHP
+      - `CrateDB DBAL`_
+      - Crate.IO
+      - ✔️
+    * - PHP
+      - `CrateDB driver for Laravel`_
+      - Community
+      -
+    * - Python
+      - `crate-python`_
+      - Crate.IO
+      - ✔️
+    * - Python
+      - `asyncpg`_
+      - Community
+      - ✔️
+    * - Ruby
+      - `crate_ruby`_
       - Crate.IO
       -
-    * - `activerecord-crate-adaptor`_
-      - Ruby
+    * - Ruby
+      - `activerecord-crate-adaptor`_
       - Crate.IO
       -
-    * - `crate-scala`_
-      - Scala
+    * - Scala
+      - `crate-scala`_
       - Community
       -
 
@@ -194,7 +194,7 @@ CrateDB integrates with many different tools. Some of these are:
 .. _create a data enrichment pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/azure-functions.html
 .. _create a Machine Learning pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/r.html
 .. _DBD::Crate: https://github.com/mamod/DBD-Crate
-.. _edit this page: https://github.com/crate/crate-tutorials/blob/master/docs/getting-started/start-building/index.rst
+.. _edit this page: https://github.com/crate/crate-clients-tools/blob/master/docs/index.rst
 .. _get in touch: https://crate.io/contact/
 .. _GitHub: https://github.com/crate/crate-clients-tools
 .. _Grafana: https://grafana.com
