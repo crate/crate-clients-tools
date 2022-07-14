@@ -199,7 +199,7 @@ CrateDB integrates with many different tools. Some of these are:
 .. _GitHub: https://github.com/crate/crate-clients-tools
 .. _Grafana: https://grafana.com
 .. _implementation differences: https://crate.io/docs/crate/reference/en/latest/interfaces/postgres.html#implementation-differences
-.. _integrations: https://crate.io/a/category/integrations/
+.. _integrations: https://crate.io/blog/tag/integrations
 .. _integrations section: https://crate.io/docs/crate/howtos/en/latest/integrations/index.html
 .. _let us know: https://crate.io/contact/
 .. _node-crate: https://www.npmjs.com/package/node-crate
@@ -218,5 +218,5 @@ CrateDB integrates with many different tools. Some of these are:
 .. _SQLAlchemy: https://crate.io/docs/clients/python/en/latest/sqlalchemy.html
 .. _SQLPad: https://rickbergfalk.github.io/sqlpad/
 .. _StreamSets: https://streamsets.com/opensource
-.. _superuser: https://crate.io/docs/crate/reference/en/latest/admin/user-management.html#introduction
+.. _superuser: https://crate.io/docs/crate/reference/en/latest/admin/user-management.html
 .. _with known issues: https://github.com/crate/crate/issues?q=is%3Aopen+is%3Aissue+label%3A%22driver%3A+PostgreSQL+JDBC%22
