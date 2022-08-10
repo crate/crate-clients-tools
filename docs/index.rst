@@ -63,7 +63,7 @@ Pick your library, and start building!
     * - Java
       - `PostgreSQL JDBC`_
       - Community
-      - ✔️  (>= CrateDB 4.2.0)
+      - ✔️  (>= CrateDB 4.2, `with known issues`_)
     * - Java
       - `crate-jdbc`_
       - Crate.IO
@@ -219,3 +219,4 @@ CrateDB integrates with many different tools. Some of these are:
 .. _SQLPad: https://rickbergfalk.github.io/sqlpad/
 .. _StreamSets: https://streamsets.com/opensource
 .. _superuser: https://crate.io/docs/crate/reference/en/latest/admin/user-management.html
+.. _with known issues: https://github.com/crate/crate/issues?q=is%3Aopen+is%3Aissue+label%3A%22client%3A+PostgreSQL+JDBC%22
