@@ -200,18 +200,18 @@ CrateDB integrates with many different tools. Some of these are:
 .. _create a Machine Learning pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/r.html
 .. _DBD::Crate: https://github.com/mamod/DBD-Crate
 .. _edit this page: https://github.com/crate/crate-clients-tools/blob/master/docs/index.rst
-.. _get in touch: https://crate.io/contact/
+.. _get in touch: https://crate.io/contact
 .. _GitHub: https://github.com/crate/crate-clients-tools
 .. _Grafana: https://grafana.com
 .. _implementation differences: https://crate.io/docs/crate/reference/en/latest/interfaces/postgres.html#implementation-differences
 .. _integrations: https://crate.io/blog/tag/integrations
 .. _integrations section: https://crate.io/docs/crate/howtos/en/latest/integrations/index.html
-.. _let us know: https://crate.io/contact/
+.. _let us know: https://crate.io/contact
 .. _node-crate: https://www.npmjs.com/package/node-crate
 .. _node-postgres: https://node-postgres.com/
 .. _Npgsql: https://www.npgsql.org/
 .. _our JDBC driver: https://crate.io/docs/reference/jdbc
-.. _pair CrateDB with Grafana: https://crate.io/a/pair-cratedb-with-grafana-6-x/
+.. _pair CrateDB with Grafana: https://crate.io/blog/visualizing-time-series-data-with-grafana-and-cratedb
 .. _Pentaho: http://www.pentaho.com
 .. _Petaho Kettle: https://github.com/pentaho/pentaho-kettle
 .. _pgx: https://github.com/jackc/pgx
@@ -219,9 +219,9 @@ CrateDB integrates with many different tools. Some of these are:
 .. _PostgreSQL wire protocol: https://crate.io/docs/crate/reference/en/latest/interfaces/postgres.html
 .. _R: https://www.r-project.org
 .. _schema: https://crate.io/docs/crate/reference/en/latest/general/ddl/create-table.html#schemas
-.. _set up CrateDB with SQLPad: https://crate.io/a/use-cratedb-with-sqlpad-as-a-self-hosted-query-tool-and-visualizer/
+.. _set up CrateDB with SQLPad: https://crate.io/blog/use-cratedb-with-sqlpad-as-a-self-hosted-query-tool-and-visualizer
 .. _SQLAlchemy: https://crate.io/docs/clients/python/en/latest/sqlalchemy.html
-.. _SQLPad: https://rickbergfalk.github.io/sqlpad/
+.. _SQLPad: https://github.com/sqlpad/sqlpad
 .. _StreamSets: https://streamsets.com/opensource
 .. _superuser: https://crate.io/docs/crate/reference/en/latest/admin/user-management.html
 .. _with known issues: https://github.com/crate/crate/issues?q=is%3Aopen+is%3Aissue+label%3A%22client%3A+PostgreSQL+JDBC%22
