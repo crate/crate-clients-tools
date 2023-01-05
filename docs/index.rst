@@ -120,6 +120,10 @@ Pick your library, and start building!
       - `crate-scala`_
       - Community
       -
+    * - Scala
+      - `crate-connector`_
+      - Community
+      -
 
 
 Tools
@@ -191,6 +195,7 @@ CrateDB integrates with many different tools. Some of these are:
 .. _craterl: https://github.com/crate/craterl
 .. _crate_ruby: https://rubygems.org/gems/crate_ruby
 .. _crate-scala: https://github.com/alexanderjarvis/crate-scala
+.. _crate-connector: https://github.com/LiamHaworth/crate-connector
 .. _create a data enrichment pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/azure-functions.html
 .. _create a Machine Learning pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/r.html
 .. _DBD::Crate: https://github.com/mamod/DBD-Crate
