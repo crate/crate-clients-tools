@@ -8,6 +8,10 @@ CrateDB is a distributed SQL database that makes it simple to store and analyze
 massive amounts of machine data in real-time.
 
 
+.. seealso::
+
+    We are also maintaining a more up-to-date list of `CrateDB integration tutorials`_.
+
 .. TIP::
 
     CrateDB supports the `PostgreSQL wire protocol`_. Accordingly, many clients
@@ -189,6 +193,7 @@ CrateDB integrates with many different tools. Some of these are:
 .. _CrateDB PDO: https://crate.io/docs/clients/pdo/en/latest/
 .. _CrateDB DBAL: https://crate.io/docs/clients/dbal/en/latest/
 .. _CrateDB driver for Laravel: https://github.com/RatkoR/laravel-crate.io
+.. _CrateDB integration tutorials: https://community.crate.io/t/overview-of-cratedb-integration-tutorials/1015
 .. _crate-jdbc: https://crate.io/docs/clients/jdbc/en/latest/
 .. _cratejs: https://www.npmjs.com/package/cratejs
 .. _crate-python: https://crate.io/docs/clients/python/en/latest/
