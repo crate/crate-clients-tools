@@ -3,7 +3,7 @@ CrateDB Clients and Tools
 =========================
 
 Clients and tools for working with `CrateDB`_.
-
+We are also maintaining a more up-to-date list of `CrateDB integration tutorials`_.
 
 Contributing
 ============
@@ -73,6 +73,7 @@ Looking for more help?
 .. _contribution docs: CONTRIBUTING.rst
 .. _Crate.io: http://crate.io/
 .. _CrateDB: https://crate.io/products/cratedb/
+.. _CrateDB integration tutorials: https://community.crate.io/t/overview-of-cratedb-integration-tutorials/1015
 .. _developer docs: DEVELOP.rst
 .. _infoverload: https://github.com/infoverload
 .. _Known Issues Adapter: https://github.com/crate/crate_adapter/issues
