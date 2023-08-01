@@ -102,6 +102,14 @@ Visualize information in your CrateDB cluster.
 
 
 
+```{note} Contributions are welcome.
+
+If you would like to add items about integrations with other tools to this
+documentation section, please [get in touch], or directly edit this page on
+GitHub. You will find corresponding links within the topmost right navigation
+element.
+```
+
 ```{seealso}
 Looking for the previous content on this page? Visit [](#index-legacy).
 ```
@@ -119,3 +127,6 @@ visualize
 analyze
 legacy
 ```
+
+
+[get in touch]: https://crate.io/contact
