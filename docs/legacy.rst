@@ -1,8 +1,8 @@
-.. _index:
+.. _index-legacy:
 
-=========================
-CrateDB Clients and Tools
-=========================
+==================================
+[Legacy] CrateDB Clients and Tools
+==================================
 
 CrateDB is a distributed SQL database that makes it simple to store and analyze
 massive amounts of machine data in real-time.
@@ -204,7 +204,7 @@ CrateDB integrates with many different tools. Some of these are:
 .. _create a data enrichment pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/azure-functions.html
 .. _create a Machine Learning pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/r.html
 .. _DBD::Crate: https://github.com/mamod/DBD-Crate
-.. _edit this page: https://github.com/crate/crate-clients-tools/blob/master/docs/index.rst
+.. _edit this page: https://github.com/crate/crate-clients-tools/blob/main/docs/legacy.rst
 .. _get in touch: https://crate.io/contact
 .. _GitHub: https://github.com/crate/crate-clients-tools
 .. _Grafana: https://grafana.com
