@@ -4,6 +4,7 @@
 .crate-docs
 .DS_Store
 .env
+.idea
 .style
 .utils
 *.lint
