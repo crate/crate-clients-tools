@@ -178,8 +178,9 @@ CrateDB integrates with many different tools. Some of these are:
 
 .. NOTE::
 
-    If you would like to add to this page, please `get in touch`_ or
-    `edit this page`_ on GitHub.
+    If you would like to add items to this page, please `get in touch`_ or
+    directly edit this page on GitHub. You will find corresponding links within
+    the topmost right navigation element.
 
 
 .. _activerecord-crate-adaptor: https://rubygems.org/gems/activerecord-crate-adapter
@@ -204,7 +205,6 @@ CrateDB integrates with many different tools. Some of these are:
 .. _create a data enrichment pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/azure-functions.html
 .. _create a Machine Learning pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/r.html
 .. _DBD::Crate: https://github.com/mamod/DBD-Crate
-.. _edit this page: https://github.com/crate/crate-clients-tools/blob/main/docs/legacy.rst
 .. _get in touch: https://crate.io/contact
 .. _GitHub: https://github.com/crate/crate-clients-tools
 .. _Grafana: https://grafana.com
