@@ -3,7 +3,11 @@ on:
   pull_request: ~
   push:
     branches:
-      - master
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   documentation:
@@ -15,11 +19,11 @@ jobs:
         os: [ubuntu-latest, macos-latest]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Set up Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.7
+          python-version: 3.11
       - name: Build docs
         run: |
           cd docs && make check
