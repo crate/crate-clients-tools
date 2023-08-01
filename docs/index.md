@@ -16,17 +16,18 @@ retrieval penalty on data point age.
 
 ## Connectivity
 
-This section introduces you to the canonical set of database drivers, client- 
+This section introduces you to the canonical set of database drivers, client-
 and developer-applications, and how to configure them to connect to CrateDB.
-(`crash`, `psql`, Java/JDBC, Python/SQLAlchemy/pandas/Dask, DataGrip, DBeaver,
-etc.).
+Just to name a few, it is about the CrateDB Admin UI, `crash`, `psql`,
+DataGrip, and DBeaver applications, the Java/JDBC/Python drivers, the SQLAlchemy
+and Flink dialects, and more.
 
 ::::{grid} 1 2 2 3
 :margin: 4 4 0 0
 :gutter: 1
 
 
-:::{grid-item-card} {material-outlined}`code;2em` IDEs
+:::{grid-item-card} {material-outlined}`code;2em` IDE
 :link: ide
 :link-type: ref
 
@@ -44,7 +45,7 @@ based terminal programs.
 :::
 
 
-:::{grid-item-card} {material-outlined}`link;2em` Client libraries
+:::{grid-item-card} {material-outlined}`link;2em` Library
 :link: connect
 :link-type: ref
 
@@ -59,7 +60,8 @@ CrateDB cluster.
 ## Integrations
 
 CrateDB integrates well with a diverse set of applications and tools concerned
-with analytics, visualization, and data wrangling (ETL, BI, etc.).
+with analytics, visualization, and data wrangling, in the areas of ETL, BI, 
+metrics aggregation and monitoring, and more.
 
 ::::{grid} 1 2 2 4
 :margin: 4 4 0 0
