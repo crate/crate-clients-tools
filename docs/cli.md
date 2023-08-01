@@ -2,9 +2,9 @@
 (connect-cli)=
 # Using command-line programs with CrateDB
 
-This section provides a quick overview of CLI clients available for
-connecting to CrateDB clusters. The most prominent programs are `crash`
-and `psql`.
+This section provides a quick overview about a few CLI programs, and how to
+use them for connecting to CrateDB clusters. We recommend to use `crash`,
+`psql`, or `http` (HTTPie).
 
 
 (crash)=
