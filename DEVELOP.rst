@@ -45,9 +45,9 @@ You must install `fswatch`_ to use the ``dev`` target.
 Continuous integration and deployment
 -------------------------------------
 
-|build| |travis| |rtd|
+|build| |gha| |rtd|
 
-Travis CI is `configured`_ to run ``make check`` from the ``docs`` directory.
+GHA is `configured`_ to run ``make check`` from the ``docs`` directory.
 Please do not merge pull requests until the tests pass.
 
 `Read the Docs`_ automatically deploys the documentation whenever a configured
@@ -58,21 +58,21 @@ release version), please contact the `@crate/tech-writing`_ team.
 
 
 .. _@crate/tech-writing: https://github.com/orgs/crate/teams/tech-writing
-.. _configured: https://github.com/crate/crate-clients-tools/blob/master/.travis.yml
+.. _configured: https://github.com/crate/crate-clients-tools/blob/main/.github/workflows/docs.yml
 .. _fswatch: https://github.com/emcrisostomo/fswatch
 .. _Read the Docs: http://readthedocs.org
 .. _ReStructuredText: http://docutils.sourceforge.net/rst.html
 .. _Sphinx: http://sphinx-doc.org/
 
 
-.. |build| image:: https://img.shields.io/endpoint.svg?color=blue&url=https%3A%2F%2Fraw.githubusercontent.com%2Fcrate%2Fcrate-clients-toolss%2Fmaster%2Fdocs%2Fbuild.json
+.. |build| image:: https://img.shields.io/endpoint.svg?color=blue&url=https%3A%2F%2Fraw.githubusercontent.com%2Fcrate%2Fcrate-clients-toolss%2Fmain%2Fdocs%2Fbuild.json
     :alt: Build version
-    :target: https://github.com/crate/crate-clients-tools/blob/master/docs/build.json
+    :target: https://github.com/crate/crate-clients-tools/blob/main/docs/build.json
 
-.. |travis| image:: https://img.shields.io/travis/crate/crate-clients-tools.svg?style=flat
+.. |gha| image:: https://github.com/crate/crate-clients-tools/actions/workflows/docs.yml/badge.svg
     :alt: Travis CI status
     :scale: 100%
-    :target: https://travis-ci.org/crate/crate-clients-tools
+    :target: https://github.com/crate/crate-clients-tools/actions/workflows/docs.yml
 
 .. |rtd| image:: https://readthedocs.org/projects/crate-clients-tools/badge/?version=latest
     :alt: Read The Docs status
