@@ -76,19 +76,19 @@ Use CrateDB with popular applications, frameworks, and tools.
 :::
 
 
-:::{grid-item-card} {material-outlined}`analytics;2em` Analytics
-:link: analyze
-:link-type: ref
-
-Analyze information in your CrateDB cluster.
-:::
-
-
 :::{grid-item-card} {material-outlined}`transform;2em` ETL
 :link: etl
 :link-type: ref
 
 Use ETL applications and frameworks for transferring data in and out of CrateDB.
+:::
+
+
+:::{grid-item-card} {material-outlined}`analytics;2em` Analytics
+:link: analyze
+:link-type: ref
+
+Analyze information in your CrateDB cluster.
 :::
 
 
@@ -120,14 +120,24 @@ Looking for the previous content on this page? Visit [](#index-legacy).
 ```{toctree}
 :hidden:
 
-cli
-ide
-connect/index
+IDE applications <ide>
+CLI programs <cli>
+Database drivers <connect/index>
 
-etl
-visualize
-analyze
-legacy
+```
+
+```{toctree}
+:hidden:
+
+Load and export data <etl>
+Analyze data <analyze>
+Visualize data <visualize>
+```
+
+```{toctree}
+:hidden:
+
+Legacy documentation <legacy>
 ```
 
 
