@@ -39,9 +39,24 @@ article [Blog: Use CrateDB With DBeaver] explains how it works.
 ![image](https://19927462.fs1.hubspotusercontent-na1.net/hub/19927462/hubfs/Screen-Shot-2019-04-05-at-17.15.13.png?width=1600&name=Screen-Shot-2019-04-05-at-17.15.13.png){h=200px}
 
 
+## pgAdmin
+
+```{div}
+:style: "float: right"
+[![](https://www.pgadmin.org/static/docs/pgadmin4-7.5-docs/_images/logo-right-128.png){w=120px}](https://www.pgadmin.org/)
+```
+
+[pgAdmin] is the most popular and feature rich Open Source administration and
+development platform for PostgreSQL.
+
+Connecting pgAdmin to CrateDB works natively and without further ado.
+
+![image](https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-welcome-light.png){h=200px}
+![image](https://www.pgadmin.org/static/COMPILED/assets/img/screenshots/pgadmin4-viewdata.png){h=200px}
 
 
 [Blog: Use CrateDB With DataGrip]: https://crate.io/blog/use-cratedb-with-datagrip-an-advanced-database-ide
 [Blog: Use CrateDB With DBeaver]: https://crate.io/blog/cratedb-dbeaver
 [DataGrip]: https://www.jetbrains.com/datagrip/
 [DBeaver]: https://dbeaver.io/
+[pgAdmin]: https://www.pgadmin.org/
