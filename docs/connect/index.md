@@ -3,19 +3,26 @@
 # Connect to a CrateDB cluster
 
 
-## Getting started
+## Introduction
 
-CrateDB supports both the HTTP protocol, and the [PostgreSQL wire protocol].
-Accordingly, many clients that work with PostgreSQL will also work with CrateDB.
+CrateDB supports both the [HTTP protocol], and the [PostgreSQL wire protocol].
+Accordingly, many clients that work with either HTTP, or PostgreSQL, will also
+work with CrateDB.
 
-### PostgreSQL
+```{tip}
+- Specify the [schema] name `doc`, if you are asked for a *database name*.
+- The default [superuser] on a vanilla CrateDB cluster is called `crate`,
+  without a password.
+- When aiming to authenticate properly, please learn about the available
+  [authentication] options. 
+```
 
-You can try this out for yourself:
+### Command-line
 
-- Using your favorite tool of choice, configure a PostgreSQL connection,
-  but point your client to a CrateDB server instead of a PostgreSQL server.
-- [Authenticate] as the ``crate`` [superuser] with no password.
-- Specify the ``doc`` [schema], if you are asked for a *database name*.
+This section outlines a few test flight commands which can be used to validate
+PostgreSQL connectivity using the `psql` program, and HTTP connectivity using
+the `curl` and [HTTPie] programs.
+
 
 For example, your connection string to a CrateDB cluster instance
 might look like:
@@ -200,10 +207,10 @@ and [CrateDB BLOBs], which are not supported by the PostgreSQL protocol.
 ```
 
 
-### Examples and Tutorials
+### Starter guides
 
-This section enumerates a few client libraries by example, and demonstrates
-how to connect to your CrateDB cluster.
+This section enumerates a few client libraries by example, demonstrating
+how to connect to your CrateDB cluster correspondingly.
 
 ::::{sd-table}
 :widths: 2 10
@@ -214,7 +221,7 @@ how to connect to your CrateDB cluster.
 **Language/
 Framework**
 ```
-```{sd-item} **Getting started tutorial / Basic code example**
+```{sd-item} **Guideline and code example**
 ```
 :::
 
@@ -223,7 +230,9 @@ Framework**
 .NET/C#
 ```
 ```{sd-item}
-[Basic example for connecting to CrateDB and CrateDB Cloud using .NET (C#)](https://github.com/crate/cratedb-examples/tree/main/by-language/csharp-npgsql)
+[Connect to CrateDB from .NET (C#)](https://github.com/crate/cratedb-examples/tree/main/by-language/csharp-npgsql)
+<br>
+[Connect to CrateDB from .NET (C#) (runnable)](https://github.com/crate/cratedb-examples/tree/main/by-language/csharp-npgsql)
 ```
 :::
 
@@ -232,43 +241,18 @@ Framework**
 Java
 ```
 ```{sd-item}
-[A basic connection example code](#java)
+[Connect to CrateDB from Java using JDBC](#java)
+<br>
+[Connect to CrateDB from Java using JDBC (runnable)](https://github.com/crate/cratedb-examples/tree/main/by-language/java-jdbc)
 ```
 :::
 
 :::{sd-row}
 ```{sd-item}
-Java
+JavaScript, TypeScript
 ```
 ```{sd-item}
-[Basic example for connecting to CrateDB and CrateDB Cloud using JDBC](https://github.com/crate/cratedb-examples/tree/main/by-language/java-jdbc)
-```
-:::
-
-:::{sd-row}
-```{sd-item}
-Java
-```
-```{sd-item}
-[Apache Kafka, Apache Flink, and CrateDB](https://github.com/crate/cratedb-examples/tree/main/stacks/kafka-flink)
-```
-:::
-
-:::{sd-row}
-```{sd-item}
-Java
-```
-```{sd-item}
-[jOOQ example application with CrateDB and JDBC connectivity](https://github.com/crate/cratedb-examples/tree/main/by-language/java-jooq)
-```
-:::
-
-:::{sd-row}
-```{sd-item}
-JavaScript
-```
-```{sd-item}
-[How to connect using node-postgres or node-crate](#javascript)
+[Connect to CrateDB from Node.js using `node-postgres` or `node-crate`](#javascript)
 ```
 :::
 
@@ -277,7 +261,11 @@ JavaScript
 PHP
 ```
 ```{sd-item}
-[Connect to CrateDB using PHP PDO and DBAL drivers](#php)
+[Connect to CrateDB from PHP using PDO and DBAL drivers](#php)
+<br>
+[Connect to CrateDB from PHP using PDO (runnable)](https://github.com/crate/cratedb-examples/tree/main/by-language/php-pdo)
+<br>
+[Connect to CrateDB from PHP using AMPHP (runnable)](https://github.com/crate/cratedb-examples/tree/main/by-language/php-amphp)
 ```
 :::
 
@@ -286,7 +274,7 @@ PHP
 Python
 ```
 ```{sd-item}
-[How to connect to CrateDB using different kinds of Python drivers](#python)
+[Connect to CrateDB from Python using different kinds of drivers](#python)
 ```
 :::
 
@@ -295,7 +283,47 @@ Python
 Ruby
 ```
 ```{sd-item}
-[Connect to CrateDB using Ruby](#ruby)
+[Connect to CrateDB from Ruby](#ruby)
+<br>
+[Connect to CrateDB from Ruby (runnable)](https://github.com/crate/cratedb-examples/tree/main/by-language/ruby)
+```
+:::
+
+::::
+
+
+### Advanced guides
+
+This section enumerates a few more advanced uses cases by example.
+
+::::{sd-table}
+:widths: 2 10
+:row-class: top-border
+
+:::{sd-row}
+```{sd-item}
+**Language/
+Framework**
+```
+```{sd-item} **Guideline and code example**
+```
+:::
+
+:::{sd-row}
+```{sd-item}
+Java
+```
+```{sd-item}
+[Use CrateDB with Apache Flink and Apache Kafka](https://github.com/crate/cratedb-examples/tree/main/stacks/kafka-flink)
+```
+:::
+
+:::{sd-row}
+```{sd-item}
+Java
+```
+```{sd-item}
+[Use CrateDB with JDBC and jOOQ](https://github.com/crate/cratedb-examples/tree/main/by-language/java-jooq)
 ```
 :::
 
@@ -314,9 +342,11 @@ ruby
 ```
 
 
-[Authenticate]: https://crate.io/docs/crate/reference/en/latest/admin/auth/index.html
+[Authentication]: https://crate.io/docs/crate/reference/en/latest/admin/auth/index.html
 [CrateDB BLOBs]: https://crate.io/docs/crate/reference/en/latest/general/blobs.html
 [CrateDB bulk operations]: https://crate.io/docs/crate/reference/en/latest/interfaces/http.html#bulk-operations
+[HTTP protocol]: https://en.wikipedia.org/wiki/HTTP
+[HTTPie]: https://httpie.io/
 [PostgreSQL wire protocol]: https://crate.io/docs/crate/reference/en/latest/interfaces/postgres.html
 [schema]: https://crate.io/docs/crate/reference/en/latest/general/ddl/create-table.html#schemas
 [superuser]: https://crate.io/docs/crate/reference/en/latest/admin/user-management.html
