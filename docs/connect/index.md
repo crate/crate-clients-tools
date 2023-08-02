@@ -143,6 +143,35 @@ We recommend to use those drivers and adapters for the corresponding languages a
 :::
 
 :::{sd-row}
+```{sd-item} .NET
+```
+```{sd-item}
+[Npgsql](https://www.npgsql.org/)
+```
+```{sd-item}
+An open source ADO.NET Data Provider for PostgreSQL, for program written in C#,
+Visual Basic, and F#.
+```
+```{sd-item}
+{tags-primary}`PG`
+```
+:::
+
+:::{sd-row}
+```{sd-item} .NET
+```
+```{sd-item}
+[CrateDB Npgsql fork](https://crate.io/docs/npgsql/)
+```
+```{sd-item}
+This fork of the official driver was needed prior to CrateDB 4.2.
+```
+```{sd-item}
+{tags-primary}`PG`
+```
+:::
+
+:::{sd-row}
 ```{sd-item} Golang
 ```
 ```{sd-item}
@@ -174,7 +203,7 @@ For connecting to CrateDB from any environment that supports it.
 ```{sd-item} Java
 ```
 ```{sd-item}
-[CrateDB legacy JDBC driver](https://crate.io/docs/jdbc/)
+[CrateDB PgJDBC fork](https://crate.io/docs/jdbc/)
 ```
 ```{sd-item}
 For connecting to CrateDB within special scenarios, in order to leverage more
@@ -320,8 +349,6 @@ Framework**
 .NET/C#
 ```
 ```{sd-item}
-[Connect to CrateDB from .NET (C#)](https://github.com/crate/cratedb-examples/tree/main/by-language/csharp-npgsql)
-<br>
 [Connect to CrateDB from .NET (C#) (runnable)](https://github.com/crate/cratedb-examples/tree/main/by-language/csharp-npgsql)
 ```
 :::
