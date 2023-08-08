@@ -62,23 +62,59 @@ how to run a database query.
 
 - [Using Grafana with CrateDB Cloud]
 
-![](https://crate.io/docs/cloud/en/latest/_images/grafana-connection.png){h=200px}
-![](https://crate.io/docs/cloud/en/latest/_images/grafana-panel1.png){h=200px}
+![image](_assets/img/grafana-connection.png){h=200px}
+![image](_assets/img/grafana-panel1.png){h=200px}
 
 ```{seealso}
 [CrateDB and Grafana]
 ```
 
 
+## Metabase
+
+```{div}
+:style: "float: right"
+[![](https://www.metabase.com/images/logo.svg){w=180px}](https://www.metabase.com/)
+```
+
+[Metabase] is the ultimate data analysis and visualization tool that unlocks the full
+potential of your data. Build for data and made for everyone, Metabase can be leveraged
+with no SQL required.
+
+Fast analytics with the friendly UX and integrated tooling to let your company explore
+data on their own.
+
+- [Real-time data analytics with Metabase and CrateDB]
+- [Using Metabase with CrateDB Cloud]
+
+![image](_assets/img/metabase-question.png){h=140px}
+![image](_assets/img/metabase-dashboard.png){h=140px}
+
+```{seealso}
+[CrateDB and Metabase]
+```
+
+
+```{toctree}
+:hidden:
+
+Grafana <integrate/grafana>
+Metabase <integrate/metabase>
+```
+
 
 [Apache Superset]: https://superset.apache.org/
 [CrateDB and Grafana]: https://crate.io/integrations/cratedb-and-grafana 
 [CrateDB and Superset]: https://crate.io/integrations/cratedb-and-apache-superset 
+[CrateDB and Metabase]: https://crate.io/integrations/cratedb-and-metabase
 [Explo]: https://www.explo.co/
 [Explo Explore]: https://www.explo.co/products/explore
 [Grafana]: https://grafana.com/grafana/
 [Introduction to Time Series Visualization in CrateDB and Explo]: https://crate.io/blog/introduction-to-time-series-visualization-in-cratedb-and-explo
 [Introduction to Time-Series Visualization in CrateDB and Superset]: https://community.crate.io/t/introduction-to-time-series-visualization-in-cratedb-and-superset/1041
+[Metabase]: https://www.metabase.com/
+[Real-time data analytics with Metabase and CrateDB]: https://www.metabase.com/community_posts/real-time-data-analytics-with-metabase-and-cratedb
 [Set up an Apache Superset development sandbox with CrateDB]: https://community.crate.io/t/set-up-an-apache-superset-development-sandbox-with-cratedb/1163
 [Use CrateDB and Apache Superset for Open Source Data Warehousing and Visualization]: https://crate.io/blog/use-cratedb-and-apache-superset-for-open-source-data-warehousing-and-visualization
-[Using Grafana with CrateDB Cloud]: inv:cloud:std:label#visualize-data-with-grafana
+[Using Grafana with CrateDB Cloud]: #integrations-grafana
+[Using Metabase with CrateDB Cloud]: #integrations-metabase
