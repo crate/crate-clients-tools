@@ -62,8 +62,8 @@ how to run a database query.
 
 - [Using Grafana with CrateDB Cloud]
 
-![](https://crate.io/docs/cloud/howtos/en/latest/_images/grafana-connection.png){h=200px}
-![](https://crate.io/docs/cloud/howtos/en/latest/_images/grafana-panel1.png){h=200px}
+![](https://crate.io/docs/cloud/en/latest/_images/grafana-connection.png){h=200px}
+![](https://crate.io/docs/cloud/en/latest/_images/grafana-panel1.png){h=200px}
 
 ```{seealso}
 [CrateDB and Grafana]
@@ -81,4 +81,4 @@ how to run a database query.
 [Introduction to Time-Series Visualization in CrateDB and Superset]: https://community.crate.io/t/introduction-to-time-series-visualization-in-cratedb-and-superset/1041
 [Set up an Apache Superset development sandbox with CrateDB]: https://community.crate.io/t/set-up-an-apache-superset-development-sandbox-with-cratedb/1163
 [Use CrateDB and Apache Superset for Open Source Data Warehousing and Visualization]: https://crate.io/blog/use-cratedb-and-apache-superset-for-open-source-data-warehousing-and-visualization
-[Using Grafana with CrateDB Cloud]: inv:cloud-howtos:std:label#visualize-data-with-grafana
+[Using Grafana with CrateDB Cloud]: inv:cloud:std:label#visualize-data-with-grafana
