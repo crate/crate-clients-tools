@@ -8,10 +8,6 @@ This section is a work in progress.
 ```
 
 
-## General
-
-- [Automating recurrent CrateDB queries]
-
 (apache-airflow)=
 (airflow)=
 (astronomer)=
@@ -264,10 +260,43 @@ using the wide range of elements called "nodes" from the palette that can be
 deployed to its runtime in a single-click.
 
 - [Ingesting MQTT messages into CrateDB using Node-RED]
+- [Automating recurrent CrateDB queries using Node-RED]
 
 ```{seealso}
 [CrateDB and Node-RED]
 ```
+
+:::{dropdown} **Managed Node-RED**
+```{div}
+:style: "float: right"
+[![](https://github.com/crate/crate-clients-tools/assets/453543/200d1a92-1e38-453a-89bf-d8b727451fab){w=180px}](https://flowfuse.com/)
+```
+
+With [FlowFuse], and [FlowFuse Cloud], essentially unmanaged and managed DevOps
+for Node-RED, you can reliably deliver Node-RED applications in a continuous,
+collaborative, and secure manner.
+
+- **Collaborative Development:** FlowFuse adds team collaboration to Node-RED,
+  allowing multiple developers to work together on a single instance. With
+  FlowFuse, developers can easily share projects, collaborate in real-time and
+  streamline workflow for faster development and deployment.
+- **Manage Remote Deployments:** Many organizations deploy Node-RED instances to
+  remote servers or edge devices. FlowFuse automates this process by creating
+  snapshots on Node-RED instances that can be deployed to multiple remote targets.
+  It also allows for rollback in cases where something might not have gone correctly.
+- **Streamline Application Delivery:** FlowFuse simplifies the software development
+  lifecycle of Node-RED applications. You can now set up DevOps delivery pipelines
+  to support development, test and production environments for Node-RED application
+  delivery, see [Introduction to FlowFuse].
+- **Flexible FlowFuse Deployment:** We want to make it easy for you to use FlowFuse,
+  so we offer FlowFuse Cloud, a managed cloud service, or a self-hosted solution.
+  You have the freedom to choose the deployment method that works best for your
+  organization.
+
+```{div}
+:style: "clear: both"
+```
+:::
 
 
 ## pandas
@@ -315,7 +344,7 @@ to other systems leaves nothing to be desired.
 [Apache Kafka]: https://kafka.apache.org/
 [Apache Kafka on Azure]: https://azuremarketplace.microsoft.com/marketplace/consulting-services/canonical.0001-com-ubuntu-managed-kafka
 [Astronomer]: https://www.astronomer.io/
-[Automating recurrent CrateDB queries]: https://community.crate.io/t/automating-recurrent-cratedb-queries/788
+[Automating recurrent CrateDB queries using Node-RED]: https://community.crate.io/t/automating-recurrent-cratedb-queries/788
 [Automating export of CrateDB data to S3 using Apache Airflow]: https://community.crate.io/t/cratedb-and-apache-airflow-automating-data-export-to-s3/901
 [Automating stock data collection and storage with CrateDB and Apache Airflow]: https://community.crate.io/t/automating-stock-data-collection-and-storage-with-cratedb-and-apache-airflow/990
 [Automating the import of Parquet files with Apache Airflow]: https://community.crate.io/t/automating-the-import-of-parquet-files-with-apache-airflow/1247
@@ -337,12 +366,15 @@ to other systems leaves nothing to be desired.
 [DoubleCloud Managed Service for Apache Kafka]: https://double.cloud/services/managed-kafka/
 [Executable stack: Apache Kafka, Apache Flink, and CrateDB]: https://github.com/crate/cratedb-examples/tree/main/stacks/kafka-flink
 [Flink managed by Confluent]: https://www.datanami.com/2023/05/17/confluents-new-cloud-capabilities-address-data-streaming-hurdles/
+[FlowFuse]: https://flowfuse.com/
+[FlowFuse Cloud]: https://app.flowforge.com/
 [Guide to efficient data ingestion to CrateDB with pandas]: https://community.crate.io/t/guide-to-efficient-data-ingestion-to-cratedb-with-pandas/1541
 [Guide to efficient data ingestion to CrateDB with pandas and Dask]: https://community.crate.io/t/guide-to-efficient-data-ingestion-to-cratedb-with-pandas-and-dask/1482
 [Immerok Cloud]: https://www.immerok.io/product
 [Implementing a data retention policy in CrateDB using Apache Airflow]: https://community.crate.io/t/implementing-a-data-retention-policy-in-cratedb-using-apache-airflow/913 
 [Importing Parquet files into CrateDB using Apache Arrow and SQLAlchemy]: https://community.crate.io/t/importing-parquet-files-into-cratedb-using-apache-arrow-and-sqlalchemy/1161
 [Ingesting MQTT messages into CrateDB using Node-RED]: https://community.crate.io/t/ingesting-mqtt-messages-into-cratedb-using-node-red/803
+[Introduction to FlowFuse]: https://flowfuse.com/webinars/2023/introduction-to-flowforge/
 [Kestra]: https://kestra.io/
 [Node-RED]: https://nodered.org/
 [Overview about more managed Kafka offerings]: https://keen.io/blog/managed-apache-kafka-vs-diy/
