@@ -106,9 +106,12 @@ run white-labeled data portals.
 [![](https://crate.io/hs-fs/hubfs/Imported_Blog_Media/grafana-logo-1-520x126.png?width=1040&height=252&name=grafana-logo-1-520x126.png){w=180px}](https://grafana.com/grafana/)
 ```
 
-[Grafana] is the leading open-source metrics visualization tool that helps you
+[Grafana OSS] is the leading open-source metrics visualization tool that helps you
 build real-time dashboards, graphs, and many other sorts of data visualizations.
-It complements CrateDB in monitoring large volumes of machine data in real-time.
+[Grafana Cloud] is a fully-managed service offered by [Grafana Labs].
+
+Grafana complements CrateDB in monitoring and visualizing large volumes of machine
+data in real-time.
 
 Connecting to a CrateDB cluster will use the Grafana PostgreSQL data source adapter.
 The following tutorials outline how to configure Grafana to connect to CrateDB, and
@@ -122,6 +125,26 @@ how to run a database query.
 ```{seealso}
 [CrateDB and Grafana]
 ```
+
+:::{dropdown} **Managed Grafana**
+```{div}
+:style: "float: right"
+[![](https://crate.io/hs-fs/hubfs/Imported_Blog_Media/grafana-logo-1-520x126.png?width=1040&height=252&name=grafana-logo-1-520x126.png){w=180px}](https://grafana.com/grafana/)
+```
+
+Get Grafana fully managed with [Grafana Cloud].
+
+- Offered as a fully managed service, Grafana Cloud is the fastest way to adopt
+  Grafana and includes a scalable, managed backend for metrics, logs, and traces.
+- Managed and administered by Grafana Labs with free and paid options for
+  individuals, teams, and large enterprises.
+- Includes a robust free tier with access to 10k metrics, 50GB logs, 50GB traces,
+  50GB profiles, and 500VUh of k6 testing for 3 users.
+
+```{div}
+:style: "clear: both"
+```
+:::
 
 
 ## Metabase
@@ -165,7 +188,9 @@ Metabase <integrate/metabase>
 [Data Analysis with Cluvio and CrateDB]: https://community.crate.io/t/data-analysis-with-cluvio-and-cratedb/1571
 [Explo]: https://www.explo.co/
 [Explo Explore]: https://www.explo.co/products/explore
-[Grafana]: https://grafana.com/grafana/
+[Grafana Cloud]: https://grafana.com/grafana/
+[Grafana Labs]: https://grafana.com/about/team/
+[Grafana OSS]: https://grafana.com/oss/grafana/
 [Introduction to Time Series Visualization in CrateDB and Explo]: https://crate.io/blog/introduction-to-time-series-visualization-in-cratedb-and-explo
 [Introduction to Time-Series Visualization in CrateDB and Superset]: https://community.crate.io/t/introduction-to-time-series-visualization-in-cratedb-and-superset/1041
 [Metabase]: https://www.metabase.com/
