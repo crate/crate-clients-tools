@@ -151,7 +151,7 @@ Get Grafana fully managed with [Grafana Cloud].
 
 ```{div}
 :style: "float: right"
-[![](https://www.metabase.com/images/logo.svg){w=180px}](https://www.metabase.com/)
+[![](https://www.metabase.com/images/logo.svg){w=180px}](https://www.metabase.com/cloud/)
 ```
 
 [Metabase] is the ultimate data analysis and visualization tool that unlocks the full
@@ -170,6 +170,29 @@ data on their own.
 ```{seealso}
 [CrateDB and Metabase]
 ```
+
+:::{dropdown} **Managed Metabase**
+```{div}
+:style: "float: right"
+[![](https://www.metabase.com/images/logo.svg){w=180px}](https://www.metabase.com/)
+```
+
+With [Metabase Cloud], you will get a fast, reliable, and secure deployment
+with none of the work or hidden costs that come with self-hosting.
+
+- **Save the time** needed for setup and maintenance of the platform, focusing only on the insights we can get from our data.
+- **Trustworthy, production-grade deployment** by people who do this stuff for a living.
+  With the infrastructure, specialists, and thousands of Metabases in our cloud, we've put a lot of thought and resources into optimizing hosting.
+- **Upgrades:** Automatically upgrade to the current version, so you're always getting the latest and greatest of Metabase.
+- **Backups:** The way they should be: there when you need them, out of sight and out of mind when you don't.
+- **SMTP server:** Even your alerts and dashboard subscriptions covered with a preconfigured and managed SMTP server.
+
+
+```{div}
+:style: "clear: both"
+```
+:::
+
 
 
 ```{toctree}
@@ -194,6 +217,7 @@ Metabase <integrate/metabase>
 [Introduction to Time Series Visualization in CrateDB and Explo]: https://crate.io/blog/introduction-to-time-series-visualization-in-cratedb-and-explo
 [Introduction to Time-Series Visualization in CrateDB and Superset]: https://community.crate.io/t/introduction-to-time-series-visualization-in-cratedb-and-superset/1041
 [Metabase]: https://www.metabase.com/
+[Metabase Cloud]: https://www.metabase.com/cloud/
 [Preset]: https://preset.io/
 [Preset Cloud]: https://preset.io/product/
 [Real-time data analytics with Metabase and CrateDB]: https://www.metabase.com/community_posts/real-time-data-analytics-with-metabase-and-cratedb
