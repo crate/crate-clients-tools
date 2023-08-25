@@ -1,3 +1,4 @@
+(bi-tools)=
 (analyze)=
 # Analytics with CrateDB
 

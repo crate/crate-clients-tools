@@ -78,6 +78,35 @@ data integration, and mission-critical applications.
 ```
 
 
+## dbt
+
+```{div}
+:style: "float: right"
+[![](https://www.getdbt.com/ui/img/logos/dbt-logo.svg){w=180px}](https://www.getdbt.com/)
+```
+
+[dbt] is an open source tool for transforming data in data warehouses using Python and
+SQL. It is an SQL-first transformation workflow platform that lets teams quickly and
+collaboratively deploy analytics code following software engineering best practices
+like modularity, portability, CI/CD, and documentation.
+
+> dbt enables data analysts and engineers to transform their data using the same
+> practices that software engineers use to build applications.
+
+With dbt, anyone on your data team can safely contribute to production-grade data pipelines.
+
+The idea is that data engineers make source data available to an environment where
+dbt projects run, for example with [Debezium](#debezium) or with [Airflow](#apache-airflow).
+Afterwards, data analysts can run their dbt projects against this data to produce models
+(tables and views) that can be used with a number of [BI tools](#bi-tools).
+
+- [Using dbt with CrateDB]
+
+![](https://www.getdbt.com/ui/img/products/what-is-dbt-main-image.png){h=120px}
+![](https://www.getdbt.com/ui/img/products/what-is-dbt-deploy.svg){h=120px}
+![](https://www.getdbt.com/ui/img/products/what-is-dbt-eliminate-silos.svg){h=120px}
+
+
 ## Debezium
 
 ```{div}
@@ -168,6 +197,7 @@ to other systems leaves nothing to be desired.
 [CrateDB and Node-RED]: https://crate.io/integrations/cratedb-and-node-red
 [CrateDB and Telegraf]: https://crate.io/integrations/cratedb-and-telegraf
 [Data Ingestion using Kafka and Kafka Connect]: https://crate.io/docs/crate/howtos/en/latest/integrations/kafka-connect.html
+[dbt]: https://www.getdbt.com/
 [Debezium]: https://debezium.io/
 [Executable stack: Apache Kafka, Apache Flink, and CrateDB]: https://github.com/crate/cratedb-examples/tree/main/stacks/kafka-flink
 [Guide to efficient data ingestion to CrateDB with pandas]: https://community.crate.io/t/guide-to-efficient-data-ingestion-to-cratedb-with-pandas/1541
@@ -180,5 +210,6 @@ to other systems leaves nothing to be desired.
 [Telegraf]: https://www.influxdata.com/time-series-platform/telegraf/
 [Tutorial: Replicating data to CrateDB with Debezium and Kafka]: https://community.crate.io/t/replicating-data-to-cratedb-with-debezium-and-kafka/1388
 [Updating stock market data automatically with CrateDB and Apache Airflow]: https://community.crate.io/t/updating-stock-market-data-automatically-with-cratedb-and-apache-airflow/1304
+[Using dbt with CrateDB]: https://community.crate.io/t/using-dbt-with-cratedb/1566
 [Use CrateDB With Telegraf, an Agent for Collecting & Reporting Metrics]: https://crate.io/blog/use-cratedb-with-telegraf-an-agent-for-collecting-reporting-metrics
 [Webinar: How to replicate data from other databases to CrateDB with Debezium and Kafka]: https://crate.io/resources/webinars/lp-wb-debezium-kafka
