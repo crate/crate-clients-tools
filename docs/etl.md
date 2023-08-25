@@ -12,15 +12,29 @@ This section is a work in progress.
 
 - [Automating recurrent CrateDB queries]
 
+(apache-airflow)=
+(airflow)=
+(astronomer)=
+## Apache Airflow / Astronomer
 
-## Apache Airflow
+[Apache Airflow] is an open source software platform to programmatically author,
+schedule, and monitor workflows, written in Python.
+[Astronomer] offers managed Airflow services on the cloud of your choice, in
+order to run Airflow with less overhead.
 
-[Apache Airflow] is a software platform to programmatically author, schedule, and
-monitor workflows, written in Python.
+Airflow has a modular architecture and uses a message queue to orchestrate an
+arbitrary number of workers. Pipelines are defined in Python, allowing for
+dynamic pipeline generation and on-demand, code-driven pipeline invocation.
+
+Pipeline parametrization is using the powerful Jinja templating engine.
+To extend the system, you can define your own operators and extend libraries
+to fit the level of abstraction that suits your environment.
 
 ```{div}
 :style: "float: right"
 [![](https://19927462.fs1.hubspotusercontent-na1.net/hub/19927462/hubfs/Partner%20Logos/392x140/Apache-Airflow-Logo-392x140.png?width=784&height=280&name=Apache-Airflow-Logo-392x140.png){w=180px}](https://airflow.apache.org/)
+
+[![](https://logowik.com/content/uploads/images/astronomer2824.jpg){w=180px}](https://www.astronomer.io/)
 ```
 
 A set of starter tutorials.
@@ -39,6 +53,32 @@ A set of elaborated tutorials, including blueprint implementations.
 ```{seealso}
 [CrateDB and Apache Airflow]
 ```
+
+:::{dropdown} **Managed Airflow**
+
+```{div}
+:style: "float: right"
+[![](https://logowik.com/content/uploads/images/astronomer2824.jpg){w=180px}](https://www.astronomer.io/)
+```
+
+[Astro][Astronomer] is the best managed service in the market for teams on any step of their data
+journey. Spend time where it counts.
+
+- Astro runs on the cloud of your choice. Astro manages Airflow and gives you all the
+  features you need to focus on what really matters – your data. All while connecting
+  securely to any service in your network.
+- Create Airflow environments with a click of a button.
+- Protect production DAGs with easy Airflow upgrades and custom high-availability configs.
+- Get visibility into what’s running with analytics views and easy interfaces for logs
+  and alerts. Across environments.
+- Take down tech-debt and learn how to drive Airflow best practices from the experts
+  behind the project. Get world-class support, fast-tracked bug fixes, and same-day
+  access to new Airflow versions.
+
+```{div}
+:style: "clear: both"
+```
+:::
 
 
 ## Apache Flink
@@ -214,6 +254,7 @@ to other systems leaves nothing to be desired.
 [Apache Airflow]: https://airflow.apache.org/
 [Apache Flink]: https://flink.apache.org/
 [Apache Kafka]: https://kafka.apache.org/
+[Astronomer]: https://www.astronomer.io/
 [Automating recurrent CrateDB queries]: https://community.crate.io/t/automating-recurrent-cratedb-queries/788
 [Automating export of CrateDB data to S3 using Apache Airflow]: https://community.crate.io/t/cratedb-and-apache-airflow-automating-data-export-to-s3/901
 [Automating stock data collection and storage with CrateDB and Apache Airflow]: https://community.crate.io/t/automating-stock-data-collection-and-storage-with-cratedb-and-apache-airflow/990
