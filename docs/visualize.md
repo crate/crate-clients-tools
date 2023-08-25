@@ -164,8 +164,8 @@ with no SQL required.
 Fast analytics with the friendly UX and integrated tooling to let your company explore
 data on their own.
 
-- [Real-time data analytics with Metabase and CrateDB]
 - [Using Metabase with CrateDB Cloud]
+- [Real-time data analytics with Metabase and CrateDB]
 
 ![image](_assets/img/metabase-question.png){h=140px}
 ![image](_assets/img/metabase-dashboard.png){h=140px}
@@ -201,8 +201,8 @@ with none of the work or hidden costs that come with self-hosting.
 ```{toctree}
 :hidden:
 
-Grafana <integrate/grafana>
-Metabase <integrate/metabase>
+Grafana <tutorials/grafana>
+Metabase <tutorials/metabase>
 ```
 
 
