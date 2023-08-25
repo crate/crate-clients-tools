@@ -123,10 +123,24 @@ thousands of companies for high-performance data pipelines, streaming analytics,
 data integration, and mission-critical applications. 
 
 - [Data Ingestion using Kafka and Kafka Connect]
+- [Executable stack: Apache Kafka, Apache Flink, and CrateDB]
+- [Tutorial: Replicating data to CrateDB with Debezium and Kafka]
 
 ```{seealso}
 [CrateDB and Apache Kafka]
 ```
+
+:::{dropdown} **Managed Kafka**
+A few companies are specializing in offering managed Kafka services. We can't list
+them all, see the [overview about more managed Kafka offerings].
+
+- [Aiven for Apache Kafka]
+- [Amazon Managed Streaming for Apache Kafka (MSK)]
+- [Apache Kafka on Azure]
+- [Azure Event Hubs for Apache Kafka]
+- [Confluent Cloud]
+- [DoubleCloud Managed Service for Apache Kafka]
+:::
 
 
 ## dbt
@@ -265,17 +279,22 @@ to other systems leaves nothing to be desired.
 [2023 SIGMOD Systems Award]: https://sigmod.org/2023-sigmod-systems-award/
 [Aiven]: https://aiven.io/
 [Aiven for Apache Flink]: https://aiven.io/flink
+[Aiven for Apache Kafka]: https://aiven.io/kafka
+[Amazon Managed Streaming for Apache Kafka (MSK)]: https://aws.amazon.com/msk/
 [Apache Airflow]: https://airflow.apache.org/
 [Apache Flink]: https://flink.apache.org/
 [Apache Kafka]: https://kafka.apache.org/
+[Apache Kafka on Azure]: https://azuremarketplace.microsoft.com/marketplace/consulting-services/canonical.0001-com-ubuntu-managed-kafka
 [Astronomer]: https://www.astronomer.io/
 [Automating recurrent CrateDB queries]: https://community.crate.io/t/automating-recurrent-cratedb-queries/788
 [Automating export of CrateDB data to S3 using Apache Airflow]: https://community.crate.io/t/cratedb-and-apache-airflow-automating-data-export-to-s3/901
 [Automating stock data collection and storage with CrateDB and Apache Airflow]: https://community.crate.io/t/automating-stock-data-collection-and-storage-with-cratedb-and-apache-airflow/990
 [Automating the import of Parquet files with Apache Airflow]: https://community.crate.io/t/automating-the-import-of-parquet-files-with-apache-airflow/1247
+[Azure Event Hubs for Apache Kafka]: https://learn.microsoft.com/en-us/azure/event-hubs/azure-event-hubs-kafka-overview
 [Build a data ingestion pipeline using Kafka, Flink, and CrateDB]: https://dev.to/crate/build-a-data-ingestion-pipeline-using-kafka-flink-and-cratedb-1h5o
 [Building a hot and cold storage data retention policy in CrateDB with Apache Airflow]: https://community.crate.io/t/cratedb-and-apache-airflow-building-a-hot-cold-storage-data-retention-policy/934
 [Community Day: Stream processing with Apache Flink and CrateDB]: https://crate.io/blog/cratedb-community-day-2nd-edition-summary-and-highlights
+[Confluent Cloud]: https://www.confluent.io/confluent-cloud/
 [CrateDB and Apache Airflow]: https://crate.io/integrations/cratedb-and-apache-airflow
 [CrateDB and Apache Airflow: Building a data ingestion pipeline]: https://community.crate.io/t/cratedb-and-apache-airflow-building-a-data-ingestion-pipeline/926 
 [CrateDB and Apache Kafka]: https://crate.io/integrations/cratedb-and-kafka
@@ -285,6 +304,7 @@ to other systems leaves nothing to be desired.
 [Data Ingestion using Kafka and Kafka Connect]: https://crate.io/docs/crate/howtos/en/latest/integrations/kafka-connect.html
 [dbt]: https://www.getdbt.com/
 [Debezium]: https://debezium.io/
+[DoubleCloud Managed Service for Apache Kafka]: https://double.cloud/services/managed-kafka/
 [Executable stack: Apache Kafka, Apache Flink, and CrateDB]: https://github.com/crate/cratedb-examples/tree/main/stacks/kafka-flink
 [Flink managed by Confluent]: https://www.datanami.com/2023/05/17/confluents-new-cloud-capabilities-address-data-streaming-hurdles/
 [Guide to efficient data ingestion to CrateDB with pandas]: https://community.crate.io/t/guide-to-efficient-data-ingestion-to-cratedb-with-pandas/1541
@@ -295,6 +315,7 @@ to other systems leaves nothing to be desired.
 [Ingesting MQTT messages into CrateDB using Node-RED]: https://community.crate.io/t/ingesting-mqtt-messages-into-cratedb-using-node-red/803
 [Kestra]: https://kestra.io/
 [Node-RED]: https://nodered.org/
+[Overview about more managed Kafka offerings]: https://keen.io/blog/managed-apache-kafka-vs-diy/
 [pandas]: https://pandas.pydata.org/
 [Setting up data pipelines with CrateDB and Kestra]: https://community.crate.io/t/setting-up-data-pipelines-with-cratedb-and-kestra-io/1400
 [Telegraf]: https://www.influxdata.com/time-series-platform/telegraf/
