@@ -122,6 +122,36 @@ all database update operations.
 - [Webinar: How to replicate data from other databases to CrateDB with Debezium and Kafka]
 
 
+## Kestra
+
+```{div}
+:style: "float: right"
+[![](https://kestra.io/logo.svg){w=180px}](https://kestra.io/)
+```
+
+[Kestra] is an open source workflow automation and orchestration toolkit with a rich
+plugin ecosystem. It enables users to automate and manage complex workflows in a
+streamlined and efficient manner, defining them both declaratively, or imperatively
+using any scripting language like Python, Bash, or JavaScript.
+
+Kestra comes with a user-friendly web-based interface including a live-updating DAG
+view, allowing users to create, modify, and manage scheduled and event-driven flows
+without the need for any coding skills.
+
+Plugins are at the core of Kestra's extensibility. Many plugins are available from
+the Kestra core team, and creating your own is easy. With plugins, you can add new
+functionality to Kestra.
+
+- [Setting up data pipelines with CrateDB and Kestra]
+
+![](https://kestra.io/landing/home/ui-3.png){h=120px}
+![](https://kestra.io/landing/home/ui-4.png){h=120px}
+![](https://kestra.io/landing/features/declarative.svg){h=120px}
+
+```{seealso}
+[CrateDB and Kestra]
+```
+
 
 ## Node-RED
 
@@ -194,6 +224,7 @@ to other systems leaves nothing to be desired.
 [CrateDB and Apache Airflow]: https://crate.io/integrations/cratedb-and-apache-airflow
 [CrateDB and Apache Airflow: Building a data ingestion pipeline]: https://community.crate.io/t/cratedb-and-apache-airflow-building-a-data-ingestion-pipeline/926 
 [CrateDB and Apache Kafka]: https://crate.io/integrations/cratedb-and-kafka
+[CrateDB and Kestra]: https://crate.io/integrations/cratedb-and-kestra
 [CrateDB and Node-RED]: https://crate.io/integrations/cratedb-and-node-red
 [CrateDB and Telegraf]: https://crate.io/integrations/cratedb-and-telegraf
 [Data Ingestion using Kafka and Kafka Connect]: https://crate.io/docs/crate/howtos/en/latest/integrations/kafka-connect.html
@@ -205,8 +236,10 @@ to other systems leaves nothing to be desired.
 [Implementing a data retention policy in CrateDB using Apache Airflow]: https://community.crate.io/t/implementing-a-data-retention-policy-in-cratedb-using-apache-airflow/913 
 [Importing Parquet files into CrateDB using Apache Arrow and SQLAlchemy]: https://community.crate.io/t/importing-parquet-files-into-cratedb-using-apache-arrow-and-sqlalchemy/1161
 [Ingesting MQTT messages into CrateDB using Node-RED]: https://community.crate.io/t/ingesting-mqtt-messages-into-cratedb-using-node-red/803
+[Kestra]: https://kestra.io/
 [Node-RED]: https://nodered.org/
 [pandas]: https://pandas.pydata.org/
+[Setting up data pipelines with CrateDB and Kestra]: https://community.crate.io/t/setting-up-data-pipelines-with-cratedb-and-kestra-io/1400
 [Telegraf]: https://www.influxdata.com/time-series-platform/telegraf/
 [Tutorial: Replicating data to CrateDB with Debezium and Kafka]: https://community.crate.io/t/replicating-data-to-cratedb-with-debezium-and-kafka/1388
 [Updating stock market data automatically with CrateDB and Apache Airflow]: https://community.crate.io/t/updating-stock-market-data-automatically-with-cratedb-and-apache-airflow/1304
