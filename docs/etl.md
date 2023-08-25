@@ -89,15 +89,26 @@ journey. Spend time where it counts.
 ```
 
 [Apache Flink] is a framework and distributed processing engine for stateful
-computations over unbounded and bounded data streams. Flink has been designed
-to run in all common cluster environments, perform computations at in-memory
-speed and at any scale.
+computations over unbounded and bounded data streams, written in Java.
+
+Flink has been designed to run in all common cluster environments, perform
+computations at in-memory speed and at any scale. It received the [2023 SIGMOD
+Systems Award].
+
+> Apache Flink greatly expanded the use of stream data-processing.
 
 - [Build a data ingestion pipeline using Kafka, Flink, and CrateDB]
 - [Community Day: Stream processing with Apache Flink and CrateDB]
 - [Executable stack: Apache Kafka, Apache Flink, and CrateDB]
 
 ![](https://flink.apache.org/img/flink-home-graphic.png){h=200px}
+
+:::{dropdown} **Managed Flink**
+A few companies are specializing in offering managed Flink services.
+
+- [Aiven] offers their managed [Aiven for Apache Flink] solution.
+- [Immerok Cloud]'s offering is being converged into [Flink managed by Confluent].
+:::
 
 
 ## Apache Kafka
@@ -251,6 +262,9 @@ to other systems leaves nothing to be desired.
 ```
 
 
+[2023 SIGMOD Systems Award]: https://sigmod.org/2023-sigmod-systems-award/
+[Aiven]: https://aiven.io/
+[Aiven for Apache Flink]: https://aiven.io/flink
 [Apache Airflow]: https://airflow.apache.org/
 [Apache Flink]: https://flink.apache.org/
 [Apache Kafka]: https://kafka.apache.org/
@@ -272,8 +286,10 @@ to other systems leaves nothing to be desired.
 [dbt]: https://www.getdbt.com/
 [Debezium]: https://debezium.io/
 [Executable stack: Apache Kafka, Apache Flink, and CrateDB]: https://github.com/crate/cratedb-examples/tree/main/stacks/kafka-flink
+[Flink managed by Confluent]: https://www.datanami.com/2023/05/17/confluents-new-cloud-capabilities-address-data-streaming-hurdles/
 [Guide to efficient data ingestion to CrateDB with pandas]: https://community.crate.io/t/guide-to-efficient-data-ingestion-to-cratedb-with-pandas/1541
 [Guide to efficient data ingestion to CrateDB with pandas and Dask]: https://community.crate.io/t/guide-to-efficient-data-ingestion-to-cratedb-with-pandas-and-dask/1482
+[Immerok Cloud]: https://www.immerok.io/product
 [Implementing a data retention policy in CrateDB using Apache Airflow]: https://community.crate.io/t/implementing-a-data-retention-policy-in-cratedb-using-apache-airflow/913 
 [Importing Parquet files into CrateDB using Apache Arrow and SQLAlchemy]: https://community.crate.io/t/importing-parquet-files-into-cratedb-using-apache-arrow-and-sqlalchemy/1161
 [Ingesting MQTT messages into CrateDB using Node-RED]: https://community.crate.io/t/ingesting-mqtt-messages-into-cratedb-using-node-red/803
