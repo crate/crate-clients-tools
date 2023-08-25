@@ -1,6 +1,9 @@
 (visualize)=
 # Visualize data in CrateDB
 
+Use dashboard and other data visualization applications and toolkits for
+visualizing data stored inside CrateDB.
+
 
 (apache-superset)=
 (preset)=

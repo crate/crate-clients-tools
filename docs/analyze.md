@@ -2,8 +2,8 @@
 (analyze)=
 # Analytics with CrateDB
 
-This documentation section enumerates analytics applications and frameworks for
-analyzing data in CrateDB.
+This documentation section enumerates analytics applications and frameworks,
+which can be used for analyzing data in CrateDB.
 
 
 ## Business analytics with Microsoft Power BI

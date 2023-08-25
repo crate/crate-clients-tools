@@ -3,10 +3,6 @@
 
 Use ETL applications and frameworks for transferring data in and out of CrateDB.
 
-```{note}
-This section is a work in progress.
-```
-
 
 (apache-airflow)=
 (airflow)=
