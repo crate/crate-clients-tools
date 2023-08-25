@@ -120,8 +120,8 @@ Looking for the previous content on this page? Visit [](#index-legacy).
 ```{toctree}
 :hidden:
 
-IDE applications <ide>
-CLI programs <cli>
+IDE applications <connect/ide>
+CLI programs <connect/cli>
 Database drivers <connect/index>
 
 ```
@@ -129,9 +129,9 @@ Database drivers <connect/index>
 ```{toctree}
 :hidden:
 
-Load and export data <etl>
-Analyze data <analyze>
-Visualize data <visualize>
+Load and export data <integrate/etl>
+Analyze data <integrate/analyze>
+Visualize data <integrate/visualize>
 ```
 
 ```{toctree}

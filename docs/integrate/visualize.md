@@ -122,8 +122,8 @@ how to run a database query.
 
 - [Using Grafana with CrateDB Cloud]
 
-![image](_assets/img/grafana-connection.png){h=200px}
-![image](_assets/img/grafana-panel1.png){h=200px}
+![image](../_assets/img/grafana-connection.png){h=200px}
+![image](../_assets/img/grafana-panel1.png){h=200px}
 
 ```{seealso}
 [CrateDB and Grafana]
@@ -167,8 +167,8 @@ data on their own.
 - [Using Metabase with CrateDB Cloud]
 - [Real-time data analytics with Metabase and CrateDB]
 
-![image](_assets/img/metabase-question.png){h=140px}
-![image](_assets/img/metabase-dashboard.png){h=140px}
+![image](../_assets/img/metabase-question.png){h=140px}
+![image](../_assets/img/metabase-dashboard.png){h=140px}
 
 ```{seealso}
 [CrateDB and Metabase]
@@ -201,8 +201,8 @@ with none of the work or hidden costs that come with self-hosting.
 ```{toctree}
 :hidden:
 
-Grafana <tutorials/grafana>
-Metabase <tutorials/metabase>
+Grafana <../tutorials/grafana>
+Metabase <../tutorials/metabase>
 ```
 
 
