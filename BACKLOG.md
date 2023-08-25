@@ -5,6 +5,7 @@
 - [ ] Add item about Admin UI
 - [ ] Add item about `psycopg3`
 - [ ] Connect: Add more properties, like `schema`
+- [ ] ETL: There is pandas, but not Dask/Coiled
 
 ## Iteration +2
 - [ ] Refer to more artefacts/resources
