@@ -24,6 +24,29 @@ platform, written in Python.
 ```
 
 
+## Cluvio
+
+```{div}
+:style: "float: right"
+[![](https://www.cluvio.com/images/logos/cluvio/cluvio-logo-full_color-on_dark.svg){w=180px}](https://www.cluvio.com/)
+```
+
+[Cluvio] is a programmable and interactive dashboarding platform — your analytics
+cockpit. Run queries, filter your results, choose the most vivid way to display them,
+and share them with your colleagues and partners without efforts.
+
+Cluvio dashboards are interactive, so you can easily change aggregation, select a
+specific timerange or filter dashboards by any individual attribute of your data.
+
+Use SQL and R to analyze your data and create beautiful, interactive dashboards for
+your entire company in few minutes.
+
+- [Data Analysis with Cluvio and CrateDB]
+
+![](https://www.cluvio.com/images/features/custom-filters.png){h=200px}
+![](https://www.cluvio.com/images/features/report-creator.png){h=200px}
+
+
 ## Explo Explore
 
 ```{div}
@@ -104,9 +127,11 @@ Metabase <integrate/metabase>
 
 
 [Apache Superset]: https://superset.apache.org/
+[Cluvio]: https://www.cluvio.com/
 [CrateDB and Grafana]: https://crate.io/integrations/cratedb-and-grafana 
 [CrateDB and Superset]: https://crate.io/integrations/cratedb-and-apache-superset 
 [CrateDB and Metabase]: https://crate.io/integrations/cratedb-and-metabase
+[Data Analysis with Cluvio and CrateDB]: https://community.crate.io/t/data-analysis-with-cluvio-and-cratedb/1571
 [Explo]: https://www.explo.co/
 [Explo Explore]: https://www.explo.co/products/explore
 [Grafana]: https://grafana.com/grafana/
