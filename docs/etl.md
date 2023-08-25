@@ -158,7 +158,8 @@ like modularity, portability, CI/CD, and documentation.
 > dbt enables data analysts and engineers to transform their data using the same
 > practices that software engineers use to build applications.
 
-With dbt, anyone on your data team can safely contribute to production-grade data pipelines.
+With dbt, anyone on your data team can safely contribute to production-grade data
+pipelines.
 
 The idea is that data engineers make source data available to an environment where
 dbt projects run, for example with [Debezium](#debezium) or with [Airflow](#apache-airflow).
@@ -170,6 +171,34 @@ Afterwards, data analysts can run their dbt projects against this data to produc
 ![](https://www.getdbt.com/ui/img/products/what-is-dbt-main-image.png){h=120px}
 ![](https://www.getdbt.com/ui/img/products/what-is-dbt-deploy.svg){h=120px}
 ![](https://www.getdbt.com/ui/img/products/what-is-dbt-eliminate-silos.svg){h=120px}
+
+:::{dropdown} **Managed dbt**
+```{div}
+:style: "float: right"
+[![](https://www.getdbt.com/ui/img/hero-dbt-cloud-features-2x5.png){w=180px}](https://www.getdbt.com/product/dbt-cloud/)
+```
+
+With [dbt Cloud], you can ditch time-consuming setup, and the struggles
+of scaling your data production. dbt Cloud is a full-suite service that is built for
+scale.
+
+- Start building data products quickly using the dbt Cloud IDE with integrated security
+  and governance controls.
+- Schedule, deploy, and monitor your data products using the scalable and reliable dbt
+  Cloud Scheduler.
+- Help your data teams discover and reuse data products using hosted docs or integrations
+  with the powerful Discovery API.
+- Extend your workflow beyond dbt Cloud with 30+ seamless integrations covering a range
+  of use cases across the Modern Data Stack, from observability and data quality to
+  visualization, reverse ETL, and much more.
+- Ship more high-quality data and scale your development like the 1000s of companies that
+  use dbt Cloud. They’ve used its convenient and collaboration-friendly interface to
+  eliminate the bottlenecks that keep growth limited.
+
+```{div}
+:style: "clear: both"
+```
+:::
 
 
 ## Debezium
@@ -303,6 +332,7 @@ to other systems leaves nothing to be desired.
 [CrateDB and Telegraf]: https://crate.io/integrations/cratedb-and-telegraf
 [Data Ingestion using Kafka and Kafka Connect]: https://crate.io/docs/crate/howtos/en/latest/integrations/kafka-connect.html
 [dbt]: https://www.getdbt.com/
+[dbt Cloud]: https://www.getdbt.com/product/dbt-cloud/
 [Debezium]: https://debezium.io/
 [DoubleCloud Managed Service for Apache Kafka]: https://double.cloud/services/managed-kafka/
 [Executable stack: Apache Kafka, Apache Flink, and CrateDB]: https://github.com/crate/cratedb-examples/tree/main/stacks/kafka-flink
