@@ -6,6 +6,10 @@
 - [ ] Add item about `psycopg3`
 - [ ] Connect: Add more properties, like `schema`
 - [ ] ETL: There is pandas, but not Dask/Coiled
+- [ ] Add Prometheus
+  - https://crate.io/integrations/cratedb-and-prometheus
+  - https://community.crate.io/t/storing-long-term-metrics-with-prometheus-in-cratedb/1012
+  - https://github.com/crate/cratedb-prometheus-adapter
 
 ## Iteration +2
 - [ ] Refer to more artefacts/resources
