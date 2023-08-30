@@ -11,6 +11,7 @@ html_context.update({
 linkcheck_ignore = [
     "https://portal.azure.com/",
     "https://azuremarketplace.microsoft.com/",
+    "https://github.com/crate/ml-sandbox",
 ]
 
 linkcheck_timeout = 5
