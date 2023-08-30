@@ -232,7 +232,7 @@ A collection of Node.js modules for interfacing with a PostgreSQL database. [^no
 ```{sd-item} PHP
 ```
 ```{sd-item}
-[PHP PDO driver](https://crate.io/docs/pdo/)
+[CrateDB PDO driver](https://crate.io/docs/pdo/)
 ```
 ```{sd-item}
 For connecting to CrateDB from PHP.
@@ -246,7 +246,7 @@ For connecting to CrateDB from PHP.
 ```{sd-item} PHP
 ```
 ```{sd-item}
-[PHP DBAL adapter](https://crate.io/docs/dbal/)
+[CrateDB DBAL adapter](https://crate.io/docs/dbal/)
 ```
 ```{sd-item}
 For connecting to CrateDB from PHP, using DBAL and Doctrine.
@@ -260,7 +260,7 @@ For connecting to CrateDB from PHP, using DBAL and Doctrine.
 ```{sd-item} Python
 ```
 ```{sd-item}
-[DB-API driver](https://crate.io/docs/python/)
+[CrateDB driver](https://crate.io/docs/python/)
 ```
 ```{sd-item}
 For connecting to CrateDB from Python. [^blob-support].
