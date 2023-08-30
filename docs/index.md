@@ -45,11 +45,11 @@ based terminal programs.
 :::
 
 
-:::{grid-item-card} {material-outlined}`link;2em` Library
+:::{grid-item-card} {material-outlined}`link;2em` Driver
 :link: connect
 :link-type: ref
 
-Learn how to configure your favorite client library to connect to a
+Learn how to configure your favorite client driver library to connect to a
 CrateDB cluster.
 :::
 
