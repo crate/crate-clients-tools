@@ -80,9 +80,8 @@ More resources:
 
 ## Machine Learning and CrateDB
 
-Using pandas, NumPy, Matplotlib, Merlion, and MLFlow, to analyze timeseries anomalies.
-
-- [Running Time Series Models in Production using CrateDB]
+- Using pandas, NumPy, Matplotlib, Merlion, and MLFlow, to analyze timeseries anomalies:
+  [Running Time Series Models in Production using CrateDB]
 
 
 [Automating financial data collection and storage in CrateDB with Python and pandas 2.0.0]: https://community.crate.io/t/automating-financial-data-collection-and-storage-in-cratedb-with-python-and-pandas-2-0-0/916
