@@ -215,7 +215,7 @@ features of its type system, and to ignore the `ROLLBACK` statement.
 :::
 
 :::{sd-row}
-```{sd-item} JavaScript, TypeScript
+```{sd-item} Node.js, JavaScript, TypeScript
 ```
 ```{sd-item}
 [node-postgres](https://node-postgres.com/)
@@ -366,7 +366,7 @@ Java
 
 :::{sd-row}
 ```{sd-item}
-JavaScript, TypeScript
+Node.js, JavaScript, TypeScript
 ```
 ```{sd-item}
 [Connect to CrateDB from Node.js using `node-postgres` or `node-crate`](#javascript)
