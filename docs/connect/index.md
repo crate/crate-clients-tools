@@ -260,7 +260,7 @@ For connecting to CrateDB from PHP, using DBAL and Doctrine.
 ```{sd-item} Python
 ```
 ```{sd-item}
-[CrateDB driver](https://crate.io/docs/python/)
+[CrateDB Python driver](https://crate.io/docs/python/)
 ```
 ```{sd-item}
 For connecting to CrateDB from Python. [^blob-support].
@@ -309,6 +309,34 @@ For connecting to CrateDB from Python. [^asyncio-support]
 ```
 ```{sd-item}
 {tags-primary}`PG`
+```
+:::
+
+:::{sd-row}
+```{sd-item} Ruby
+```
+```{sd-item}
+[CrateDB Ruby driver](https://github.com/crate/crate_ruby)
+```
+```{sd-item}
+A Ruby client library for CrateDB.
+```
+```{sd-item}
+{tags-primary}`HTTP`
+```
+:::
+
+:::{sd-row}
+```{sd-item} Ruby
+```
+```{sd-item}
+[CrateDB ActiveRecord adapter](https://github.com/crate/activerecord-crate-adapter)
+```
+```{sd-item}
+Ruby on Rails ActiveRecord adapter for CrateDB.
+```
+```{sd-item}
+{tags-primary}`HTTP`
 ```
 :::
 
