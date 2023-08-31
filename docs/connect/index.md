@@ -323,7 +323,7 @@ For connecting to CrateDB from Python. [^asyncio-support]
 A Ruby client library for CrateDB.
 ```
 ```{sd-item}
-{tags-primary}`HTTP`
+{tags-success}`HTTP`
 ```
 :::
 
@@ -337,7 +337,7 @@ A Ruby client library for CrateDB.
 Ruby on Rails ActiveRecord adapter for CrateDB.
 ```
 ```{sd-item}
-{tags-primary}`HTTP`
+{tags-success}`HTTP`
 ```
 :::
 
