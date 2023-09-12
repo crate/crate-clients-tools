@@ -10,8 +10,11 @@ You can use them to quickly validate HTTP and PostgreSQL connectivity to your
 database cluster, or to conduct basic scripting.
 
 Before running the command-line snippets outlined below, please use the correct
-settings instead of the placeholder tokens `<username>`, `<password>`, and
-`<clustername>`.
+settings instead of the placeholder tokens `<hostname>`, `<username>` and
+`<password>`.
+
+When using CrateDB Cloud, `<hostname>` will be something like
+`<clustername>.{aks1,eks1}.region.{azure,aws}.cratedb.net`.
 
 
 (crash)=
@@ -36,7 +39,7 @@ working with CrateDB. For more information, see the documentation about [crash].
 
 ```{code-block} shell
 CRATEPW=<password> \
-    crash --hosts 'https://<clustername>.cratedb.net:4200' --username '<username>' \
+    crash --hosts 'https://<hostname>:4200' --username '<username>' \
     --command "SELECT 42.42;"
 ```
 :::
@@ -77,7 +80,7 @@ For more information, see the documentation about [psql].
 
 ```{code-block} shell
 PGUSER=<username> PGPASSWORD=<password> \
-    psql postgresql://<clustername>.cratedb.net/crate --command "SELECT 42.42;"
+    psql postgresql://<hostname>/crate --command "SELECT 42.42;"
 ```
 :::
 
@@ -115,7 +118,7 @@ For more information, see the documentation about [HTTPie].
 :sync: server
 
 ```{code-block} shell
-http https://<username>:<password>@<clustername>.cratedb.net:4200/_sql?pretty" \
+http https://<username>:<password>@<hostname>:4200/_sql?pretty" \
     stmt="SELECT 42.42;"
 ```
 :::
@@ -156,7 +159,7 @@ This example combines it with [jq], a lightweight and flexible command-line JSON
 
 ```{code-block} shell
 echo '{"stmt": "SELECT 42.42;"}' \
-    | curl "https://<username>:<password>@<clustername>.cratedb.net:4200/_sql?pretty" --silent --data @- | jq
+    | curl "https://<username>:<password>@<hostname>:4200/_sql?pretty" --silent --data @- | jq
 ```
 :::
 
