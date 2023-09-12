@@ -31,7 +31,7 @@ working with CrateDB. For more information, see the documentation about [crash].
 
 ::::{tab-set}
 
-:::{tab-item} CrateDB Server and Cloud
+:::{tab-item} CrateDB and CrateDB Cloud
 :sync: server
 
 ```{code-block} shell
@@ -72,7 +72,7 @@ For more information, see the documentation about [psql].
 
 ::::{tab-set}
 
-:::{tab-item} CrateDB Server and Cloud
+:::{tab-item} CrateDB and CrateDB Cloud
 :sync: server
 
 ```{code-block} shell
@@ -111,7 +111,7 @@ For more information, see the documentation about [HTTPie].
 
 ::::{tab-set}
 
-:::{tab-item} CrateDB Server and Cloud
+:::{tab-item} CrateDB and CrateDB Cloud
 :sync: server
 
 ```{code-block} shell
@@ -151,7 +151,7 @@ This example combines it with [jq], a lightweight and flexible command-line JSON
 
 ::::{tab-set}
 
-:::{tab-item} CrateDB Server and Cloud
+:::{tab-item} CrateDB and CrateDB Cloud
 :sync: server
 
 ```{code-block} shell
