@@ -16,7 +16,7 @@ needs to be configured with corresponding settings.
 
 ::::::{tab-set}
 
-:::::{tab-item} CrateDB Server and Cloud
+:::::{tab-item} CrateDB and CrateDB Cloud
 
 ::::{grid}
 :margin: 0
