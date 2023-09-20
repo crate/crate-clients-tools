@@ -23,7 +23,8 @@ platform, written in Python.
 [Preset] offers a managed, elevated, and enterprise-grade SaaS for open-source
 Apache Superset.
 
-- [Introduction to Time-Series Visualization in CrateDB and Superset]
+- [Introduction to time series visualization in CrateDB and Apache Superset (blog)]
+- [Introduction to time series visualization in CrateDB and Apache Superset (webinar)]
 - [Use CrateDB and Apache Superset for Open Source Data Warehousing and Visualization]
 - [Set up an Apache Superset development sandbox with CrateDB]
 
@@ -218,7 +219,8 @@ Metabase <../tutorials/metabase>
 [Grafana Labs]: https://grafana.com/about/team/
 [Grafana OSS]: https://grafana.com/oss/grafana/
 [Introduction to Time Series Visualization in CrateDB and Explo]: https://crate.io/blog/introduction-to-time-series-visualization-in-cratedb-and-explo
-[Introduction to Time-Series Visualization in CrateDB and Superset]: https://community.crate.io/t/introduction-to-time-series-visualization-in-cratedb-and-superset/1041
+[Introduction to time series visualization in CrateDB and Apache Superset (blog)]: https://community.crate.io/t/introduction-to-time-series-visualization-in-cratedb-and-superset/1041
+[Introduction to time series visualization in CrateDB and Apache Superset (webinar)]: https://cratedb.com/resources/webinars/lp-wb-introduction-to-time-series-visualization-in-cratedb-apache-superset
 [Metabase]: https://www.metabase.com/
 [Metabase Cloud]: https://www.metabase.com/cloud/
 [Preset]: https://preset.io/
