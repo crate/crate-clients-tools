@@ -9,9 +9,11 @@ html_context.update({
 
 # TODO: Refactor into global configuration.
 linkcheck_ignore = [
-    "https://portal.azure.com/",
     "https://azuremarketplace.microsoft.com/",
     "https://github.com/crate/ml-sandbox",
+    "https://portal.azure.com/",
+    "https://powerbi.microsoft.com",
+    "https://www.microsoft.com",
 ]
 
 linkcheck_timeout = 5
