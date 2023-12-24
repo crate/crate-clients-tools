@@ -1,12 +1,12 @@
+(bi)=
 (bi-tools)=
-(analyze)=
-# Analytics with CrateDB
+# Business Analytics and Intelligence with CrateDB
 
-This documentation section enumerates analytics applications and frameworks,
-which can be used for analyzing data in CrateDB.
+This documentation section lists business analytics applications
+and frameworks, which can be used together with CrateDB.
 
 
-## Business analytics with Microsoft Power BI
+## Microsoft Power BI
 
 ```{div}
 :style: "float: right"
@@ -34,7 +34,7 @@ possible to publish your dashboards, in order to share them with others.
 ```
 
 
-## Business intelligence with Tableau
+## Tableau
 
 ```{div}
 :style: "float: right"
@@ -54,51 +54,12 @@ guide you through the process of setting it up correctly with CrateDB.
 ```
 
 
-## Data analysis with pandas and scikit-learn 
-
-```{div}
-:style: "float: right"
-[![](https://pandas.pydata.org/static/img/pandas.svg){w=180px}](https://pandas.pydata.org/)
-<br>
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/240px-Scikit_learn_logo_small.svg.png){w=180px}](https://scikit-learn.org/)
-<br>
-[![](https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg){w=180px}](https://jupyter.org/)
-```
-
-
-Using [pandas] and [scikit-learn] to run a regression analysis within a [Jupyter Notebook].
-
-- [Machine Learning and CrateDB: An introduction]
-- [Machine Learning and CrateDB: Getting Started With Jupyter]
-- [Machine Learning and CrateDB: Experiment Design & Linear Regression]
-
-More resources:
-
-- [Automating financial data collection and storage in CrateDB with Python and pandas 2.0.0]
-- [From data storage to data analysis: Tutorial on CrateDB and pandas]
-
-
-## Machine Learning and CrateDB
-
-- Using pandas, NumPy, Matplotlib, Merlion, and MLFlow, to analyze timeseries anomalies:
-  [Running Time Series Models in Production using CrateDB]
-
-
-[Automating financial data collection and storage in CrateDB with Python and pandas 2.0.0]: https://community.crate.io/t/automating-financial-data-collection-and-storage-in-cratedb-with-python-and-pandas-2-0-0/916
 [Connecting to CrateDB from Tableau with JDBC]: https://crate.io/blog/connecting-to-cratedb-from-tableau-with-jdbc
 [CrateDB and Tableau]: https://crate.io/integrations/cratedb-and-tableau
 [CrateDB and Power BI]: https://crate.io/integrations/cratedb-and-power-bi
-[From data storage to data analysis: Tutorial on CrateDB and pandas]: https://community.crate.io/t/from-data-storage-to-data-analysis-tutorial-on-cratedb-and-pandas/1440/1
-[Jupyter Notebook]: https://jupyter.org/
-[Machine Learning and CrateDB: An introduction]: https://crate.io/blog/machine-learning-and-cratedb-part-one
-[Machine Learning and CrateDB: Getting Started With Jupyter]: https://crate.io/blog/machine-learning-cratedb-jupyter
-[Machine Learning and CrateDB: Experiment Design & Linear Regression]: https://crate.io/blog/machine-learning-and-cratedb-part-three-experiment-design-and-linear-regression
-[pandas]: https://pandas.pydata.org/
 [PostgreSQL ODBC driver]: https://odbc.postgresql.org/
 [Power BI Desktop]: https://powerbi.microsoft.com/en-us/desktop/
 [Power BI Service]: https://powerbi.microsoft.com/en-us/
 [Power Query PostgreSQL connector]: https://learn.microsoft.com/en-us/power-query/connectors/postgresql
-[Running Time Series Models in Production using CrateDB]: https://github.com/crate/ml-sandbox/blob/main/timeseries-blog/timeseries-blog.md
-[scikit-learn]: https://scikit-learn.org/
 [Tableau]: https://www.tableau.com/
 [Using CrateDB with Tableau]: https://community.crate.io/t/using-cratedb-with-tableau/1192
