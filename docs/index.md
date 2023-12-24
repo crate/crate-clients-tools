@@ -63,7 +63,7 @@ CrateDB integrates well with a diverse set of applications and tools concerned
 with analytics, visualization, and data wrangling, in the areas of ETL, BI, 
 metrics aggregation and monitoring, and more.
 
-::::{grid} 1 2 2 4
+::::{grid} 1 2 2 3
 :margin: 4 4 0 0
 :gutter: 1
 
@@ -84,15 +84,23 @@ Use ETL applications and frameworks for transferring data in and out of CrateDB.
 :::
 
 
-:::{grid-item-card} {material-outlined}`analytics;2em` Analytics
-:link: analyze
+:::{grid-item-card} {material-outlined}`analytics;2em` Business Intelligence
+:link: bi
 :link-type: ref
 
 Analyze information in your CrateDB cluster.
 :::
 
 
-:::{grid-item-card} {material-outlined}`bar_chart;2em` Visualization
+:::{grid-item-card} {material-outlined}`analytics;2em` Machine Learning
+:link: ml
+:link-type: ref
+
+Apply machine learning to information in your CrateDB cluster.
+:::
+
+
+:::{grid-item-card} {material-outlined}`bar_chart;2em` Data Visualization
 :link: visualize
 :link-type: ref
 
@@ -129,9 +137,10 @@ Database drivers <connect/index>
 ```{toctree}
 :hidden:
 
-Load and export data <integrate/etl>
-Analyze data <integrate/analyze>
-Visualize data <integrate/visualize>
+Load and Export <integrate/etl>
+Business Intelligence <integrate/bi>
+Machine Learning <integrate/ml>
+Data Visualization <integrate/visualize>
 ```
 
 ```{toctree}
