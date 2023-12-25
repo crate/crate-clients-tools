@@ -1,7 +1,8 @@
 (etl)=
 # ETL with CrateDB
 
-Use ETL applications and frameworks for transferring data in and out of CrateDB.
+Use ETL / data pipeline applications and frameworks for transferring data in
+and out of CrateDB.
 
 
 (apache-airflow)=
@@ -295,21 +296,6 @@ collaborative, and secure manner.
 :::
 
 
-## pandas
-
-[pandas] is a fast, powerful, flexible and easy to use open source data analysis
-and manipulation tool, built on top of the Python programming language. 
-
-```{div}
-:style: "float: right"
-[![](https://pandas.pydata.org/static/img/pandas.svg){w=180px}](https://pandas.pydata.org/)
-```
-
-- [Importing Parquet files into CrateDB using Apache Arrow and SQLAlchemy]
-- [Guide to efficient data ingestion to CrateDB with pandas]
-- [Guide to efficient data ingestion to CrateDB with pandas and Dask]
-
-
 ## Telegraf
 
 ```{div}
@@ -364,17 +350,13 @@ to other systems leaves nothing to be desired.
 [Flink managed by Confluent]: https://www.datanami.com/2023/05/17/confluents-new-cloud-capabilities-address-data-streaming-hurdles/
 [FlowFuse]: https://flowfuse.com/
 [FlowFuse Cloud]: https://app.flowforge.com/
-[Guide to efficient data ingestion to CrateDB with pandas]: https://community.crate.io/t/guide-to-efficient-data-ingestion-to-cratedb-with-pandas/1541
-[Guide to efficient data ingestion to CrateDB with pandas and Dask]: https://community.crate.io/t/guide-to-efficient-data-ingestion-to-cratedb-with-pandas-and-dask/1482
 [Immerok Cloud]: https://www.immerok.io/product
 [Implementing a data retention policy in CrateDB using Apache Airflow]: https://community.crate.io/t/implementing-a-data-retention-policy-in-cratedb-using-apache-airflow/913 
-[Importing Parquet files into CrateDB using Apache Arrow and SQLAlchemy]: https://community.crate.io/t/importing-parquet-files-into-cratedb-using-apache-arrow-and-sqlalchemy/1161
 [Ingesting MQTT messages into CrateDB using Node-RED]: https://community.crate.io/t/ingesting-mqtt-messages-into-cratedb-using-node-red/803
 [Introduction to FlowFuse]: https://flowfuse.com/webinars/2023/introduction-to-flowforge/
 [Kestra]: https://kestra.io/
 [Node-RED]: https://nodered.org/
 [Overview about more managed Kafka offerings]: https://keen.io/blog/managed-apache-kafka-vs-diy/
-[pandas]: https://pandas.pydata.org/
 [Setting up data pipelines with CrateDB and Kestra]: https://community.crate.io/t/setting-up-data-pipelines-with-cratedb-and-kestra-io/1400
 [Telegraf]: https://www.influxdata.com/time-series-platform/telegraf/
 [Tutorial: Replicating data to CrateDB with Debezium and Kafka]: https://community.crate.io/t/replicating-data-to-cratedb-with-debezium-and-kafka/1388

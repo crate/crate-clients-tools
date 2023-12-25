@@ -22,7 +22,7 @@ Just to name a few, it is about the CrateDB Admin UI, `crash`, `psql`,
 DataGrip, and DBeaver applications, the Java/JDBC/Python drivers, the SQLAlchemy
 and Flink dialects, and more.
 
-::::{grid} 1 2 2 3
+::::{grid} 1 2 2 2
 :margin: 4 4 0 0
 :gutter: 1
 
@@ -31,8 +31,7 @@ and Flink dialects, and more.
 :link: ide
 :link-type: ref
 
-Learn how to connect to CrateDB using a database IDE like DataGrip
-or DBeaver.
+Connect to CrateDB using a database IDE like DataGrip or DBeaver.
 :::
 
 
@@ -40,17 +39,37 @@ or DBeaver.
 :link: cli
 :link-type: ref
 
-Learn how to connect to a CrateDB cluster using command-line
-based terminal programs.
+Connect to CrateDB using command-line based terminal programs.
 :::
 
+::::
 
-:::{grid-item-card} {material-outlined}`link;2em` Driver
+
+::::{grid} 1 2 2 3
+:margin: 4 4 0 0
+:gutter: 1
+
+:::{grid-item-card} {material-outlined}`link;2em` Drivers
 :link: connect
 :link-type: ref
 
-Learn how to configure your favorite client driver library to connect to a
-CrateDB cluster.
+List of HTTP and PostgreSQL client drivers, and tutorials.
+:::
+
+
+:::{grid-item-card} {material-outlined}`crop_landscape;2em` DataFrame Libraries
+:link: df
+:link-type: ref
+
+Connectivity with DataFrame libraries like pandas and Dask.
+:::
+
+
+:::{grid-item-card} {material-outlined}`data_object;2em` ORM Libraries
+:link: orm
+:link-type: ref
+
+Connectivity with ORM libraries like SQLAlchemy.
 :::
 
 
@@ -59,21 +78,28 @@ CrateDB cluster.
 
 ## Integrations
 
-CrateDB integrates well with a diverse set of applications and tools concerned
-with analytics, visualization, and data wrangling, in the areas of ETL, BI, 
-metrics aggregation and monitoring, and more.
+CrateDB integrates with a diverse set of applications and tools concerned
+with analytics, visualization, and data wrangling, in the areas of data loading
+and export (ETL), business intelligence (BI), metrics aggregation and monitoring,
+machine learning, and more.
 
-::::{grid} 1 2 2 3
+::::{grid} 1
 :margin: 4 4 0 0
 :gutter: 1
-
 
 :::{grid-item-card} {material-outlined}`integration_instructions;2em` Overview
 :link: https://community.crate.io/t/overview-of-cratedb-integration-tutorials/1015
 :link-type: url
 
-Use CrateDB with popular applications, frameworks, and tools.
+Learn how to use CrateDB with popular applications, frameworks, and tools.
+All on one page.
 :::
+
+::::
+
+::::{grid} 1 2 2 2
+:margin: 4 4 0 0
+:gutter: 1
 
 
 :::{grid-item-card} {material-outlined}`transform;2em` ETL
@@ -92,7 +118,7 @@ Analyze information in your CrateDB cluster.
 :::
 
 
-:::{grid-item-card} {material-outlined}`analytics;2em` Machine Learning
+:::{grid-item-card} {material-outlined}`model_training;2em` Machine Learning
 :link: ml
 :link-type: ref
 
@@ -112,8 +138,7 @@ Visualize information in your CrateDB cluster.
 
 
 
-```{note} Contributions are welcome.
-
+```{note} Contributions to the pages in this section and subsections are much welcome.
 If you would like to add items about integrations with other tools to this
 documentation section, please [get in touch], or directly edit this page on
 GitHub. You will find corresponding links within the topmost right navigation
@@ -130,8 +155,9 @@ Looking for the previous content on this page? Visit [](#index-legacy).
 
 IDE applications <connect/ide>
 CLI programs <connect/cli>
-Database drivers <connect/index>
-
+Database Drivers <connect/index>
+DataFrame Libraries <connect/df>
+ORM Libraries <connect/orm>
 ```
 
 ```{toctree}
