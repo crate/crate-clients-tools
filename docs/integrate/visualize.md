@@ -28,8 +28,8 @@ Apache Superset.
 - [Use CrateDB and Apache Superset for Open Source Data Warehousing and Visualization]
 - [Set up an Apache Superset development sandbox with CrateDB]
 
-![](https://crate.io/hs-fs/hubfs/Screenshot%202021-12-28%20at%2013.33.41.png?width=2826&name=Screenshot%202021-12-28%20at%2013.33.41.png){h=200px}
 ![](https://superset.apache.org/img/hero-screenshot.jpg){h=200px}
+![](https://github.com/crate/crate-clients-tools/assets/453543/0f8f7bd8-2e30-4aca-bcf3-61fbc81da855){h=200px}
 
 ```{seealso}
 [CrateDB and Superset]
@@ -63,7 +63,7 @@ based on Apache Superset.
 
 ```{div}
 :style: "float: right"
-[![cluvio-logo-full_color-on_dark.svg](https://github.com/crate/crate-clients-tools/assets/453543/cac142ef-412a-4a67-a63f-bf9d1ce92c84){w=180px}](https://www.cluvio.com/)
+[![cluvio-logo-full_color-on_dark.svg ](https://github.com/crate/crate-clients-tools/assets/453543/cac142ef-412a-4a67-a63f-bf9d1ce92c84){w=180px}](https://www.cluvio.com/)
 ```
 
 [Cluvio] is a programmable and interactive dashboarding platform — your analytics
@@ -82,7 +82,73 @@ your entire company in few minutes.
 ![report-creator.png](https://github.com/crate/crate-clients-tools/assets/453543/844a5ffd-0b92-4c77-8cdd-0b5cc5b392b1){h=200px}
 
 
-## Explo Explore
+## Dash
+
+```{div}
+:style: "float: right"
+[![](https://github.com/crate/crate-clients-tools/assets/453543/8b679c0b-2740-4dcc-88f0-1106aee7fa95){w=180px}](https://dash.plotly.com/)
+```
+
+[Dash] is a low-code framework for rapidly building data apps in Python,
+based on [Plotly]. Built on top of Plotly.js, React and Flask, Dash ties
+modern UI elements like dropdowns, sliders, and graphs, directly to your
+analytical Python code.
+
+Dash is a trusted Python framework for building ML & data science web apps. Many
+specialized open-source Dash libraries exist that are tailored for building
+domain-specific Dash components and applications.
+
+```{div}
+:style: "clear: both"
+```
+:::
+
+![](https://github.com/crate/crate-clients-tools/assets/453543/cc538982-e351-437b-97ec-f1fc6ca34948){h=200px}
+![](https://github.com/crate/crate-clients-tools/assets/453543/24908861-f0ad-43f3-b229-b2bfcc61596d){h=200px}
+
+**See also**
+- The `timeseries-queries-and-visualization.ipynb` notebook explores how to access
+  timeseries data from CrateDB via SQL, load it into pandas DataFrames, and visualize
+  it using Plotly.
+
+  It includes advanced time series operations in SQL, like aggregations, window functions,
+  interpolation of missing data, common table expressions, moving averages, JOINs, and
+  the handling of JSON data.
+
+  [![Open on GitHub](https://img.shields.io/badge/Open%20on-GitHub-lightgray?logo=GitHub)](https://github.com/crate/cratedb-examples/blob/main/topic/timeseries/explore/timeseries-queries-and-visualization.ipynb) [![Open in Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crate/cratedb-examples/blob/main/topic/timeseries/explore/timeseries-queries-and-visualization.ipynb)
+
+- [Explore Dash Examples]
+
+:::{dropdown} **Dash Enterprise**
+```{div}
+:style: "float: right"
+[![](https://github.com/crate/crate-clients-tools/assets/453543/8b679c0b-2740-4dcc-88f0-1106aee7fa95){w=180px}](https://plotly.com/dash/)
+```
+
+Dash Enterprise is Plotly’s paid product for building, testing, deploying, managing,
+and scaling Dash applications organization-wide, advertised as the Premier Data App
+Platform for Python.
+
+When building Dash apps in a business setting, Dash Enterprise supports you to deploy
+and scale them, plus integrate them with IT infrastructure such as authentication and
+VPC services, in order to deliver faster and more impactful business outcomes on AI
+and data science initiatives.
+
+Dash Enterprise enables the rapid development of production-grade data apps within your
+business. Python has taken over the world, and traditional BI dashboards no longer
+cut it in today’s AI and ML driven world. Production-grade, low-code Python data apps
+are needed to visualize the sophisticated data analytics and data pipelines that run
+modern businesses.
+
+```{div}
+:style: "clear: both"
+```
+![](https://github.com/crate/crate-clients-tools/assets/453543/161a9b73-25eb-4ec4-aa3e-5fa73757b440){h=200px}
+![](https://github.com/crate/crate-clients-tools/assets/453543/d199b9c9-8be0-4ff7-a7b5-835dc122cc6d){h=200px}
+:::
+
+
+## Explo
 
 ```{div}
 :style: "float: right"
@@ -96,6 +162,10 @@ builder", and "Email", to activate and share data with their customers.
 [Explo Explore] integrates directly into your web portal or application and provides
 your customers with a complete self-service data toolkit, which can also be used to
 run white-labeled data portals.
+
+```{div}
+:style: "clear: both"
+```
 
 - [Introduction to Time Series Visualization in CrateDB and Explo]
 
@@ -121,6 +191,7 @@ Connecting to a CrateDB cluster will use the Grafana PostgreSQL data source adap
 The following tutorials outline how to configure Grafana to connect to CrateDB, and
 how to run a database query. 
 
+**See also**
 - [Using Grafana with CrateDB Cloud]
 
 ![image](../_assets/img/grafana-connection.png){h=200px}
@@ -151,6 +222,47 @@ Get Grafana fully managed with [Grafana Cloud].
 :::
 
 
+## hvPlot and Datashader
+
+```{div}
+:style: "float: right"
+[![](https://hvplot.holoviz.org/_static/logo_horizontal.svg){w=220px}](https://hvplot.holoviz.org/)
+
+[![](https://datashader.org/_static/logo_horizontal.svg){w=220px}](https://datashader.org/)
+```
+
+[hvPlot] is a familiar and high-level API for data exploration and visualization.
+[Datashader] is a graphics pipeline system for creating meaningful representations of
+large datasets quickly and flexibly.
+
+It is used on behalf of the [hvPlot] package, which is based on [HoloViews], from the
+family of [HoloViz] packages of the [PyViz] ecosystem.
+
+With Datashader, you can "just plot" large datasets and explore them instantly, with no
+parameter tweaking, magic numbers, subsampling, or approximation, up to the resolution
+of the display.
+
+[hvPlot] sources its power in the [HoloViz] ecosystem. With [HoloViews], you get the
+ability to easily layout and overlay plots, with [Panel], you can get more interactive
+control of your plots with widgets, with [DataShader], you can visualize and interactively
+explore very large data, and with [GeoViews], you can create geographic plots.
+
+```{div}
+:style: "clear: both"
+```
+
+**See also**
+
+- The `cloud-datashader.ipynb` notebook explores the [HoloViews] and [Datashader] frameworks
+  and outlines how to use them to plot the venerable NYC Taxi dataset, after importing it
+  into a CrateDB Cloud database cluster. _Please note the notebook is a work in progress._ 
+
+  [![Open on GitHub](https://img.shields.io/badge/Open%20on-GitHub-lightgray?logo=GitHub)](https://github.com/crate/cratedb-examples/blob/amo/cloud-datashader/topic/timeseries/explore/cloud-datashader.ipynb) [![Open in Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crate/cratedb-examples/blob/amo/cloud-datashader/topic/timeseries/explore/cloud-datashader.ipynb)
+
+![](https://github.com/crate/crate-clients-tools/assets/453543/7f38dff6-04bc-429e-9d31-6beeb9289c4b){h=200px}
+![](https://github.com/crate/crate-clients-tools/assets/453543/23561a87-fb4f-4154-9891-1b3068e40579){h=200px}
+
+
 ## Metabase
 
 ```{div}
@@ -165,6 +277,7 @@ with no SQL required.
 Fast analytics with the friendly UX and integrated tooling to let your company explore
 data on their own.
 
+**See also**
 - [Using Metabase with CrateDB Cloud]
 - [Real-time data analytics with Metabase and CrateDB]
 
@@ -198,12 +311,49 @@ with none of the work or hidden costs that come with self-hosting.
 :::
 
 
+## Plotly
+
+```{div}
+:style: "float: right"
+[![](https://github.com/crate/crate-clients-tools/assets/453543/8b679c0b-2740-4dcc-88f0-1106aee7fa95){w=180px}](https://plotly.com/)
+```
+
+[Plotly] Open Source Graphing Libraries make interactive, publication-quality graphs.
+Line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms,
+heatmaps, subplots, multiple-axes, polar charts, bubble charts, and maps.
+
+The supported programming languages / libraries / frameworks are Python, R, Julia,
+JavaScript, ggplot2, F#, MATLAB®, and Dash.
+
+Based on Plotly, [Dash] is a low-code framework for rapidly building data apps in Python.
+
+```{div}
+:style: "clear: both"
+```
+
+![](https://github.com/crate/crate-clients-tools/assets/453543/380114a8-7984-4966-929b-6e6d52ddd48a){h=200px}
+![](https://github.com/crate/crate-clients-tools/assets/453543/f6a99ae7-b730-4587-bd23-499e1be02c92){h=200px}
+
+**See also**
+
+- The `timeseries-queries-and-visualization.ipynb` notebook explores how to access
+  timeseries data from CrateDB via SQL, load it into pandas DataFrames, and visualize
+  it using Plotly.
+
+  It includes advanced time series operations in SQL, like aggregations, window functions,
+  interpolation of missing data, common table expressions, moving averages, JOINs, and
+  the handling of JSON data.
+
+  [![Open on GitHub](https://img.shields.io/badge/Open%20on-GitHub-lightgray?logo=GitHub)](https://github.com/crate/cratedb-examples/blob/main/topic/timeseries/explore/timeseries-queries-and-visualization.ipynb) [![Open in Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crate/cratedb-examples/blob/main/topic/timeseries/explore/timeseries-queries-and-visualization.ipynb)
+
+- [Explore Dash Examples]
+
 
 ```{toctree}
 :hidden:
 
-Grafana <../tutorials/grafana>
-Metabase <../tutorials/metabase>
+- Grafana <../tutorials/grafana>
+- Metabase <../tutorials/metabase>
 ```
 
 
@@ -212,21 +362,32 @@ Metabase <../tutorials/metabase>
 [CrateDB and Grafana]: https://crate.io/integrations/cratedb-and-grafana 
 [CrateDB and Superset]: https://crate.io/integrations/cratedb-and-apache-superset 
 [CrateDB and Metabase]: https://crate.io/integrations/cratedb-and-metabase
+[Dash]: https://plotly.com/dash/
 [Data Analysis with Cluvio and CrateDB]: https://community.crate.io/t/data-analysis-with-cluvio-and-cratedb/1571
+[Datashader]: https://datashader.org/
 [Explo]: https://www.explo.co/
 [Explo Explore]: https://www.explo.co/products/explore
+[Explore Dash Examples]: https://plotly.com/examples/
+[GeoViews]: https://geoviews.org/
 [Grafana Cloud]: https://grafana.com/grafana/
 [Grafana Labs]: https://grafana.com/about/team/
 [Grafana OSS]: https://grafana.com/oss/grafana/
+[HoloViews]: https://www.holoviews.org/
+[HoloViz]: https://holoviz.org/
+[hvPlot]: https://hvplot.holoviz.org/
 [Introduction to Time Series Visualization in CrateDB and Explo]: https://crate.io/blog/introduction-to-time-series-visualization-in-cratedb-and-explo
 [Introduction to time series visualization in CrateDB and Apache Superset (blog)]: https://community.crate.io/t/introduction-to-time-series-visualization-in-cratedb-and-superset/1041
 [Introduction to time series visualization in CrateDB and Apache Superset (webinar)]: https://cratedb.com/resources/webinars/lp-wb-introduction-to-time-series-visualization-in-cratedb-apache-superset
 [Metabase]: https://www.metabase.com/
 [Metabase Cloud]: https://www.metabase.com/cloud/
+[Panel]: https://panel.holoviz.org/
+[Plotly]: https://plotly.com/graphing-libraries/
 [Preset]: https://preset.io/
 [Preset Cloud]: https://preset.io/product/
+[PyViz]: https://pyviz.org/
 [Real-time data analytics with Metabase and CrateDB]: https://www.metabase.com/community_posts/real-time-data-analytics-with-metabase-and-cratedb
 [Set up an Apache Superset development sandbox with CrateDB]: https://community.crate.io/t/set-up-an-apache-superset-development-sandbox-with-cratedb/1163
+[Time Series with CrateDB]: https://github.com/crate/cratedb-examples/tree/main/topic/timeseries/explore
 [Use CrateDB and Apache Superset for Open Source Data Warehousing and Visualization]: https://crate.io/blog/use-cratedb-and-apache-superset-for-open-source-data-warehousing-and-visualization
 [Using Grafana with CrateDB Cloud]: #integrations-grafana
 [Using Metabase with CrateDB Cloud]: #integrations-metabase
