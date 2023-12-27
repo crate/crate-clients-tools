@@ -296,6 +296,33 @@ collaborative, and secure manner.
 :::
 
 
+## Singer / Meltano
+
+```{div}
+:style: "float: right; margin-left: 0.3em"
+[![](https://www.singer.io/img/singer_logo_full_black.svg){w=180px}](https://www.singer.io/)
+
+[![](https://github.com/crate/crate-clients-tools/assets/453543/0c01e995-d7c2-4a4d-8e90-c6697fe2a85d){w=180px}](https://meltano.com/)
+```
+
+[Singer] is a composable open source ETL framework and specification, including powerful
+data extraction and consolidation elements. [Meltano] is a declarative code-first data
+integration engine adhering to the Singer specification.
+
+[Meltano Hub] is the single source of truth to find any Meltano plugins as well
+as Singer taps and targets.
+
+- [meltano-target-cratedb]
+- [meltano-tap-cratedb]
+- [Examples about working with CrateDB and Meltano]
+
+_Please note the adapters are a work in progress._
+
+```{div}
+:style: "clear: both"
+```
+
+
 ## Telegraf
 
 ```{div}
@@ -314,6 +341,7 @@ to other systems leaves nothing to be desired.
 ```{seealso}
 [CrateDB and Telegraf]
 ```
+
 
 
 [2023 SIGMOD Systems Award]: https://sigmod.org/2023-sigmod-systems-award/
@@ -346,6 +374,7 @@ to other systems leaves nothing to be desired.
 [dbt Cloud]: https://www.getdbt.com/product/dbt-cloud/
 [Debezium]: https://debezium.io/
 [DoubleCloud Managed Service for Apache Kafka]: https://double.cloud/services/managed-kafka/
+[Examples about working with CrateDB and Meltano]: https://github.com/crate/cratedb-examples/tree/amo/meltano/framework/singer-meltano
 [Executable stack: Apache Kafka, Apache Flink, and CrateDB]: https://github.com/crate/cratedb-examples/tree/main/stacks/kafka-flink
 [Flink managed by Confluent]: https://www.datanami.com/2023/05/17/confluents-new-cloud-capabilities-address-data-streaming-hurdles/
 [FlowFuse]: https://flowfuse.com/
@@ -355,9 +384,14 @@ to other systems leaves nothing to be desired.
 [Ingesting MQTT messages into CrateDB using Node-RED]: https://community.crate.io/t/ingesting-mqtt-messages-into-cratedb-using-node-red/803
 [Introduction to FlowFuse]: https://flowfuse.com/webinars/2023/introduction-to-flowforge/
 [Kestra]: https://kestra.io/
+[Meltano]: https://meltano.com/
+[Meltano Hub]: https://hub.meltano.com/
+[meltano-tap-cratedb]: https://github.com/crate-workbench/meltano-tap-cratedb
+[meltano-target-cratedb]: https://github.com/crate-workbench/meltano-target-cratedb
 [Node-RED]: https://nodered.org/
 [Overview about more managed Kafka offerings]: https://keen.io/blog/managed-apache-kafka-vs-diy/
 [Setting up data pipelines with CrateDB and Kestra]: https://community.crate.io/t/setting-up-data-pipelines-with-cratedb-and-kestra-io/1400
+[Singer]: https://www.singer.io/
 [Telegraf]: https://www.influxdata.com/time-series-platform/telegraf/
 [Tutorial: Replicating data to CrateDB with Debezium and Kafka]: https://community.crate.io/t/replicating-data-to-cratedb-with-debezium-and-kafka/1388
 [Updating stock market data automatically with CrateDB and Apache Airflow]: https://community.crate.io/t/updating-stock-market-data-automatically-with-cratedb-and-apache-airflow/1304
