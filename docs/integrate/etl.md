@@ -379,7 +379,7 @@ to other systems leaves nothing to be desired.
 [Flink managed by Confluent]: https://www.datanami.com/2023/05/17/confluents-new-cloud-capabilities-address-data-streaming-hurdles/
 [FlowFuse]: https://flowfuse.com/
 [FlowFuse Cloud]: https://app.flowforge.com/
-[Immerok Cloud]: https://www.immerok.io/product
+[Immerok Cloud]: https://web.archive.org/web/20230602085618/https://www.immerok.io/product
 [Implementing a data retention policy in CrateDB using Apache Airflow]: https://community.crate.io/t/implementing-a-data-retention-policy-in-cratedb-using-apache-airflow/913 
 [Ingesting MQTT messages into CrateDB using Node-RED]: https://community.crate.io/t/ingesting-mqtt-messages-into-cratedb-using-node-red/803
 [Introduction to FlowFuse]: https://flowfuse.com/webinars/2023/introduction-to-flowforge/
