@@ -230,6 +230,20 @@ using JavaScript or TypeScript. [^node-postgres]
 :::
 
 :::{sd-row}
+```{sd-item} Node.js
+```
+```{sd-item}
+[node-crate](https://www.npmjs.com/package/node-crate)
+```
+```{sd-item}
+A JavaScript library connecting to the CrateDB HTTP API.
+```
+```{sd-item}
+{tags-primary}`HTTP`
+```
+:::
+
+:::{sd-row}
 ```{sd-item} PHP
 ```
 ```{sd-item}
