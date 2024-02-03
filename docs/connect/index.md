@@ -143,6 +143,21 @@ We recommend to use those drivers and adapters for the corresponding languages a
 :::
 
 :::{sd-row}
+```{sd-item} \-
+```
+```{sd-item}
+[PostgreSQL ODBC](https://odbc.postgresql.org/)
+```
+```{sd-item}
+The official PostgreSQL ODBC Driver.
+For connecting to CrateDB from any environment that supports it.
+```
+```{sd-item}
+{tags-primary}`PG`
+```
+:::
+
+:::{sd-row}
 ```{sd-item} .NET
 ```
 ```{sd-item}
@@ -192,6 +207,7 @@ A pure Go driver and toolkit for PostgreSQL.
 [PostgreSQL JDBC](https://jdbc.postgresql.org/)
 ```
 ```{sd-item}
+The official PostgreSQL JDBC Driver.
 For connecting to CrateDB from any environment that supports it.
 ```
 ```{sd-item}
