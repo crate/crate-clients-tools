@@ -316,7 +316,42 @@ as Singer taps and targets.
 - [meltano-tap-cratedb]
 - [Examples about working with CrateDB and Meltano]
 
-_Please note the adapters are a work in progress._
+_Please note these adapters are a work in progress._
+
+```{div}
+:style: "clear: both"
+```
+
+
+## SQL Server Integration Services
+
+```{div}
+:style: "float: right; margin-left: 0.3em"
+[![](https://github.com/crate/crate-clients-tools/assets/453543/a93a0fdb-1a1e-451e-abcb-8f705e2b03f4){w=180px}](https://www.microsoft.com/)
+
+[![](https://github.com/crate/crate-clients-tools/assets/453543/6317965a-0b69-4d8e-bc77-e12dfc8ed338){w=180px}](https://learn.microsoft.com/en-us/sql/)
+```
+
+Microsoft [SQL Server Integration Services] (SSIS) is a component of the Microsoft
+SQL Server database software that can be used to perform a broad range of data
+migration tasks. 
+
+[SSIS] is a platform for data integration and workflow applications. It features a
+data warehousing tool used for data extraction, transformation, and loading (ETL).
+The tool may also be used to automate maintenance of SQL Server databases and
+updates to multidimensional cube data. 
+
+Integration Services can extract and transform data from a wide variety of sources
+such as XML data files, flat files, and relational data sources, and then load the
+data into one or more destinations.
+
+Integration Services includes a rich set of built-in [tasks][ssis-tasks] and
+[transformations][ssis-transformations], graphical tools for building packages, and
+an SSIS Catalog database to store, run, and manage packages.
+
+A demo project which uses SSIS and ODBC to read and write data from CrateDB:
+
+- [Using SQL Server Integration Services with CrateDB]
 
 ```{div}
 :style: "clear: both"
@@ -370,7 +405,12 @@ _Please note the adapters are a work in progress._
 [Overview about more managed Kafka offerings]: https://keen.io/blog/managed-apache-kafka-vs-diy/
 [Setting up data pipelines with CrateDB and Kestra]: https://community.crate.io/t/setting-up-data-pipelines-with-cratedb-and-kestra-io/1400
 [Singer]: https://www.singer.io/
+[SQL Server Integration Services]: https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services
+[SSIS]: https://en.wikipedia.org/wiki/SQL_Server_Integration_Services
+[ssis-tasks]: https://learn.microsoft.com/en-us/sql/integration-services/control-flow/integration-services-tasks
+[ssis-transformations]: https://learn.microsoft.com/en-us/sql/integration-services/data-flow/transformations/integration-services-transformations
 [Tutorial: Replicating data to CrateDB with Debezium and Kafka]: https://community.crate.io/t/replicating-data-to-cratedb-with-debezium-and-kafka/1388
 [Updating stock market data automatically with CrateDB and Apache Airflow]: https://community.crate.io/t/updating-stock-market-data-automatically-with-cratedb-and-apache-airflow/1304
 [Using dbt with CrateDB]: https://community.crate.io/t/using-dbt-with-cratedb/1566
+[Using SQL Server Integration Services with CrateDB]: https://github.com/crate/cratedb-examples/tree/main/application/microsoft-ssis
 [Webinar: How to replicate data from other databases to CrateDB with Debezium and Kafka]: https://crate.io/resources/webinars/lp-wb-debezium-kafka
