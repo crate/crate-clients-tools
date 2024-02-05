@@ -102,6 +102,36 @@ A few companies are specializing in offering managed Flink services.
 :::
 
 
+## Apache Hop
+
+```{div}
+:style: "float: right; margin-left: 0.3em"
+[![](https://hop.apache.org/img/hop-logo.svg){w=180px}](https://hop.apache.org/)
+```
+
+[Apache Hop] aims to be a modern, open source data integration platform that is
+easy to use, fast, and flexible. It facilitates all aspects of data and metadata
+orchestration.
+
+- **Visual development** enables developers to be more productive than they can
+  be through code.
+
+- **Workflows and pipelines** can be designed in the Hop Gui and run on the Hop
+  native engine (local or remote), or on Spark, Flink, Google Dataflow or AWS EMR
+  through Beam. _Design once, run anywhere._
+
+- **Lifecycle Management** enables developers and administrators to switch between
+  projects, environments and purposes without leaving your train of thought.
+
+![](https://github.com/crate/crate-clients-tools/assets/453543/da6baf11-8430-4a0f-b2df-55717ce02802){h=120px}
+![](https://github.com/crate/crate-clients-tools/assets/453543/60cfc82a-db0a-49f1-8e26-a37b774b3614){h=120px}
+![](https://github.com/crate/crate-clients-tools/assets/453543/2bd59577-b664-45ae-a71e-36a130d36739){h=120px}
+
+```{seealso}
+[CrateDB and Apache Hop]
+```
+
+
 ## Apache Kafka
 
 ```{div}
@@ -339,6 +369,7 @@ an SSIS Catalog database to store, run, and manage packages.
 [Amazon Managed Streaming for Apache Kafka (MSK)]: https://aws.amazon.com/msk/
 [Apache Airflow]: https://airflow.apache.org/
 [Apache Flink]: https://flink.apache.org/
+[Apache Hop]: https://hop.apache.org/
 [Apache Kafka]: https://kafka.apache.org/
 [Apache Kafka on Azure]: https://azuremarketplace.microsoft.com/marketplace/consulting-services/canonical.0001-com-ubuntu-managed-kafka
 [Astronomer]: https://www.astronomer.io/
