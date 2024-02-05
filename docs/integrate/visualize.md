@@ -23,10 +23,16 @@ platform, written in Python.
 [Preset] offers a managed, elevated, and enterprise-grade SaaS for open-source
 Apache Superset.
 
-- [Introduction to time series visualization in CrateDB and Apache Superset (blog)]
-- [Introduction to time series visualization in CrateDB and Apache Superset (webinar)]
-- [Use CrateDB and Apache Superset for Open Source Data Warehousing and Visualization]
+**Product:**
+- [Introduction to time series visualization in CrateDB and Apache Superset (Blog)]
+- [Use CrateDB and Apache Superset for Open Source Data Warehousing and Visualization (Blog)]
+- [Introduction to time series visualization in CrateDB and Apache Superset (Webinar)]
+- [Introduction to Time-Series Visualization in CrateDB and Apache Superset (Preset.io)]
+
+**Development:**
+- [Set up Apache Superset with CrateDB]
 - [Set up an Apache Superset development sandbox with CrateDB]
+- [Verify Apache Superset with CrateDB]
 
 ![](https://superset.apache.org/img/hero-screenshot.jpg){h=200px}
 ![](https://github.com/crate/crate-clients-tools/assets/453543/0f8f7bd8-2e30-4aca-bcf3-61fbc81da855){h=200px}
@@ -376,8 +382,9 @@ Based on Plotly, [Dash] is a low-code framework for rapidly building data apps i
 [HoloViz]: https://holoviz.org/
 [hvPlot]: https://hvplot.holoviz.org/
 [Introduction to Time Series Visualization in CrateDB and Explo]: https://crate.io/blog/introduction-to-time-series-visualization-in-cratedb-and-explo
-[Introduction to time series visualization in CrateDB and Apache Superset (blog)]: https://community.crate.io/t/introduction-to-time-series-visualization-in-cratedb-and-superset/1041
-[Introduction to time series visualization in CrateDB and Apache Superset (webinar)]: https://cratedb.com/resources/webinars/lp-wb-introduction-to-time-series-visualization-in-cratedb-apache-superset
+[Introduction to time series visualization in CrateDB and Apache Superset (Blog)]: https://community.crate.io/t/introduction-to-time-series-visualization-in-cratedb-and-superset/1041
+[Introduction to time series visualization in CrateDB and Apache Superset (Webinar)]: https://cratedb.com/resources/webinars/lp-wb-introduction-to-time-series-visualization-in-cratedb-apache-superset
+[Introduction to Time-Series Visualization in CrateDB and Apache Superset (Preset.io)]: https://preset.io/blog/timeseries-cratedb-superset/
 [Metabase]: https://www.metabase.com/
 [Metabase Cloud]: https://www.metabase.com/cloud/
 [Panel]: https://panel.holoviz.org/
@@ -386,8 +393,10 @@ Based on Plotly, [Dash] is a low-code framework for rapidly building data apps i
 [Preset Cloud]: https://preset.io/product/
 [PyViz]: https://pyviz.org/
 [Real-time data analytics with Metabase and CrateDB]: https://www.metabase.com/community_posts/real-time-data-analytics-with-metabase-and-cratedb
+[Set up Apache Superset with CrateDB]: https://community.cratedb.com/t/set-up-apache-superset-with-cratedb/1716
 [Set up an Apache Superset development sandbox with CrateDB]: https://community.crate.io/t/set-up-an-apache-superset-development-sandbox-with-cratedb/1163
 [Time Series with CrateDB]: https://github.com/crate/cratedb-examples/tree/main/topic/timeseries/explore
-[Use CrateDB and Apache Superset for Open Source Data Warehousing and Visualization]: https://crate.io/blog/use-cratedb-and-apache-superset-for-open-source-data-warehousing-and-visualization
+[Use CrateDB and Apache Superset for Open Source Data Warehousing and Visualization (Blog)]: https://crate.io/blog/use-cratedb-and-apache-superset-for-open-source-data-warehousing-and-visualization
 [Using Grafana with CrateDB Cloud]: #integrations-grafana
 [Using Metabase with CrateDB Cloud]: #integrations-metabase
+[Verify Apache Superset with CrateDB]: https://github.com/crate/cratedb-examples/tree/main/framework/apache-superset
