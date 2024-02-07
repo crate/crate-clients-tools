@@ -115,13 +115,13 @@ This allows you to easily integrate Polars into your existing data stack.
 
 [Apache Arrow]: https://arrow.apache.org/
 [Dask]: https://www.dask.org/
-[Dask code examples]: https://github.com/crate/cratedb-examples/tree/main/by-language/python-sqlalchemy
+[Dask code examples]: https://github.com/crate/cratedb-examples/tree/main/by-dataframe/dask
 [Dask DataFrames]: https://docs.dask.org/en/latest/dataframe.html
 [Dask Futures]: https://docs.dask.org/en/latest/futures.html
 [Efficient batch/bulk INSERT operations with pandas, Dask, and SQLAlchemy]: https://cratedb.com/docs/python/en/latest/by-example/sqlalchemy/dataframe.html
 [Importing Parquet files into CrateDB using Apache Arrow and SQLAlchemy]: https://community.crate.io/t/importing-parquet-files-into-cratedb-using-apache-arrow-and-sqlalchemy/1161
 [pandas]: https://pandas.pydata.org/
-[pandas code examples]: https://github.com/crate/cratedb-examples/tree/main/by-language/python-sqlalchemy
+[pandas code examples]: https://github.com/crate/cratedb-examples/tree/main/by-dataframe/pandas
 [Polars]: https://pola.rs/
 [Polars code examples]: https://github.com/crate/cratedb-examples/tree/main/by-dataframe/polars
 [Guide to efficient data ingestion to CrateDB with pandas]: https://community.crate.io/t/guide-to-efficient-data-ingestion-to-cratedb-with-pandas/1541
