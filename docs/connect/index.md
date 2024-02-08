@@ -475,7 +475,7 @@ Framework**
 Java
 ```
 ```{sd-item}
-[Use CrateDB with Apache Flink and Apache Kafka](https://github.com/crate/cratedb-examples/tree/main/stacks/kafka-flink)
+[Use CrateDB with Apache Flink and Apache Kafka](https://github.com/crate/cratedb-examples/tree/main/application/apache-kafka-flink)
 ```
 :::
 
