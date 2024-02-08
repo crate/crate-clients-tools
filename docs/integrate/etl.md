@@ -375,7 +375,7 @@ to other systems leaves nothing to be desired.
 [Debezium]: https://debezium.io/
 [DoubleCloud Managed Service for Apache Kafka]: https://double.cloud/services/managed-kafka/
 [Examples about working with CrateDB and Meltano]: https://github.com/crate/cratedb-examples/tree/amo/meltano/framework/singer-meltano
-[Executable stack: Apache Kafka, Apache Flink, and CrateDB]: https://github.com/crate/cratedb-examples/tree/main/stacks/kafka-flink
+[Executable stack: Apache Kafka, Apache Flink, and CrateDB]: https://github.com/crate/cratedb-examples/tree/main/application/apache-kafka-flink
 [Flink managed by Confluent]: https://www.datanami.com/2023/05/17/confluents-new-cloud-capabilities-address-data-streaming-hurdles/
 [FlowFuse]: https://flowfuse.com/
 [FlowFuse Cloud]: https://app.flowforge.com/

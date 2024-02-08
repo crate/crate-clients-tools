@@ -121,7 +121,7 @@ domain-specific Dash components and applications.
   interpolation of missing data, common table expressions, moving averages, JOINs, and
   the handling of JSON data.
 
-  [![Open on GitHub](https://img.shields.io/badge/Open%20on-GitHub-lightgray?logo=GitHub)](https://github.com/crate/cratedb-examples/blob/main/topic/timeseries/explore/timeseries-queries-and-visualization.ipynb) [![Open in Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crate/cratedb-examples/blob/main/topic/timeseries/explore/timeseries-queries-and-visualization.ipynb)
+  [![Open on GitHub](https://img.shields.io/badge/Open%20on-GitHub-lightgray?logo=GitHub)](https://github.com/crate/cratedb-examples/blob/main/topic/timeseries/timeseries-queries-and-visualization.ipynb) [![Open in Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crate/cratedb-examples/blob/main/topic/timeseries/timeseries-queries-and-visualization.ipynb)
 
 - [Explore Dash Examples]
 
@@ -350,7 +350,7 @@ Based on Plotly, [Dash] is a low-code framework for rapidly building data apps i
   interpolation of missing data, common table expressions, moving averages, JOINs, and
   the handling of JSON data.
 
-  [![Open on GitHub](https://img.shields.io/badge/Open%20on-GitHub-lightgray?logo=GitHub)](https://github.com/crate/cratedb-examples/blob/main/topic/timeseries/explore/timeseries-queries-and-visualization.ipynb) [![Open in Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crate/cratedb-examples/blob/main/topic/timeseries/explore/timeseries-queries-and-visualization.ipynb)
+  [![Open on GitHub](https://img.shields.io/badge/Open%20on-GitHub-lightgray?logo=GitHub)](https://github.com/crate/cratedb-examples/blob/main/topic/timeseries/timeseries-queries-and-visualization.ipynb) [![Open in Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crate/cratedb-examples/blob/main/topic/timeseries/timeseries-queries-and-visualization.ipynb)
 
 - [Explore Dash Examples]
 
@@ -399,4 +399,4 @@ Based on Plotly, [Dash] is a low-code framework for rapidly building data apps i
 [Use CrateDB and Apache Superset for Open Source Data Warehousing and Visualization (Blog)]: https://crate.io/blog/use-cratedb-and-apache-superset-for-open-source-data-warehousing-and-visualization
 [Using Grafana with CrateDB Cloud]: #integrations-grafana
 [Using Metabase with CrateDB Cloud]: #integrations-metabase
-[Verify Apache Superset with CrateDB]: https://github.com/crate/cratedb-examples/tree/main/framework/apache-superset
+[Verify Apache Superset with CrateDB]: https://github.com/crate/cratedb-examples/tree/main/application/apache-superset
