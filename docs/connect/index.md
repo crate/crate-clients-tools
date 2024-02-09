@@ -128,17 +128,19 @@ We recommend to use those drivers and adapters for the corresponding languages a
 ### Overview
 
 ::::{sd-table}
-:widths: 2 3 5 2
+:widths: 1 3 5 1 2
 :row-class: top-border
 
 :::{sd-row}
-```{sd-item} **Language**
+```{sd-item}
 ```
 ```{sd-item} **Driver/Adapter**
 ```
 ```{sd-item} **Description**
 ```
-```{sd-item} **Properties**
+```{sd-item} **Proto**
+```
+```{sd-item} **Version/Status**
 ```
 :::
 
@@ -155,6 +157,8 @@ For connecting to CrateDB from any environment that supports it.
 ```{sd-item}
 {tags-primary}`PG`
 ```
+```{sd-item}
+```
 :::
 
 :::{sd-row}
@@ -169,6 +173,10 @@ Visual Basic, and F#.
 ```
 ```{sd-item}
 {tags-primary}`PG`
+```
+```{sd-item}
+[![](https://img.shields.io/github/v/tag/npgsql/npgsql?label=latest)](https://github.com/npgsql/npgsql)
+[![](https://img.shields.io/github/actions/workflow/status/npgsql/npgsql/build.yml)](https://github.com/npgsql/npgsql/actions/workflows/build.yml)
 ```
 :::
 
@@ -198,6 +206,10 @@ A pure Go driver and toolkit for PostgreSQL.
 ```{sd-item}
 {tags-primary}`PG`
 ```
+```{sd-item}
+[![](https://img.shields.io/github/v/tag/jackc/pgx?label=latest)](https://github.com/jackc/pgx)
+[![](https://img.shields.io/github/actions/workflow/status/jackc/pgx/ci.yml)](https://github.com/jackc/pgx/actions/workflows/ci.yml)
+```
 :::
 
 :::{sd-row}
@@ -212,6 +224,10 @@ For connecting to CrateDB from any environment that supports it.
 ```
 ```{sd-item}
 {tags-primary}`PG`
+```
+```{sd-item}
+[![](https://img.shields.io/github/v/tag/pgjdbc/pgjdbc?label=latest)](https://github.com/pgjdbc/pgjdbc)
+[![](https://img.shields.io/github/actions/workflow/status/pgjdbc/pgjdbc/main.yml)](https://github.com/pgjdbc/pgjdbc/actions/workflows/main.yml)
 ```
 :::
 
@@ -243,6 +259,10 @@ using JavaScript or TypeScript. [^node-postgres]
 ```{sd-item}
 {tags-primary}`PG`
 ```
+```{sd-item}
+[![](https://img.shields.io/npm/v/node-postgres?label=latest&color=blue)](https://github.com/brianc/node-postgres)
+[![](https://img.shields.io/github/actions/workflow/status/brianc/node-postgres/ci.yml)](https://github.com/brianc/node-postgres/actions/workflows/ci.yml)
+```
 :::
 
 :::{sd-row}
@@ -256,6 +276,9 @@ A JavaScript library connecting to the CrateDB HTTP API.
 ```
 ```{sd-item}
 {tags-primary}`HTTP`
+```
+```{sd-item}
+[![](https://img.shields.io/github/v/tag/megastef/node-crate?label=latest)](https://github.com/megastef/node-crate)
 ```
 :::
 
@@ -271,6 +294,10 @@ For connecting to CrateDB from PHP.
 ```{sd-item}
 {tags-success}`HTTP`
 ```
+```{sd-item}
+[![](https://img.shields.io/github/v/tag/crate/crate-pdo?label=latest)](https://github.com/crate/crate-pdo)
+[![](https://img.shields.io/github/actions/workflow/status/crate/crate-pdo/tests.yml)](https://github.com/crate/crate-pdo/actions/workflows/tests.yml)
+```
 :::
 
 :::{sd-row}
@@ -284,6 +311,10 @@ For connecting to CrateDB from PHP, using DBAL and Doctrine.
 ```
 ```{sd-item}
 {tags-success}`HTTP`
+```
+```{sd-item}
+[![](https://img.shields.io/github/v/tag/crate/crate-dbal?label=latest)](https://github.com/crate/crate-dbal)
+[![](https://img.shields.io/github/actions/workflow/status/crate/crate-dbal/tests.yml)](https://github.com/crate/crate-dbal/actions/workflows/tests.yml)
 ```
 :::
 
@@ -299,6 +330,10 @@ For connecting to CrateDB from Python. [^blob-support].
 ```{sd-item}
 {tags-success}`HTTP`
 ```
+```{sd-item}
+[![](https://img.shields.io/github/v/tag/crate/crate-python?label=latest)](https://github.com/crate/crate-python)
+[![](https://img.shields.io/github/actions/workflow/status/crate/crate-python/tests.yml)](https://github.com/crate/crate-python/actions/workflows/tests.yml)
+```
 :::
 
 :::{sd-row}
@@ -312,6 +347,10 @@ For connecting to CrateDB from Python, using SQLAlchemy.
 ```
 ```{sd-item}
 {tags-success}`HTTP`
+```
+```{sd-item}
+[![](https://img.shields.io/github/v/tag/crate/crate-python?label=latest)](https://github.com/crate/crate-python)
+[![](https://img.shields.io/github/actions/workflow/status/crate/crate-python/tests.yml)](https://github.com/crate/crate-python/actions/workflows/tests.yml)
 ```
 :::
 
@@ -327,6 +366,10 @@ For connecting to CrateDB from Python. [^asyncio-support]
 ```{sd-item}
 {tags-primary}`PG`
 ```
+```{sd-item}
+[![](https://img.shields.io/github/v/tag/MagicStack/asyncpg?label=latest)](https://github.com/MagicStack/asyncpg)
+[![](https://img.shields.io/github/actions/workflow/status/MagicStack/asyncpg/tests.yml)](https://github.com/MagicStack/asyncpg/actions/workflows/tests.yml)
+```
 :::
 
 :::{sd-row}
@@ -340,6 +383,10 @@ For connecting to CrateDB from Python. [^asyncio-support]
 ```
 ```{sd-item}
 {tags-primary}`PG`
+```
+```{sd-item}
+[![](https://img.shields.io/github/v/tag/psycopg/psycopg?label=latest)](https://github.com/psycopg/psycopg)
+[![](https://img.shields.io/github/actions/workflow/status/psycopg/psycopg/tests.yml)](https://github.com/psycopg/psycopg/actions/workflows/tests.yml)
 ```
 :::
 
@@ -355,6 +402,10 @@ A Ruby client library for CrateDB.
 ```{sd-item}
 {tags-success}`HTTP`
 ```
+```{sd-item}
+[![](https://img.shields.io/github/v/tag/crate/crate_ruby?label=latest)](https://github.com/crate/crate_ruby)
+[![](https://img.shields.io/github/actions/workflow/status/crate/crate_ruby/tests.yml)](https://github.com/crate/crate_ruby/actions/workflows/tests.yml)
+```
 :::
 
 :::{sd-row}
@@ -368,6 +419,10 @@ Ruby on Rails ActiveRecord adapter for CrateDB.
 ```
 ```{sd-item}
 {tags-success}`HTTP`
+```
+```{sd-item}
+[![](https://img.shields.io/github/v/tag/crate/activerecord-crate-adapter?label=latest)](https://github.com/crate/activerecord-crate-adapter)
+[![](https://img.shields.io/github/actions/workflow/status/crate/activerecord-crate-adapter/tests.yml)](https://github.com/crate/activerecord-crate-adapter/actions/workflows/tests.yml)
 ```
 :::
 
