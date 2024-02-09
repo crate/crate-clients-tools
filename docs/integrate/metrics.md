@@ -9,7 +9,7 @@ scenarios. CrateDB offers corresponding integration adapters.
 ## Prometheus
 
 ```{div}
-:style: "float: right"
+:style: "float: right; margin-left: 0.3em"
 [![](https://github.com/crate/crate-clients-tools/assets/453543/8ddb109f-b45f-46b0-8103-30ba491f7142){w=180px}](https://prometheus.io/)
 ```
 
@@ -20,7 +20,7 @@ Prometheus collects and stores its metrics as time series data, i.e.
 metrics information is stored with the timestamp at which it was recorded,
 alongside optional key-value pairs called labels.
 
-### Features
+**Features**
 
 Prometheus's main features are:
 
@@ -33,7 +33,7 @@ Prometheus's main features are:
 - multiple modes of graphing and dashboarding support
 
 
-### Remote Endpoints and Storage
+**Remote Endpoints and Storage**
 
 The [Prometheus remote endpoints and storage] subsystem, based on its
 [remote write] and [remote read] features, allows to transparently
@@ -46,7 +46,7 @@ take advantage of its high ingestion and query speed and friendly UI to
 massively scale-out Prometheus.
 
 
-### Resources
+**Resources**
 
 - [CrateDB Prometheus Adapter]
 - [Getting Started With Prometheus and CrateDB for Long-Term Storage]
@@ -68,8 +68,8 @@ massively scale-out Prometheus.
 ## Telegraf
 
 ```{div}
-:style: "float: right"
-[![](https://raw.githubusercontent.com/influxdata/branding/master/docs/img/logo-usage/logo-symbol-black.svg){w=180px}](https://www.influxdata.com/time-series-platform/telegraf/)
+:style: "float: right; margin-left: 0.3em"
+[![](https://github.com/crate/crate-clients-tools/assets/453543/3f0b4525-5344-42fe-bae6-1b0970fa0540){w=180px}](https://www.influxdata.com/time-series-platform/telegraf/)
 ```
 
 [Telegraf] is a leading open source server agent to help you collect metrics
@@ -81,7 +81,7 @@ events from databases, systems, and IoT sensors. Telegraf is written in Go
 and compiles into a single binary with no external dependencies, and requires
 a very minimal memory footprint.
 
-### Scope
+**Overview**
 
 - **IoT sensors**: Collect critical stateful data (pressure levels, temperature
   levels, etc.) with popular protocols like MQTT, ModBus, OPC-UA, and Kafka.
@@ -93,7 +93,7 @@ a very minimal memory footprint.
 - **System telemetry**: Metrics from system telemetry like iptables, Netstat,
   NGINX, and HAProxy help provide a full stack view of your apps.
 
-### Resources
+**Resources**
 
 - [Use CrateDB With Telegraf, an Agent for Collecting & Reporting Metrics]
 
