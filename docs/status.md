@@ -115,6 +115,10 @@ to CrateDB.
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-airflow-tutorial/main.yml?label=Apache Airflow" loading="lazy"></a>
 <a href="https://github.com/crate-workbench/cratedb-toolkit/actions/workflows/main.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate-workbench/cratedb-toolkit/main.yml?label=CrateDB Toolkit" loading="lazy"></a>
+<a href="https://github.com/crate-workbench/cratedb-toolkit/actions/workflows/influxdb.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate-workbench/cratedb-toolkit/influxdb.yml?label=Toolkit%2BInfluxDB" loading="lazy"></a>
+<a href="https://github.com/crate-workbench/cratedb-toolkit/actions/workflows//mongodb.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate-workbench/cratedb-toolkit/mongodb.yml?label=Toolkit%2BMongoDB" loading="lazy"></a>
 <a href="https://github.com/crate-workbench/mlflow-cratedb/actions/workflows/main.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate-workbench/mlflow-cratedb/main.yml?label=MLflow for CrateDB" loading="lazy"></a>
 </td>
