@@ -184,6 +184,7 @@ Machine Learning <integrate/ml>
 ```{toctree}
 :hidden:
 
+Build Status <status>
 Legacy documentation <legacy>
 ```
 
