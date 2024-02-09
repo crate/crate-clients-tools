@@ -323,27 +323,6 @@ _Please note the adapters are a work in progress._
 ```
 
 
-## Telegraf
-
-```{div}
-:style: "float: right"
-[![](https://raw.githubusercontent.com/influxdata/branding/master/docs/img/logo-usage/logo-symbol-black.svg){w=180px}](https://www.influxdata.com/time-series-platform/telegraf/)
-```
-
-[Telegraf] is a leading open source server agent to help you collect metrics
-from your stacks, sensors, and systems. More than 200 adapters to connect
-to other systems leaves nothing to be desired.
-
-- [Use CrateDB With Telegraf, an Agent for Collecting & Reporting Metrics]
-
-![](https://www.influxdata.com/wp-content/uploads/Main-Diagram_06.01.2022v1.png){h=200px}
-
-```{seealso}
-[CrateDB and Telegraf]
-```
-
-
-
 [2023 SIGMOD Systems Award]: https://sigmod.org/2023-sigmod-systems-award/
 [Aiven]: https://aiven.io/
 [Aiven for Apache Flink]: https://aiven.io/flink
@@ -368,7 +347,6 @@ to other systems leaves nothing to be desired.
 [CrateDB and Apache Kafka]: https://crate.io/integrations/cratedb-and-kafka
 [CrateDB and Kestra]: https://crate.io/integrations/cratedb-and-kestra
 [CrateDB and Node-RED]: https://crate.io/integrations/cratedb-and-node-red
-[CrateDB and Telegraf]: https://crate.io/integrations/cratedb-and-telegraf
 [Data Ingestion using Kafka and Kafka Connect]: https://crate.io/docs/crate/howtos/en/latest/integrations/kafka-connect.html
 [dbt]: https://www.getdbt.com/
 [dbt Cloud]: https://www.getdbt.com/product/dbt-cloud/
@@ -392,9 +370,7 @@ to other systems leaves nothing to be desired.
 [Overview about more managed Kafka offerings]: https://keen.io/blog/managed-apache-kafka-vs-diy/
 [Setting up data pipelines with CrateDB and Kestra]: https://community.crate.io/t/setting-up-data-pipelines-with-cratedb-and-kestra-io/1400
 [Singer]: https://www.singer.io/
-[Telegraf]: https://www.influxdata.com/time-series-platform/telegraf/
 [Tutorial: Replicating data to CrateDB with Debezium and Kafka]: https://community.crate.io/t/replicating-data-to-cratedb-with-debezium-and-kafka/1388
 [Updating stock market data automatically with CrateDB and Apache Airflow]: https://community.crate.io/t/updating-stock-market-data-automatically-with-cratedb-and-apache-airflow/1304
 [Using dbt with CrateDB]: https://community.crate.io/t/using-dbt-with-cratedb/1566
-[Use CrateDB With Telegraf, an Agent for Collecting & Reporting Metrics]: https://crate.io/blog/use-cratedb-with-telegraf-an-agent-for-collecting-reporting-metrics
 [Webinar: How to replicate data from other databases to CrateDB with Debezium and Kafka]: https://crate.io/resources/webinars/lp-wb-debezium-kafka

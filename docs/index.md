@@ -164,6 +164,7 @@ ORM Libraries <connect/orm>
 :hidden:
 
 Load and Export <integrate/etl>
+System Metrics <integrate/metrics>
 Business Intelligence <integrate/bi>
 Machine Learning <integrate/ml>
 Data Visualization <integrate/visualize>
