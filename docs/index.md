@@ -1,6 +1,8 @@
 (index)=
+(drivers)=
+(integrations)=
 
-# CrateDB Clients and Tools
+# CrateDB Drivers and Integrations
 
 
 ## About CrateDB
