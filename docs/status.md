@@ -111,6 +111,8 @@ to CrateDB.
 <b>Framework</b>
 </td>
 <td>
+<a href="https://github.com/crate/cratedb-airflow-tutorial/actions/workflows/main.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-airflow-tutorial/main.yml?label=Apache Airflow" loading="lazy"></a>
 <a href="https://github.com/crate-workbench/cratedb-toolkit/actions/workflows/main.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate-workbench/cratedb-toolkit/main.yml?label=CrateDB Toolkit" loading="lazy"></a>
 <a href="https://github.com/crate-workbench/mlflow-cratedb/actions/workflows/main.yml">
