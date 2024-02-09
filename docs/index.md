@@ -106,7 +106,24 @@ All on one page.
 :link: etl
 :link-type: ref
 
-Use ETL applications and frameworks for transferring data in and out of CrateDB.
+ETL applications and frameworks for transferring data in and out of CrateDB.
+:::
+
+
+:::{grid-item-card} {material-outlined}`query_stats;2em` System Metrics
+:link: metrics
+:link-type: ref
+
+Integrations and long-term storage for systems monitoring tools like
+Prometheus and Telegraf.
+:::
+
+
+:::{grid-item-card} {material-outlined}`bar_chart;2em` Data Visualization
+:link: visualize
+:link-type: ref
+
+Visualize information in your CrateDB cluster.
 :::
 
 
@@ -122,15 +139,7 @@ Analyze information in your CrateDB cluster.
 :link: ml
 :link-type: ref
 
-Apply machine learning to information in your CrateDB cluster.
-:::
-
-
-:::{grid-item-card} {material-outlined}`bar_chart;2em` Data Visualization
-:link: visualize
-:link-type: ref
-
-Visualize information in your CrateDB cluster.
+Integrations with machine learning frameworks.
 :::
 
 
@@ -165,9 +174,9 @@ ORM Libraries <connect/orm>
 
 Load and Export <integrate/etl>
 System Metrics <integrate/metrics>
+Data Visualization <integrate/visualize>
 Business Intelligence <integrate/bi>
 Machine Learning <integrate/ml>
-Data Visualization <integrate/visualize>
 ```
 
 ```{toctree}
