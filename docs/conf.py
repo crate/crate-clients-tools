@@ -17,3 +17,10 @@ linkcheck_ignore = [
 ]
 
 linkcheck_timeout = 5
+
+
+html_static_path = ['_static']
+
+
+def setup(app):
+    app.add_css_file('style.css')
