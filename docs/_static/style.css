@@ -1,0 +1,12 @@
+/*
+In `crate-docs-theme`, `src/crate/theme/rtd/crate/static/css/custom.css`
+defines a style we don't want to apply here, specifically on `connect/index`.
+
+.wrapper-content-right .section img {
+  margin-bottom: 16px;
+}
+*/
+
+.wrapper-content-right .section img {
+  margin-bottom: unset !important;
+}
