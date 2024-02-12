@@ -43,6 +43,13 @@ A set of elaborated tutorials, including blueprint implementations.
 - [CrateDB and Apache Airflow: Building a data ingestion pipeline]
 - [Building a hot and cold storage data retention policy in CrateDB with Apache Airflow]
 
+Tutorials and resources about configuring the managed variants, Astro and CrateDB Cloud.
+
+- [ETL with Astro and CrateDB Cloud in 30min - fully up in the cloud]
+- [ETL pipeline using Apache Airflow with CrateDB (Source)]
+- [Run an ETL pipeline with CrateDB and data quality checks]
+
+
 ```{seealso}
 [CrateDB and Apache Airflow]
 ```
@@ -387,6 +394,8 @@ A demo project which uses SSIS and ODBC to read and write data from CrateDB:
 [dbt Cloud]: https://www.getdbt.com/product/dbt-cloud/
 [Debezium]: https://debezium.io/
 [DoubleCloud Managed Service for Apache Kafka]: https://double.cloud/services/managed-kafka/
+[ETL pipeline using Apache Airflow with CrateDB (Source)]: https://github.com/astronomer/astro-cratedb-blogpost
+[ETL with Astro and CrateDB Cloud in 30min - fully up in the cloud]: https://www.astronomer.io/blog/run-etlelt-with-airflow-and-cratedb/
 [Examples about working with CrateDB and Meltano]: https://github.com/crate/cratedb-examples/tree/amo/meltano/framework/singer-meltano
 [Executable stack: Apache Kafka, Apache Flink, and CrateDB]: https://github.com/crate/cratedb-examples/tree/main/application/apache-kafka-flink
 [Flink managed by Confluent]: https://www.datanami.com/2023/05/17/confluents-new-cloud-capabilities-address-data-streaming-hurdles/
@@ -403,6 +412,7 @@ A demo project which uses SSIS and ODBC to read and write data from CrateDB:
 [meltano-target-cratedb]: https://github.com/crate-workbench/meltano-target-cratedb
 [Node-RED]: https://nodered.org/
 [Overview about more managed Kafka offerings]: https://keen.io/blog/managed-apache-kafka-vs-diy/
+[Run an ETL pipeline with CrateDB and data quality checks]: https://registry.astronomer.io/dags/etl_pipeline/
 [Setting up data pipelines with CrateDB and Kestra]: https://community.crate.io/t/setting-up-data-pipelines-with-cratedb-and-kestra-io/1400
 [Singer]: https://www.singer.io/
 [SQL Server Integration Services]: https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services
