@@ -90,7 +90,7 @@ machine learning, and more.
 :gutter: 1
 
 :::{grid-item-card} {material-outlined}`integration_instructions;2em` Overview
-:link: https://community.crate.io/t/overview-of-cratedb-integration-tutorials/1015
+:link: https://community.cratedb.com/t/overview-of-cratedb-integration-tutorials/1015
 :link-type: url
 
 Learn how to use CrateDB with popular applications, frameworks, and tools.
@@ -190,4 +190,4 @@ Legacy documentation <legacy>
 ```
 
 
-[get in touch]: https://crate.io/contact
+[get in touch]: https://cratedb.com/contact

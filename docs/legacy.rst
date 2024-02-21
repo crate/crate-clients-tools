@@ -150,7 +150,7 @@ CrateDB integrates with many different tools. Some of these are:
 - **Pentaho**
 
   `Pentaho`_ prepares and blends data, delivering business analytics from any
-  source. You can connect to CrateDB clusters by using `Petaho Kettle`_ and the
+  source. You can connect to CrateDB clusters by using `Pentaho Kettle`_ and the
   standalone version of `our JDBC driver`_.
 
 - **R**
@@ -185,48 +185,48 @@ CrateDB integrates with many different tools. Some of these are:
 
 .. _activerecord-crate-adaptor: https://rubygems.org/gems/activerecord-crate-adapter
 .. _asyncpg: https://github.com/MagicStack/asyncpg
-.. _Authenticate: https://crate.io/docs/crate/reference/en/latest/admin/auth/index.html
+.. _Authenticate: https://cratedb.com/docs/crate/reference/en/latest/admin/auth/index.html
 .. _Azure Function: https://azure.microsoft.com/en-in/services/functions/
-.. _building data stream pipelines: https://crate.io/docs/crate/howtos/en/latest/integrations/streamsets.html
-.. _client compatibility notes: https://crate.io/docs/crate/reference/en/latest/interfaces/postgres.html#client-compatibility
+.. _building data stream pipelines: https://cratedb.com/docs/crate/howtos/en/latest/integrations/streamsets.html
+.. _client compatibility notes: https://cratedb.com/docs/crate/reference/en/latest/interfaces/postgres.html#client-compatibility
 .. _crate-connect: https://www.npmjs.com/package/crate-connect
-.. _CrateDB Npgsql fork: https://crate.io/docs/clients/npgsql/en/latest/
-.. _CrateDB PDO: https://crate.io/docs/clients/pdo/en/latest/
-.. _CrateDB DBAL: https://crate.io/docs/clients/dbal/en/latest/
+.. _CrateDB Npgsql fork: https://cratedb.com/docs/clients/npgsql/en/latest/
+.. _CrateDB PDO: https://cratedb.com/docs/clients/pdo/en/latest/
+.. _CrateDB DBAL: https://cratedb.com/docs/clients/dbal/en/latest/
 .. _CrateDB driver for Laravel: https://github.com/RatkoR/laravel-crate.io
-.. _CrateDB integration tutorials: https://community.crate.io/t/overview-of-cratedb-integration-tutorials/1015
-.. _crate-jdbc: https://crate.io/docs/clients/jdbc/en/latest/
+.. _CrateDB integration tutorials: https://community.cratedb.com/t/overview-of-cratedb-integration-tutorials/1015
+.. _crate-jdbc: https://cratedb.com/docs/clients/jdbc/en/latest/
 .. _cratejs: https://www.npmjs.com/package/cratejs
-.. _crate-python: https://crate.io/docs/clients/python/en/latest/
+.. _crate-python: https://cratedb.com/docs/clients/python/en/latest/
 .. _craterl: https://github.com/crate/craterl
 .. _crate_ruby: https://rubygems.org/gems/crate_ruby
 .. _crate-scala: https://github.com/alexanderjarvis/crate-scala
 .. _crate-connector: https://github.com/LiamHaworth/crate-connector
-.. _create a data enrichment pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/azure-functions.html
-.. _create a Machine Learning pipeline: https://crate.io/docs/crate/howtos/en/latest/integrations/r.html
+.. _create a data enrichment pipeline: https://cratedb.com/docs/crate/howtos/en/latest/integrations/azure-functions.html
+.. _create a Machine Learning pipeline: https://cratedb.com/docs/crate/howtos/en/latest/integrations/r.html
 .. _DBD::Crate: https://github.com/mamod/DBD-Crate
-.. _get in touch: https://crate.io/contact
+.. _get in touch: https://cratedb.com/contact
 .. _GitHub: https://github.com/crate/crate-clients-tools
 .. _Grafana: https://grafana.com
-.. _implementation differences: https://crate.io/docs/crate/reference/en/latest/interfaces/postgres.html#implementation-differences
-.. _integrations: https://crate.io/blog/tag/integrations
-.. _integrations section: https://crate.io/docs/crate/howtos/en/latest/integrations/index.html
-.. _let us know: https://crate.io/contact
+.. _implementation differences: https://cratedb.com/docs/crate/reference/en/latest/interfaces/postgres.html#implementation-differences
+.. _integrations: https://cratedb.com/blog/tag/integrations
+.. _integrations section: https://cratedb.com/docs/crate/howtos/en/latest/integrations/index.html
+.. _let us know: https://cratedb.com/contact
 .. _node-crate: https://www.npmjs.com/package/node-crate
 .. _node-postgres: https://node-postgres.com/
 .. _Npgsql: https://www.npgsql.org/
-.. _our JDBC driver: https://crate.io/docs/reference/jdbc
-.. _pair CrateDB with Grafana: https://crate.io/blog/visualizing-time-series-data-with-grafana-and-cratedb
-.. _Pentaho: http://www.pentaho.com
-.. _Petaho Kettle: https://github.com/pentaho/pentaho-kettle
+.. _our JDBC driver: https://cratedb.com/docs/reference/jdbc
+.. _pair CrateDB with Grafana: https://cratedb.com/blog/visualizing-time-series-data-with-grafana-and-cratedb
+.. _Pentaho: https://www.pentaho.com
+.. _Pentaho Kettle: https://github.com/pentaho/pentaho-kettle
 .. _pgx: https://github.com/jackc/pgx
 .. _PostgreSQL JDBC: https://jdbc.postgresql.org/
-.. _PostgreSQL wire protocol: https://crate.io/docs/crate/reference/en/latest/interfaces/postgres.html
+.. _PostgreSQL wire protocol: https://cratedb.com/docs/crate/reference/en/latest/interfaces/postgres.html
 .. _R: https://www.r-project.org
-.. _schema: https://crate.io/docs/crate/reference/en/latest/general/ddl/create-table.html#schemas
-.. _set up CrateDB with SQLPad: https://crate.io/blog/use-cratedb-with-sqlpad-as-a-self-hosted-query-tool-and-visualizer
-.. _SQLAlchemy: https://crate.io/docs/clients/python/en/latest/sqlalchemy.html
+.. _schema: https://cratedb.com/docs/crate/reference/en/latest/general/ddl/create-table.html#schemas
+.. _set up CrateDB with SQLPad: https://cratedb.com/blog/use-cratedb-with-sqlpad-as-a-self-hosted-query-tool-and-visualizer
+.. _SQLAlchemy: https://cratedb.com/docs/clients/python/en/latest/sqlalchemy.html
 .. _SQLPad: https://github.com/sqlpad/sqlpad
 .. _StreamSets: https://streamsets.com/opensource
-.. _superuser: https://crate.io/docs/crate/reference/en/latest/admin/user-management.html
+.. _superuser: https://cratedb.com/docs/crate/reference/en/latest/admin/user-management.html
 .. _with known issues: https://github.com/crate/crate/issues?q=is%3Aopen+is%3Aissue+label%3A%22client%3A+PostgreSQL+JDBC%22

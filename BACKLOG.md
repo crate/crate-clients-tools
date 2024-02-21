@@ -7,8 +7,8 @@
 - [ ] Connect: Add more properties, like `schema`
 - [ ] ETL: There is pandas, but not Dask/Coiled
 - [ ] Add Prometheus
-  - https://crate.io/integrations/cratedb-and-prometheus
-  - https://community.crate.io/t/storing-long-term-metrics-with-prometheus-in-cratedb/1012
+  - https://cratedb.com/integrations/cratedb-and-prometheus
+  - https://community.cratedb.com/t/storing-long-term-metrics-with-prometheus-in-cratedb/1012
   - https://github.com/crate/cratedb-prometheus-adapter
 
 ## Iteration +2
@@ -17,7 +17,7 @@
   - Terraform (Administration)
 - [ ] Add section about testing frameworks
 - [ ] Add section "highlights", or "awesome", bundling corresponding resources.
-  - https://community.crate.io/t/how-we-scaled-ingestion-to-one-million-rows-per-second/1069
+  - https://community.cratedb.com/t/how-we-scaled-ingestion-to-one-million-rows-per-second/1069
 - [ ] Add [HTTPie Desktop]
   Screenshot: https://github.com/crate/crate-clients-tools/assets/453543/9f724518-ee83-43ac-9ea1-7be63e7c9805
 

@@ -26,9 +26,9 @@ you through the process of configuring that correctly.
 possible to publish your dashboards, in order to share them with others.
 [](inv:guide#powerbi-service) has a corresponding tutorial.
 
-![](https://crate.io/docs/crate/howtos/en/latest/_images/powerbi-table-navigator.png){h=160px}
-![](https://crate.io/docs/crate/howtos/en/latest/_images/powerbi-pie-chart.png){h=160px}
-![](https://crate.io/docs/crate/howtos/en/latest/_images/powerbi-publish-success.png){h=160px}
+![](https://cratedb.com/docs/crate/howtos/en/latest/_images/powerbi-table-navigator.png){h=160px}
+![](https://cratedb.com/docs/crate/howtos/en/latest/_images/powerbi-pie-chart.png){h=160px}
+![](https://cratedb.com/docs/crate/howtos/en/latest/_images/powerbi-publish-success.png){h=160px}
 
 ```{seealso}
 [CrateDB and Power BI]
@@ -49,19 +49,19 @@ data by translating drag-and-drop actions into data queries through an intuitive
 [Connecting to CrateDB from Tableau with JDBC] and [Using CrateDB with Tableau] will
 guide you through the process of setting it up correctly with CrateDB.
 
-![](https://crate.io/hs-fs/hubfs/08-index.png?width=1536&name=08-index.png){h=200px}
+![](https://cratedb.com/hs-fs/hubfs/08-index.png?width=1536&name=08-index.png){h=200px}
 
 ```{seealso}
 [CrateDB and Tableau]
 ```
 
 
-[Connecting to CrateDB from Tableau with JDBC]: https://crate.io/blog/connecting-to-cratedb-from-tableau-with-jdbc
-[CrateDB and Tableau]: https://crate.io/integrations/cratedb-and-tableau
-[CrateDB and Power BI]: https://crate.io/integrations/cratedb-and-power-bi
+[Connecting to CrateDB from Tableau with JDBC]: https://cratedb.com/blog/connecting-to-cratedb-from-tableau-with-jdbc
+[CrateDB and Tableau]: https://cratedb.com/integrations/cratedb-and-tableau
+[CrateDB and Power BI]: https://cratedb.com/integrations/cratedb-and-power-bi
 [PostgreSQL ODBC driver]: https://odbc.postgresql.org/
 [Power BI Desktop]: https://powerbi.microsoft.com/en-us/desktop/
 [Power BI Service]: https://powerbi.microsoft.com/en-us/
 [Power Query PostgreSQL connector]: https://learn.microsoft.com/en-us/power-query/connectors/postgresql
 [Tableau]: https://www.tableau.com/
-[Using CrateDB with Tableau]: https://community.crate.io/t/using-cratedb-with-tableau/1192
+[Using CrateDB with Tableau]: https://community.cratedb.com/t/using-cratedb-with-tableau/1192

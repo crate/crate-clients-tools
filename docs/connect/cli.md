@@ -22,7 +22,7 @@ When using CrateDB Cloud, `<hostname>` will be something like
 
 ```{div}
 :style: "float: right"
-![image](https://crate.io/docs/crate/crash/en/latest/_images/query.png){w=240px}
+![image](https://cratedb.com/docs/crate/crash/en/latest/_images/query.png){w=240px}
 ```
 
 The **CrateDB Shell** is an interactive command-line interface (CLI) tool for

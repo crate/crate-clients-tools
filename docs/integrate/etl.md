@@ -330,10 +330,10 @@ an SSIS Catalog database to store, run, and manage packages.
 [Astronomer]: https://www.astronomer.io/
 [Azure Event Hubs for Apache Kafka]: https://learn.microsoft.com/en-us/azure/event-hubs/azure-event-hubs-kafka-overview
 [Confluent Cloud]: https://www.confluent.io/confluent-cloud/
-[CrateDB and Apache Airflow]: https://crate.io/integrations/cratedb-and-apache-airflow
-[CrateDB and Apache Kafka]: https://crate.io/integrations/cratedb-and-kafka
-[CrateDB and Kestra]: https://crate.io/integrations/cratedb-and-kestra
-[CrateDB and Node-RED]: https://crate.io/integrations/cratedb-and-node-red
+[CrateDB and Apache Airflow]: https://cratedb.com/integrations/cratedb-and-apache-airflow
+[CrateDB and Apache Kafka]: https://cratedb.com/integrations/cratedb-and-kafka
+[CrateDB and Kestra]: https://cratedb.com/integrations/cratedb-and-kestra
+[CrateDB and Node-RED]: https://cratedb.com/integrations/cratedb-and-node-red
 [CrateDB Guide: Integration Tutorials]: inv:guide:*:label#integrate
 [dbt]: https://www.getdbt.com/
 [dbt Cloud]: https://www.getdbt.com/product/dbt-cloud/
