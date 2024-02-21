@@ -1,9 +1,10 @@
 (df)=
 (dataframes)=
-# Use CrateDB with DataFrame libraries
+# CrateDB and DataFrame libraries
 
 This documentation section lists DataFrame libraries and frameworks which can
-be used together with CrateDB, and outlines how to use them optimally.
+be used together with CrateDB. Hands-on tutorials about them can be found
+on the ["connect" section of the CrateDB Guide].
 
 
 ## Dask
@@ -29,11 +30,6 @@ the Python libraries that you know and love, like NumPy, pandas, and scikit-lear
 :style: "clear: both"
 ```
 
-**See also**
-- [Guide to efficient data ingestion to CrateDB with pandas and Dask]
-- [Efficient batch/bulk INSERT operations with pandas, Dask, and SQLAlchemy]
-- [Dask code examples]
-
 
 ## pandas
 
@@ -48,13 +44,6 @@ and manipulation tool, built on top of the Python programming language.
 ```{div}
 :style: "clear: both"
 ```
-
-**See also**
-- [Importing Parquet files into CrateDB using Apache Arrow and SQLAlchemy]
-- [Guide to efficient data ingestion to CrateDB with pandas]
-- [Guide to efficient data ingestion to CrateDB with pandas and Dask]
-- [Efficient batch/bulk INSERT operations with pandas, Dask, and SQLAlchemy]
-- [pandas code examples]
 
 
 ## Polars
@@ -109,20 +98,12 @@ This allows you to easily integrate Polars into your existing data stack.
 :style: "clear: both"
 ```
 
-**See also**
-- [Polars code examples]
 
 
 [Apache Arrow]: https://arrow.apache.org/
+["connect" section of the CrateDB Guide]: inv:guide:*:label#connect
 [Dask]: https://www.dask.org/
-[Dask code examples]: https://github.com/crate/cratedb-examples/tree/main/by-dataframe/dask
 [Dask DataFrames]: https://docs.dask.org/en/latest/dataframe.html
 [Dask Futures]: https://docs.dask.org/en/latest/futures.html
-[Efficient batch/bulk INSERT operations with pandas, Dask, and SQLAlchemy]: https://cratedb.com/docs/python/en/latest/by-example/sqlalchemy/dataframe.html
-[Importing Parquet files into CrateDB using Apache Arrow and SQLAlchemy]: https://community.crate.io/t/importing-parquet-files-into-cratedb-using-apache-arrow-and-sqlalchemy/1161
 [pandas]: https://pandas.pydata.org/
-[pandas code examples]: https://github.com/crate/cratedb-examples/tree/main/by-dataframe/pandas
 [Polars]: https://pola.rs/
-[Polars code examples]: https://github.com/crate/cratedb-examples/tree/main/by-dataframe/polars
-[Guide to efficient data ingestion to CrateDB with pandas]: https://community.crate.io/t/guide-to-efficient-data-ingestion-to-cratedb-with-pandas/1541
-[Guide to efficient data ingestion to CrateDB with pandas and Dask]: https://community.crate.io/t/guide-to-efficient-data-ingestion-to-cratedb-with-pandas-and-dask/1482

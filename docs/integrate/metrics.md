@@ -2,8 +2,9 @@
 # Monitoring and Metrics with CrateDB
 
 Storing metrics data for the long term is a common need in systems monitoring
-scenarios. CrateDB offers corresponding integration adapters.
-
+scenarios. CrateDB offers corresponding integration adapters. Relevant tutorials
+can be found within the [CrateDB Guide: Integration Tutorials] section of the
+documentation.
 
 (prometheus)=
 ## Prometheus
@@ -45,18 +46,11 @@ Adapter], one can easily store the collected metrics data in CrateDB and
 take advantage of its high ingestion and query speed and friendly UI to
 massively scale-out Prometheus.
 
-
-**Resources**
-
-- [CrateDB Prometheus Adapter]
-- [Getting Started With Prometheus and CrateDB for Long-Term Storage]
-- [Storing long-term metrics with Prometheus in CrateDB]
-- [Webinar: Using Prometheus and Grafana with CrateDB Cloud]
-
 ![](https://github.com/crate/crate-clients-tools/assets/453543/26b47686-889a-4137-a87f-d6a6b38d56d2){h=200px}
 
 ```{seealso}
-[CrateDB and Prometheus]
+- [CrateDB and Prometheus]
+- [CrateDB Prometheus Adapter]
 ```
 
 ```{div}
@@ -93,10 +87,6 @@ a very minimal memory footprint.
 - **System telemetry**: Metrics from system telemetry like iptables, Netstat,
   NGINX, and HAProxy help provide a full stack view of your apps.
 
-**Resources**
-
-- [Use CrateDB With Telegraf, an Agent for Collecting & Reporting Metrics]
-
 ![](https://www.influxdata.com/wp-content/uploads/Main-Diagram_06.01.2022v1.png){h=200px}
 
 ```{seealso}
@@ -110,13 +100,10 @@ a very minimal memory footprint.
 
 [CrateDB and Prometheus]: https://cratedb.com/integrations/cratedb-and-prometheus
 [CrateDB and Telegraf]: https://crate.io/integrations/cratedb-and-telegraf
+[CrateDB Guide: Integration Tutorials]: inv:guide:*:label#integrate
 [CrateDB Prometheus Adapter]: https://github.com/crate/cratedb-prometheus-adapter
-[Getting Started With Prometheus and CrateDB for Long-Term Storage]: https://cratedb.com/blog/getting-started-prometheus-cratedb-long-term-storage
 [Prometheus]: https://prometheus.io/
 [Prometheus remote endpoints and storage]: https://prometheus.io/docs/operating/integrations/#remote-endpoints-and-storage
 [remote read]: https://prometheus.io/docs/prometheus/latest/configuration/configuration/#remote_read
 [remote write]: https://prometheus.io/docs/prometheus/latest/configuration/configuration/#remote_write
-[Storing long-term metrics with Prometheus in CrateDB]: https://community.cratedb.com/t/storing-long-term-metrics-with-prometheus-in-cratedb/1012
 [Telegraf]: https://www.influxdata.com/time-series-platform/telegraf/
-[Use CrateDB With Telegraf, an Agent for Collecting & Reporting Metrics]: https://crate.io/blog/use-cratedb-with-telegraf-an-agent-for-collecting-reporting-metrics
-[Webinar: Using Prometheus and Grafana with CrateDB Cloud]: https://cratedb.com/resources/webinars/lp-wb-prometheus-grafana

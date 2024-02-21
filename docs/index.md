@@ -145,14 +145,6 @@ Adapters and integrations with machine learning frameworks.
 :::
 
 
-:::{grid-item-card} {material-outlined}`integration_instructions;2em` Software Testing
-:link: testing
-:link-type: ref
-
-Test frameworks and libraries that support software integration testing with
-CrateDB.
-:::
-
 
 ::::
 
@@ -188,7 +180,6 @@ System Metrics <integrate/metrics>
 Data Visualization <integrate/visualize>
 Business Intelligence <integrate/bi>
 Machine Learning <integrate/ml>
-Software Testing <integrate/testing>
 ```
 
 ```{toctree}
