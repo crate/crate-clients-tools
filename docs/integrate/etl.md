@@ -2,7 +2,8 @@
 # ETL with CrateDB
 
 Use ETL / data pipeline applications and frameworks for transferring data in
-and out of CrateDB.
+and out of CrateDB. Corresponding tutorials can be found within the
+[CrateDB Guide: Integration Tutorials] section of the documentation.
 
 
 (apache-airflow)=
@@ -29,26 +30,6 @@ to fit the level of abstraction that suits your environment.
 
 [![](https://logowik.com/content/uploads/images/astronomer2824.jpg){w=180px}](https://www.astronomer.io/)
 ```
-
-A set of starter tutorials.
-
-- [Automating the import of Parquet files with Apache Airflow]
-- [Updating stock market data automatically with CrateDB and Apache Airflow]
-- [Automating stock data collection and storage with CrateDB and Apache Airflow]
-
-A set of elaborated tutorials, including blueprint implementations.
-
-- [Automating export of CrateDB data to S3 using Apache Airflow]
-- [Implementing a data retention policy in CrateDB using Apache Airflow]
-- [CrateDB and Apache Airflow: Building a data ingestion pipeline]
-- [Building a hot and cold storage data retention policy in CrateDB with Apache Airflow]
-
-Tutorials and resources about configuring the managed variants, Astro and CrateDB Cloud.
-
-- [ETL with Astro and CrateDB Cloud in 30min - fully up in the cloud]
-- [ETL pipeline using Apache Airflow with CrateDB (Source)]
-- [Run an ETL pipeline with CrateDB and data quality checks]
-
 
 ```{seealso}
 [CrateDB and Apache Airflow]
@@ -97,10 +78,6 @@ Systems Award].
 
 > Apache Flink greatly expanded the use of stream data-processing.
 
-- [Build a data ingestion pipeline using Kafka, Flink, and CrateDB]
-- [Community Day: Stream processing with Apache Flink and CrateDB]
-- [Executable stack: Apache Kafka, Apache Flink, and CrateDB]
-
 ![](https://flink.apache.org/img/flink-home-graphic.png){h=200px}
 
 :::{dropdown} **Managed Flink**
@@ -121,10 +98,6 @@ A few companies are specializing in offering managed Flink services.
 [Apache Kafka] is an open-source distributed event streaming platform used by
 thousands of companies for high-performance data pipelines, streaming analytics,
 data integration, and mission-critical applications. 
-
-- [Data Ingestion using Kafka and Kafka Connect]
-- [Executable stack: Apache Kafka, Apache Flink, and CrateDB]
-- [Tutorial: Replicating data to CrateDB with Debezium and Kafka]
 
 ```{seealso}
 [CrateDB and Apache Kafka]
@@ -165,8 +138,6 @@ The idea is that data engineers make source data available to an environment whe
 dbt projects run, for example with [Debezium](#debezium) or with [Airflow](#apache-airflow).
 Afterwards, data analysts can run their dbt projects against this data to produce models
 (tables and views) that can be used with a number of [BI tools](#bi-tools).
-
-- [Using dbt with CrateDB]
 
 ![](https://www.getdbt.com/ui/img/products/what-is-dbt-main-image.png){h=120px}
 ![](https://www.getdbt.com/ui/img/products/what-is-dbt-deploy.svg){h=120px}
@@ -212,9 +183,6 @@ scale.
 pointing it at your databases, you are able to subscribe to the event stream of
 all database update operations.
 
-- [Tutorial: Replicating data to CrateDB with Debezium and Kafka]
-- [Webinar: How to replicate data from other databases to CrateDB with Debezium and Kafka]
-
 
 ## Kestra
 
@@ -235,8 +203,6 @@ without the need for any coding skills.
 Plugins are at the core of Kestra's extensibility. Many plugins are available from
 the Kestra core team, and creating your own is easy. With plugins, you can add new
 functionality to Kestra.
-
-- [Setting up data pipelines with CrateDB and Kestra]
 
 ![](https://kestra.io/landing/home/ui-3.png){h=120px}
 ![](https://kestra.io/landing/home/ui-4.png){h=120px}
@@ -262,9 +228,6 @@ an intuitive web interface.
 It provides a browser-based editor that makes it easy to wire together flows
 using the wide range of elements called "nodes" from the palette that can be
 deployed to its runtime in a single-click.
-
-- [Ingesting MQTT messages into CrateDB using Node-RED]
-- [Automating recurrent CrateDB queries using Node-RED]
 
 ```{seealso}
 [CrateDB and Node-RED]
@@ -319,12 +282,6 @@ integration engine adhering to the Singer specification.
 [Meltano Hub] is the single source of truth to find any Meltano plugins as well
 as Singer taps and targets.
 
-- [meltano-target-cratedb]
-- [meltano-tap-cratedb]
-- [Examples about working with CrateDB and Meltano]
-
-_Please note these adapters are a work in progress._
-
 ```{div}
 :style: "clear: both"
 ```
@@ -356,10 +313,6 @@ Integration Services includes a rich set of built-in [tasks][ssis-tasks] and
 [transformations][ssis-transformations], graphical tools for building packages, and
 an SSIS Catalog database to store, run, and manage packages.
 
-A demo project which uses SSIS and ODBC to read and write data from CrateDB:
-
-- [Using SQL Server Integration Services with CrateDB]
-
 ```{div}
 :style: "clear: both"
 ```
@@ -375,52 +328,29 @@ A demo project which uses SSIS and ODBC to read and write data from CrateDB:
 [Apache Kafka]: https://kafka.apache.org/
 [Apache Kafka on Azure]: https://azuremarketplace.microsoft.com/marketplace/consulting-services/canonical.0001-com-ubuntu-managed-kafka
 [Astronomer]: https://www.astronomer.io/
-[Automating recurrent CrateDB queries using Node-RED]: https://community.crate.io/t/automating-recurrent-cratedb-queries/788
-[Automating export of CrateDB data to S3 using Apache Airflow]: https://community.crate.io/t/cratedb-and-apache-airflow-automating-data-export-to-s3/901
-[Automating stock data collection and storage with CrateDB and Apache Airflow]: https://community.crate.io/t/automating-stock-data-collection-and-storage-with-cratedb-and-apache-airflow/990
-[Automating the import of Parquet files with Apache Airflow]: https://community.crate.io/t/automating-the-import-of-parquet-files-with-apache-airflow/1247
 [Azure Event Hubs for Apache Kafka]: https://learn.microsoft.com/en-us/azure/event-hubs/azure-event-hubs-kafka-overview
-[Build a data ingestion pipeline using Kafka, Flink, and CrateDB]: https://dev.to/crate/build-a-data-ingestion-pipeline-using-kafka-flink-and-cratedb-1h5o
-[Building a hot and cold storage data retention policy in CrateDB with Apache Airflow]: https://community.crate.io/t/cratedb-and-apache-airflow-building-a-hot-cold-storage-data-retention-policy/934
-[Community Day: Stream processing with Apache Flink and CrateDB]: https://crate.io/blog/cratedb-community-day-2nd-edition-summary-and-highlights
 [Confluent Cloud]: https://www.confluent.io/confluent-cloud/
 [CrateDB and Apache Airflow]: https://crate.io/integrations/cratedb-and-apache-airflow
-[CrateDB and Apache Airflow: Building a data ingestion pipeline]: https://community.crate.io/t/cratedb-and-apache-airflow-building-a-data-ingestion-pipeline/926 
 [CrateDB and Apache Kafka]: https://crate.io/integrations/cratedb-and-kafka
 [CrateDB and Kestra]: https://crate.io/integrations/cratedb-and-kestra
 [CrateDB and Node-RED]: https://crate.io/integrations/cratedb-and-node-red
-[Data Ingestion using Kafka and Kafka Connect]: https://crate.io/docs/crate/howtos/en/latest/integrations/kafka-connect.html
+[CrateDB Guide: Integration Tutorials]: inv:guide:*:label#integrate
 [dbt]: https://www.getdbt.com/
 [dbt Cloud]: https://www.getdbt.com/product/dbt-cloud/
 [Debezium]: https://debezium.io/
 [DoubleCloud Managed Service for Apache Kafka]: https://double.cloud/services/managed-kafka/
-[ETL pipeline using Apache Airflow with CrateDB (Source)]: https://github.com/astronomer/astro-cratedb-blogpost
-[ETL with Astro and CrateDB Cloud in 30min - fully up in the cloud]: https://www.astronomer.io/blog/run-etlelt-with-airflow-and-cratedb/
-[Examples about working with CrateDB and Meltano]: https://github.com/crate/cratedb-examples/tree/amo/meltano/framework/singer-meltano
-[Executable stack: Apache Kafka, Apache Flink, and CrateDB]: https://github.com/crate/cratedb-examples/tree/main/application/apache-kafka-flink
 [Flink managed by Confluent]: https://www.datanami.com/2023/05/17/confluents-new-cloud-capabilities-address-data-streaming-hurdles/
 [FlowFuse]: https://flowfuse.com/
 [FlowFuse Cloud]: https://app.flowforge.com/
 [Immerok Cloud]: https://web.archive.org/web/20230602085618/https://www.immerok.io/product
-[Implementing a data retention policy in CrateDB using Apache Airflow]: https://community.crate.io/t/implementing-a-data-retention-policy-in-cratedb-using-apache-airflow/913 
-[Ingesting MQTT messages into CrateDB using Node-RED]: https://community.crate.io/t/ingesting-mqtt-messages-into-cratedb-using-node-red/803
 [Introduction to FlowFuse]: https://flowfuse.com/webinars/2023/introduction-to-flowforge/
 [Kestra]: https://kestra.io/
 [Meltano]: https://meltano.com/
 [Meltano Hub]: https://hub.meltano.com/
-[meltano-tap-cratedb]: https://github.com/crate-workbench/meltano-tap-cratedb
-[meltano-target-cratedb]: https://github.com/crate-workbench/meltano-target-cratedb
 [Node-RED]: https://nodered.org/
 [Overview about more managed Kafka offerings]: https://keen.io/blog/managed-apache-kafka-vs-diy/
-[Run an ETL pipeline with CrateDB and data quality checks]: https://registry.astronomer.io/dags/etl_pipeline/
-[Setting up data pipelines with CrateDB and Kestra]: https://community.crate.io/t/setting-up-data-pipelines-with-cratedb-and-kestra-io/1400
 [Singer]: https://www.singer.io/
 [SQL Server Integration Services]: https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services
 [SSIS]: https://en.wikipedia.org/wiki/SQL_Server_Integration_Services
 [ssis-tasks]: https://learn.microsoft.com/en-us/sql/integration-services/control-flow/integration-services-tasks
 [ssis-transformations]: https://learn.microsoft.com/en-us/sql/integration-services/data-flow/transformations/integration-services-transformations
-[Tutorial: Replicating data to CrateDB with Debezium and Kafka]: https://community.crate.io/t/replicating-data-to-cratedb-with-debezium-and-kafka/1388
-[Updating stock market data automatically with CrateDB and Apache Airflow]: https://community.crate.io/t/updating-stock-market-data-automatically-with-cratedb-and-apache-airflow/1304
-[Using dbt with CrateDB]: https://community.crate.io/t/using-dbt-with-cratedb/1566
-[Using SQL Server Integration Services with CrateDB]: https://github.com/crate/cratedb-examples/tree/main/application/microsoft-ssis
-[Webinar: How to replicate data from other databases to CrateDB with Debezium and Kafka]: https://crate.io/resources/webinars/lp-wb-debezium-kafka

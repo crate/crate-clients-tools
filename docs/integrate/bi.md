@@ -19,12 +19,12 @@ data analytics and visualizations. Using Power BI Desktop, users can create repo
 and dashboards from large datasets.
 
 For connecting to CrateDB with Power BI, you can use the [Power Query PostgreSQL connector].
-Earlier versions used the [PostgreSQL ODBC driver]. [](#cratedb-powerbi-desktop) walks
+Earlier versions used the [PostgreSQL ODBC driver]. [](inv:guide#powerbi-desktop) walks
 you through the process of configuring that correctly.
 
-The [Power BI Service] is an online data analysis and visualization tool, making it
+[Power BI Service] is an online data analysis and visualization tool, making it
 possible to publish your dashboards, in order to share them with others.
-[](#cratedb-powerbi-service) has a corresponding tutorial.
+[](inv:guide#powerbi-service) has a corresponding tutorial.
 
 ![](https://crate.io/docs/crate/howtos/en/latest/_images/powerbi-table-navigator.png){h=160px}
 ![](https://crate.io/docs/crate/howtos/en/latest/_images/powerbi-pie-chart.png){h=160px}
