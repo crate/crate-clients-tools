@@ -12,7 +12,7 @@ visualizing data stored inside CrateDB.
 
 ```{div}
 :style: "float: right"
-[![](https://crate.io/hs-fs/hubfs/Apache-Superset-Logo-392x140@2x.png?width=604&height=216&name=Apache-Superset-Logo-392x140@2x.png){w=180px}](https://superset.apache.org/)
+[![](https://cratedb.com/hs-fs/hubfs/Apache-Superset-Logo-392x140@2x.png?width=604&height=216&name=Apache-Superset-Logo-392x140@2x.png){w=180px}](https://superset.apache.org/)
 
 [![](https://github.com/crate/crate-clients-tools/assets/453543/9d07da87-8aff-4569-bf2a-0a16bf89f4bc){w=180px}](https://preset.io/)
 ```
@@ -147,15 +147,15 @@ run white-labeled data portals.
 :style: "clear: both"
 ```
 
-![](https://crate.io/hs-fs/hubfs/Screenshot%202023-07-21%20at%2013.17.45.png?width=2948&height=2312&name=Screenshot%202023-07-21%20at%2013.17.45.png){h=200px}
-![](https://crate.io/hs-fs/hubfs/Screenshot%202023-07-21%20at%2013.24.01.png?width=2932&height=1716&name=Screenshot%202023-07-21%20at%2013.24.01.png){h=200px}
+![](https://cratedb.com/hs-fs/hubfs/Screenshot%202023-07-21%20at%2013.17.45.png?width=2948&height=2312&name=Screenshot%202023-07-21%20at%2013.17.45.png){h=200px}
+![](https://cratedb.com/hs-fs/hubfs/Screenshot%202023-07-21%20at%2013.24.01.png?width=2932&height=1716&name=Screenshot%202023-07-21%20at%2013.24.01.png){h=200px}
 
 
 ## Grafana
 
 ```{div}
 :style: "float: right"
-[![](https://crate.io/hs-fs/hubfs/Imported_Blog_Media/grafana-logo-1-520x126.png?width=1040&height=252&name=grafana-logo-1-520x126.png){w=180px}](https://grafana.com/grafana/)
+[![](https://cratedb.com/hs-fs/hubfs/Imported_Blog_Media/grafana-logo-1-520x126.png?width=1040&height=252&name=grafana-logo-1-520x126.png){w=180px}](https://grafana.com/grafana/)
 ```
 
 [Grafana OSS] is the leading open-source metrics visualization tool that helps you
@@ -179,7 +179,7 @@ how to run a database query.
 :::{dropdown} **Managed Grafana**
 ```{div}
 :style: "float: right"
-[![](https://crate.io/hs-fs/hubfs/Imported_Blog_Media/grafana-logo-1-520x126.png?width=1040&height=252&name=grafana-logo-1-520x126.png){w=180px}](https://grafana.com/grafana/)
+[![](https://cratedb.com/hs-fs/hubfs/Imported_Blog_Media/grafana-logo-1-520x126.png?width=1040&height=252&name=grafana-logo-1-520x126.png){w=180px}](https://grafana.com/grafana/)
 ```
 
 Get Grafana fully managed with [Grafana Cloud].
@@ -301,9 +301,9 @@ Based on Plotly, [Dash] is a low-code framework for rapidly building data apps i
 
 [Apache Superset]: https://superset.apache.org/
 [Cluvio]: https://www.cluvio.com/
-[CrateDB and Grafana]: https://crate.io/integrations/cratedb-and-grafana 
-[CrateDB and Superset]: https://crate.io/integrations/cratedb-and-apache-superset 
-[CrateDB and Metabase]: https://crate.io/integrations/cratedb-and-metabase
+[CrateDB and Grafana]: https://cratedb.com/integrations/cratedb-and-grafana
+[CrateDB and Superset]: https://cratedb.com/integrations/cratedb-and-apache-superset
+[CrateDB and Metabase]: https://cratedb.com/integrations/cratedb-and-metabase
 [Dash]: https://plotly.com/dash/
 [Datashader]: https://datashader.org/
 [Explo]: https://www.explo.co/

@@ -23,10 +23,10 @@ Looking for help?
 
 
 .. _contribution docs: CONTRIBUTING.rst
-.. _community forum: https://community.crate.io/
-.. _Crate.io: http://crate.io/
-.. _CrateDB: https://crate.io/products/cratedb/
-.. _CrateDB integration tutorials: https://community.crate.io/t/overview-of-cratedb-integration-tutorials/1015
+.. _community forum: https://community.cratedb.com/
+.. _Crate.io: https://cratedb.com/
+.. _CrateDB: https://cratedb.com/products/cratedb/
+.. _CrateDB integration tutorials: https://community.cratedb.com/t/overview-of-cratedb-integration-tutorials/1015
 .. _developer docs: DEVELOP.rst
-.. _live docs: https://crate.io/docs/crate/clients-tools/en/latest/
-.. _support channels: https://crate.io/support/
+.. _live docs: https://cratedb.com/docs/crate/clients-tools/en/latest/
+.. _support channels: https://cratedb.com/support/

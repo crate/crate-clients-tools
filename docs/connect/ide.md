@@ -24,6 +24,6 @@ article [Blog: Use CrateDB With DBeaver] explains how it works.
 
 
 
-[Blog: Use CrateDB With DataGrip]: https://crate.io/blog/use-cratedb-with-datagrip-an-advanced-database-ide
-[Blog: Use CrateDB With DBeaver]: https://crate.io/blog/cratedb-dbeaver
+[Blog: Use CrateDB With DataGrip]: https://cratedb.com/blog/use-cratedb-with-datagrip-an-advanced-database-ide
+[Blog: Use CrateDB With DBeaver]: https://cratedb.com/blog/cratedb-dbeaver
 [DBeaver]: https://dbeaver.io/

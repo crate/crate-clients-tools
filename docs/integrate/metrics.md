@@ -99,7 +99,7 @@ a very minimal memory footprint.
 
 
 [CrateDB and Prometheus]: https://cratedb.com/integrations/cratedb-and-prometheus
-[CrateDB and Telegraf]: https://crate.io/integrations/cratedb-and-telegraf
+[CrateDB and Telegraf]: https://cratedb.com/integrations/cratedb-and-telegraf
 [CrateDB Guide: Integration Tutorials]: inv:guide:*:label#integrate
 [CrateDB Prometheus Adapter]: https://github.com/crate/cratedb-prometheus-adapter
 [Prometheus]: https://prometheus.io/

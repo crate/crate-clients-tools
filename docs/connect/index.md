@@ -183,7 +183,7 @@ Visual Basic, and F#.
 ```{sd-item} .NET
 ```
 ```{sd-item}
-[CrateDB Npgsql fork](https://crate.io/docs/npgsql/)
+[CrateDB Npgsql fork](https://cratedb.com/docs/npgsql/)
 ```
 ```{sd-item}
 This fork of the official driver was needed prior to CrateDB 4.2.
@@ -229,7 +229,7 @@ For connecting to CrateDB from any environment that supports it.
 ```{sd-item} Java
 ```
 ```{sd-item}
-[CrateDB PgJDBC fork](https://crate.io/docs/jdbc/)
+[CrateDB PgJDBC fork](https://cratedb.com/docs/jdbc/)
 ```
 ```{sd-item}
 For connecting to CrateDB with specialized type system support and
@@ -362,7 +362,7 @@ A JavaScript library connecting to the CrateDB HTTP API.
 ```{sd-item} PHP
 ```
 ```{sd-item}
-[CrateDB PDO driver](https://crate.io/docs/pdo/)
+[CrateDB PDO driver](https://cratedb.com/docs/pdo/)
 ```
 ```{sd-item}
 For connecting to CrateDB from PHP.
@@ -377,7 +377,7 @@ For connecting to CrateDB from PHP.
 ```{sd-item} PHP
 ```
 ```{sd-item}
-[CrateDB DBAL adapter](https://crate.io/docs/dbal/)
+[CrateDB DBAL adapter](https://cratedb.com/docs/dbal/)
 ```
 ```{sd-item}
 For connecting to CrateDB from PHP, using DBAL and Doctrine.
@@ -392,7 +392,7 @@ For connecting to CrateDB from PHP, using DBAL and Doctrine.
 ```{sd-item} Python
 ```
 ```{sd-item}
-[CrateDB Python driver](https://crate.io/docs/python/)
+[CrateDB Python driver](https://cratedb.com/docs/python/)
 ```
 ```{sd-item}
 For connecting to CrateDB from Python. Has support for [CrateDB BLOBs].
@@ -408,7 +408,7 @@ For connecting to CrateDB from Python. Has support for [CrateDB BLOBs].
 ```{sd-item} Python
 ```
 ```{sd-item}
-[SQLAlchemy dialect](https://crate.io/docs/python/en/latest/sqlalchemy.html)
+[SQLAlchemy dialect](https://cratedb.com/docs/python/en/latest/sqlalchemy.html)
 ```
 ```{sd-item}
 For connecting to CrateDB from Python, using SQLAlchemy.
