@@ -13,6 +13,13 @@ th, td {
   padding-right: 1em;
   padding-left: 1em;
 }
+/*
+In `crate-docs-theme`, `src/crate/theme/rtd/crate/static/css/custom.css`
+defines a style we don't want to apply here, specifically on `connect/index`.
+*/
+.wrapper-content-right .section img {
+  margin-bottom: unset !important;
+}
 </style>
 
 
