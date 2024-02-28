@@ -6,6 +6,7 @@ This documentation section lists business analytics applications
 and frameworks, which can be used together with CrateDB.
 
 
+(powerbi)=
 ## Microsoft Power BI
 
 ```{div}
@@ -34,6 +35,7 @@ possible to publish your dashboards, in order to share them with others.
 ```
 
 
+(tableau)=
 ## Tableau
 
 ```{div}
