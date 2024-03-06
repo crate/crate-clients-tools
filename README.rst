@@ -25,7 +25,7 @@ Looking for help?
 .. _contribution docs: CONTRIBUTING.rst
 .. _community forum: https://community.cratedb.com/
 .. _Crate.io: https://cratedb.com/
-.. _CrateDB: https://cratedb.com/products/cratedb/
+.. _CrateDB: https://cratedb.com/product
 .. _CrateDB integration tutorials: https://community.cratedb.com/t/overview-of-cratedb-integration-tutorials/1015
 .. _developer docs: DEVELOP.rst
 .. _live docs: https://cratedb.com/docs/crate/clients-tools/en/latest/
