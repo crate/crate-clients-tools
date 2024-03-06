@@ -62,7 +62,7 @@ release version), please contact the `@crate/tech-writing`_ team.
 .. _fswatch: https://github.com/emcrisostomo/fswatch
 .. _Read the Docs: https://readthedocs.org
 .. _ReStructuredText: https://docutils.sourceforge.net/rst.html
-.. _Sphinx: https://sphinx-doc.org/
+.. _Sphinx: https://www.sphinx-doc.org
 
 
 .. |build| image:: https://img.shields.io/endpoint.svg?color=blue&url=https%3A%2F%2Fraw.githubusercontent.com%2Fcrate%2Fcrate-clients-toolss%2Fmain%2Fdocs%2Fbuild.json
