@@ -1,8 +1,19 @@
 (visualize)=
 # Visualize data in CrateDB
 
-Use dashboard and other data visualization applications and toolkits for
+Dashboard and other data visualization applications and toolkits for
 visualizing data stored inside CrateDB.
+
+::::{card} {material-outlined}`lightbulb;2em` Tutorials
+:margin: 0 0 5 5
+:shadow: md
+:link: guide:visualization
+:link-type: ref
+
+Guidelines about data analysis and visualization with CrateDB.
++++
+{tag}`DataViz` {tag}`EDA` {tag}`BI`
+::::
 
 
 (apache-superset)=

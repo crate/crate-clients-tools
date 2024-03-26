@@ -2,11 +2,36 @@
 (dataframes)=
 # CrateDB and DataFrame libraries
 
-This documentation section lists DataFrame libraries and frameworks which can
-be used together with CrateDB. Hands-on tutorials about them can be found
-on the ["connect" section of the CrateDB Guide].
+Data frame libraries and frameworks which can
+be used together with CrateDB.
 
 
+:::::{grid} 1 2 2 2
+:margin: 4 4 0 0
+:padding: 0
+:gutter: 2
+
+::::{grid-item-card} {material-outlined}`lightbulb;2em` Tutorials
+:link: guide:dataframes
+:link-type: ref
+Learn how to use CrateDB together with popular open-source data frame
+libraries, on behalf of hands-on tutorials and code examples.
++++
+{tag-info}`Dask` {tag-info}`pandas` {tag-info}`Polars`
+::::
+
+::::{grid-item-card} {material-outlined}`read_more;2em` SQLAlchemy
+CrateDB's SQLAlchemy dialect implementation provides fundamental infrastructure
+to integrations with Dask, pandas, and Polars.
++++
+[ORM Guides](inv:guide#orm) •
+{ref}`ORM Catalog <orm>`
+::::
+
+:::::
+
+
+(dask)=
 ## Dask
 
 [Dask] is a parallel computing library for analytics with task scheduling.
@@ -31,6 +56,7 @@ the Python libraries that you know and love, like NumPy, pandas, and scikit-lear
 ```
 
 
+(pandas)=
 ## pandas
 
 ```{div}
@@ -41,11 +67,32 @@ the Python libraries that you know and love, like NumPy, pandas, and scikit-lear
 [pandas] is a fast, powerful, flexible, and easy to use open source data analysis
 and manipulation tool, built on top of the Python programming language. 
 
+Pandas (stylized as pandas) is a software library written for the Python programming
+language for data manipulation and analysis. In particular, it offers data structures
+and operations for manipulating numerical tables and time series.
+
+:::{rubric} Data Model
+:::
+- Pandas is built around data structures called Series and DataFrames. Data for these
+  collections can be imported from various file formats such as comma-separated values,
+  JSON, Parquet, SQL database tables or queries, and Microsoft Excel.
+- A Series is a 1-dimensional data structure built on top of NumPy's array.
+- Pandas includes support for time series, such as the ability to interpolate values
+  and filter using a range of timestamps.
+- By default, a Pandas index is a series of integers ascending from 0, similar to the
+  indices of Python arrays. However, indices can use any NumPy data type, including
+  floating point, timestamps, or strings.
+- Pandas supports hierarchical indices with multiple values per data point. An index
+  with this structure, called a "MultiIndex", allows a single DataFrame to represent
+  multiple dimensions, similar to a pivot table in Microsoft Excel. Each level of a
+  MultiIndex can be given a unique name.
+
 ```{div}
 :style: "clear: both"
 ```
 
 
+(polars)=
 ## Polars
 
 ```{div}
@@ -83,7 +130,8 @@ vectorized query engine, it is open source, and written in Rust.
   community of developers. Everyone is encouraged to add new features and contribute.
   It is free to use under the MIT license.
 
-**Data formats**
+:::{rubric} Data formats
+:::
 
 Polars supports reading and writing to many common data formats.
 This allows you to easily integrate Polars into your existing data stack.
@@ -101,7 +149,6 @@ This allows you to easily integrate Polars into your existing data stack.
 
 
 [Apache Arrow]: https://arrow.apache.org/
-["connect" section of the CrateDB Guide]: inv:guide:*:label#connect
 [Dask]: https://www.dask.org/
 [Dask DataFrames]: https://docs.dask.org/en/latest/dataframe.html
 [Dask Futures]: https://docs.dask.org/en/latest/futures.html

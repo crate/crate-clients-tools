@@ -1,9 +1,21 @@
 (orm)=
 # CrateDB and ORM libraries
 
-This documentation section lists ORM libraries and frameworks which can
-be used together with CrateDB. Hands-on tutorials about them can be found
-on the ["connect" section of the CrateDB Guide].
+ORM libraries and frameworks which can
+be used together with CrateDB.
+
+
+::::{card} {material-outlined}`lightbulb;2em` Tutorials
+:margin: 0 0 5 5
+:shadow: md
+:link: guide:orm
+:link-type: ref
+
+Learn how to use CrateDB together with popular open-source ORM libraries.
++++
+{tag}`ORM` {tag-info}`SQLAlchemy`
+::::
+
 
 
 ## SQLAlchemy
@@ -16,9 +28,9 @@ on the ["connect" section of the CrateDB Guide].
 [SQLAlchemy] is the Python SQL toolkit and Object Relational Mapper that
 gives application developers the full power and flexibility of SQL.
 
-It plays an important role, because popular Python-based [DataFrame](df.md)
+Python-based [DataFrame](df.md)
 and [ML](../integrate/ml.md) libraries, and a few [ETL](../integrate/etl.md)
-frameworks, are using SQLAlchemy as data abstraction library when connecting to
+frameworks, are using SQLAlchemy as database adapter library when connecting to
 [RDBMS].
 
 ```{div}
@@ -26,5 +38,5 @@ frameworks, are using SQLAlchemy as data abstraction library when connecting to
 ```
 
 
-["connect" section of the CrateDB Guide]: inv:guide:*:label#connect
 [RDBMS]: https://en.wikipedia.org/wiki/RDBMS
+[SQLAlchemy]: https://www.sqlalchemy.org/

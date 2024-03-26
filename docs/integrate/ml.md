@@ -2,9 +2,21 @@
 (ml-tools)=
 # Machine Learning with CrateDB
 
-This documentation section lists machine learning applications and frameworks
-which can be used together with CrateDB. Relevant tutorials can be found within
-the [CrateDB Guide: Machine Learning Tutorials] section of the documentation.
+Machine learning applications and frameworks
+which can be used together with CrateDB.
+
+::::{card} {material-outlined}`lightbulb;2em` Tutorials
+:margin: 0 0 5 5
+:shadow: md
+:link: guide:ml
+:link-type: ref
+
+Learn how to integrate CrateDB with machine learning frameworks and tools,
+for MLOps and Vector database operations.
++++
+{tag}`MLOps` {tag}`Vector Store` {tag}`Embeddings`
+{tag}`Hybrid Search` {tag}`LLM` {tag}`RAG`
+::::
 
 
 ## LangChain
@@ -86,12 +98,37 @@ of the underlying model architectures and parameters.
 [![](https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg){w=180px}](https://jupyter.org/)
 ```
 
+:::{rubric} scikit-learn
+:::
+_Machine Learning in Python._
+
+- Simple and efficient tools for predictive data analysis
+- Accessible to everybody, and reusable in various contexts
+- Built on NumPy, SciPy, and matplotlib
+
+:::{rubric} pandas
+:::
+_The open source data analysis and manipulation tool._
+
+Pandas is a software library written for the Python programming
+language for data manipulation and analysis. In particular, it offers data structures
+and operations for manipulating numerical tables and time series.
+
+:::{rubric} Project Jupyter
+:::
+_Interactive computing across all programming languages._
+
+JupyterLab is the latest web-based interactive development environment for notebooks,
+code, and data. Its flexible interface allows users to configure and arrange workflows
+in data science, scientific computing, computational journalism, and machine learning.
+A modular design invites extensions to expand and enrich functionality.
+
+
 ```{div}
 :style: "clear: both"
 ```
 
 
-[CrateDB Guide: Machine Learning Tutorials]: inv:guide:*:label#ml
 [LangChain]: https://python.langchain.com/
 [LangChain adapter for CrateDB]: https://github.com/crate-workbench/langchain
 [MLflow]: https://mlflow.org/

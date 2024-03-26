@@ -1,9 +1,20 @@
 (etl)=
 # ETL with CrateDB
 
-Use ETL / data pipeline applications and frameworks for transferring data in
-and out of CrateDB. Corresponding tutorials can be found within the
-[CrateDB Guide: Integration Tutorials] section of the documentation.
+ETL / data pipeline applications and frameworks for transferring data in
+and out of CrateDB.
+
+
+::::{card} {material-outlined}`lightbulb;2em` Tutorials
+:margin: 0 0 5 5
+:shadow: md
+:link: guide:etl
+:link-type: ref
+
+Learn how to integrate CrateDB with popular ETL frameworks and applications.
++++
+{tag}`Extract, Transform, Load` {tag}`Data I/O, Import/Export` {tag}`ETL` {tag}`ELT`
+::::
 
 
 (apache-airflow)=
@@ -11,6 +22,12 @@ and out of CrateDB. Corresponding tutorials can be found within the
 (astronomer)=
 ## Apache Airflow / Astronomer
 
+```{div}
+:style: "float: right"
+[![](https://19927462.fs1.hubspotusercontent-na1.net/hub/19927462/hubfs/Partner%20Logos/392x140/Apache-Airflow-Logo-392x140.png?width=784&height=280&name=Apache-Airflow-Logo-392x140.png){w=180px}](https://airflow.apache.org/)
+
+[![](https://logowik.com/content/uploads/images/astronomer2824.jpg){w=180px}](https://www.astronomer.io/)
+```
 [Apache Airflow] is an open source software platform to programmatically author,
 schedule, and monitor workflows, written in Python.
 [Astronomer] offers managed Airflow services on the cloud of your choice, in
@@ -23,17 +40,14 @@ dynamic pipeline generation and on-demand, code-driven pipeline invocation.
 Pipeline parametrization is using the powerful Jinja templating engine.
 To extend the system, you can define your own operators and extend libraries
 to fit the level of abstraction that suits your environment.
-
 ```{div}
-:style: "float: right"
-[![](https://19927462.fs1.hubspotusercontent-na1.net/hub/19927462/hubfs/Partner%20Logos/392x140/Apache-Airflow-Logo-392x140.png?width=784&height=280&name=Apache-Airflow-Logo-392x140.png){w=180px}](https://airflow.apache.org/)
-
-[![](https://logowik.com/content/uploads/images/astronomer2824.jpg){w=180px}](https://www.astronomer.io/)
+:style: "clear: both"
 ```
 
 ```{seealso}
 [CrateDB and Apache Airflow]
 ```
+
 
 :::{dropdown} **Managed Airflow**
 
@@ -334,7 +348,6 @@ an SSIS Catalog database to store, run, and manage packages.
 [CrateDB and Apache Kafka]: https://cratedb.com/integrations/cratedb-and-kafka
 [CrateDB and Kestra]: https://cratedb.com/integrations/cratedb-and-kestra
 [CrateDB and Node-RED]: https://cratedb.com/integrations/cratedb-and-node-red
-[CrateDB Guide: Integration Tutorials]: inv:guide:*:label#integrate
 [dbt]: https://www.getdbt.com/
 [dbt Cloud]: https://www.getdbt.com/product/dbt-cloud/
 [Debezium]: https://debezium.io/

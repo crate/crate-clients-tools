@@ -2,8 +2,20 @@
 (bi-tools)=
 # Business Analytics and Intelligence with CrateDB
 
-This documentation section lists business analytics applications
+Business analytics applications
 and frameworks, which can be used together with CrateDB.
+
+::::{card} {material-outlined}`lightbulb;2em` Tutorials
+:margin: 0 0 5 5
+:shadow: md
+:link: guide:bi
+:link-type: ref
+
+Guidelines about integrating CrateDB with business analytics and intelligence
+software.
++++
+{tag}`BI` {tag}`DataViz` {tag-info}`PowerBI` {tag-info}`Rill` {tag-info}`Tableau`
+::::
 
 
 (powerbi)=
@@ -39,7 +51,7 @@ possible to publish your dashboards, in order to share them with others.
 
 ```{div}
 :style: "float: right; margin-left: 0.5em"
-[![](https://github.com/rilldata/rill/blob/main/docs/static/img/rill-logo-dark.svg){w=180px}](https://www.rilldata.com/)
+[![](https://github.com/rilldata/rill/raw/main/docs/static/img/rill-logo-light.svg){w=180px}](https://www.rilldata.com/)
 ```
 
 [Rill] is an open-source operational BI framework for effortlessly transforming
@@ -57,7 +69,8 @@ This methodology allows for versioning and tracking, thus improving collaboratio
 on BI projects using code, which is more efficient and scalable than traditional
 BI tools, also breaking down information and knowledge barriers.
 
-**Rill's design principles**
+:::{rubric} Rill's design principles
+:::
 
 - **Feels good to use** – powered by Sveltekit & DuckDB = conversation-fast, not
   wait-ten-seconds-for-result-set fast
@@ -80,15 +93,12 @@ BI tools, also breaking down information and knowledge barriers.
 ## Tableau
 
 ```{div}
-:style: "float: right"
+:style: "float: right; margin-left: 0.5em"
 [![](https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Tableau_logo.svg/500px-Tableau_logo.svg.png?20200509180027){w=180px}](https://www.tableau.com/)
 ```
 
 [Tableau] is a visual business intelligence and analytics software platform. It expresses
 data by translating drag-and-drop actions into data queries through an intuitive interface.
-
-[Connecting to CrateDB from Tableau with JDBC] and [Using CrateDB with Tableau] will
-guide you through the process of setting it up correctly with CrateDB.
 
 ![](https://cratedb.com/hs-fs/hubfs/08-index.png?width=1536&name=08-index.png){h=200px}
 
@@ -97,7 +107,6 @@ guide you through the process of setting it up correctly with CrateDB.
 ```
 
 
-[Connecting to CrateDB from Tableau with JDBC]: https://cratedb.com/blog/connecting-to-cratedb-from-tableau-with-jdbc
 [CrateDB and Tableau]: https://cratedb.com/integrations/cratedb-and-tableau
 [CrateDB and Power BI]: https://cratedb.com/integrations/cratedb-and-power-bi
 [PostgreSQL ODBC driver]: https://odbc.postgresql.org/
@@ -106,4 +115,3 @@ guide you through the process of setting it up correctly with CrateDB.
 [Power Query PostgreSQL connector]: https://learn.microsoft.com/en-us/power-query/connectors/postgresql
 [Rill]: https://www.rilldata.com/
 [Tableau]: https://www.tableau.com/
-[Using CrateDB with Tableau]: https://community.cratedb.com/t/using-cratedb-with-tableau/1192

@@ -1,28 +1,33 @@
 (index)=
+(catalog)=
 (drivers)=
+(frameworks)=
 (integrations)=
 
-# CrateDB Drivers and Integrations
+# CrateDB Ecosystem Catalog
+
+Database drivers, libraries, frameworks, and applications for CrateDB.
 
 
-## About CrateDB
-
-CrateDB is a distributed and scalable open-source SQL database for storing and
-analyzing massive amounts of data in near real-time, even with complex queries.
-It is PostgreSQL-compatible, and based on Lucene.
-
-Users are operating CrateDB clusters that store information in the range of
-billions of records, and terabytes of data, equally accessible without any
-retrieval penalty on data point age.
-
+:::{rubric} About CrateDB
+:::
+CrateDB is a distributed and scalable open-source SQL database based on Lucene,
+with PostgreSQL compatibility.
+CrateDB clusters store information in the range of billions of records, and
+terabytes of data, and run analytics in near real time, even with complex
+queries.
+CrateDB can be used for enterprise data warehouse workloads, it
+works across clouds and scales with your data.
 
 ## Connectivity
 
-This section introduces you to the canonical set of database drivers, client-
-and developer-applications, and how to configure them to connect to CrateDB.
-Just to name a few, it is about the CrateDB Admin UI, `crash`, `psql`,
-DataGrip, and DBeaver applications, the Java/JDBC/Python drivers, the SQLAlchemy
-and Flink dialects, and more.
+The canonical set of database drivers, client- and developer-applications, and
+how to configure them to connect to CrateDB.
+
+Just to name a few, the sections below are about the CrateDB Admin UI, the
+Crash CLI terminal program, connecting with PostgreSQL's psql client, the
+DataGrip, and DBeaver IDE applications, the Java/JDBC/Python drivers, the
+SQLAlchemy and Flink dialects, and more.
 
 ::::{grid} 1 2 2 2
 :margin: 4 4 0 0
