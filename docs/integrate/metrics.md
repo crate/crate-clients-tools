@@ -2,9 +2,20 @@
 # Monitoring and Metrics with CrateDB
 
 Storing metrics data for the long term is a common need in systems monitoring
-scenarios. CrateDB offers corresponding integration adapters. Relevant tutorials
-can be found within the [CrateDB Guide: Integration Tutorials] section of the
-documentation.
+scenarios. CrateDB offers corresponding integration adapters.
+
+::::{card} {material-outlined}`lightbulb;2em` Tutorials
+:margin: 0 0 5 5
+:shadow: md
+:link: guide:metrics
+:link-type: ref
+
+Learn how to use CrateDB together with popular metrics collection agents,
+brokers, and stores.
++++
+{tag}`Logs` {tag}`Metrics` {tag}`Monitoring` {tag}`Telemetry` {tag-info}`Prometheus` {tag-info}`Telegraf`
+::::
+
 
 (prometheus)=
 ## Prometheus
@@ -21,8 +32,8 @@ Prometheus collects and stores its metrics as time series data, i.e.
 metrics information is stored with the timestamp at which it was recorded,
 alongside optional key-value pairs called labels.
 
-**Features**
-
+:::{rubric} Features
+:::
 Prometheus's main features are:
 
 - a multi-dimensional data model with time series data identified by metric name and key/value pairs
@@ -34,8 +45,8 @@ Prometheus's main features are:
 - multiple modes of graphing and dashboarding support
 
 
-**Remote Endpoints and Storage**
-
+:::{rubric} Remote Endpoints and Storage
+:::
 The [Prometheus remote endpoints and storage] subsystem, based on its
 [remote write] and [remote read] features, allows to transparently
 send and receive metric samples. It is primarily intended for long term
@@ -75,7 +86,8 @@ events from databases, systems, and IoT sensors. Telegraf is written in Go
 and compiles into a single binary with no external dependencies, and requires
 a very minimal memory footprint.
 
-**Overview**
+:::{rubric} Overview
+:::
 
 - **IoT sensors**: Collect critical stateful data (pressure levels, temperature
   levels, etc.) with popular protocols like MQTT, ModBus, OPC-UA, and Kafka.
