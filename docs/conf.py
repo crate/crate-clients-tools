@@ -15,6 +15,8 @@ linkcheck_ignore = [
     "https://portal.azure.com/",
     "https://powerbi.microsoft.com",
     "https://www.microsoft.com",
+    # 500 Server Error: Internal Server Error for url
+    "https://sigmod.org/",
 ]
 
 linkcheck_timeout = 5
