@@ -218,9 +218,9 @@ Plugins are at the core of Kestra's extensibility. Many plugins are available fr
 the Kestra core team, and creating your own is easy. With plugins, you can add new
 functionality to Kestra.
 
-![](https://kestra.io/landing/home/ui-3.png){h=120px}
-![](https://kestra.io/landing/home/ui-4.png){h=120px}
-![](https://kestra.io/landing/features/declarative.svg){h=120px}
+![](https://kestra.io/landing/features/declarative1.svg){h=120px}
+![](https://kestra.io/landing/features/flowable.svg){h=120px}
+![](https://kestra.io/landing/features/monitor.svg){h=120px}
 
 ```{seealso}
 [CrateDB and Kestra]
