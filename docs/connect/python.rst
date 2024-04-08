@@ -76,6 +76,7 @@ more modern PostgreSQL and Python features, such as:
 	        for record in cursor:
 	            print(record)
 
+.. _aiopg:
 
 aiopg
 -----
