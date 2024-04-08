@@ -296,6 +296,21 @@ designed with fibers and concurrency in mind.
 ```{sd-item} Python
 ```
 ```{sd-item}
+[aoipg](https://github.com/aio-libs/aiopg)
+```
+```{sd-item}
+For connecting to CrateDB from Python, supporting Python's `asyncio` (PEP-3156/tulip) framework.
+```
+```{sd-item}
+[![](https://img.shields.io/github/v/tag/aio-libs/aiopg?label=latest)](https://github.com/aio-libs/aiopg)
+[![](https://img.shields.io/badge/example-snippet-darkcyan)](#aiopg)
+```
+:::
+
+:::{sd-row}
+```{sd-item} Python
+```
+```{sd-item}
 [asyncpg](https://github.com/MagicStack/asyncpg)
 ```
 ```{sd-item}
