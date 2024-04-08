@@ -318,7 +318,7 @@ For connecting to CrateDB from Python, supporting Python's `asyncio`.
 ```
 ```{sd-item}
 [![](https://img.shields.io/github/v/tag/MagicStack/asyncpg?label=latest)](https://github.com/MagicStack/asyncpg)
-[![](https://img.shields.io/badge/example-snippet-darkcyan)](#python)
+[![](https://img.shields.io/badge/example-snippet-darkcyan)](#psycopg2)
 ```
 :::
 
@@ -333,7 +333,7 @@ For connecting to CrateDB from Python, supporting Python's `asyncio`.
 ```
 ```{sd-item}
 [![](https://img.shields.io/github/v/tag/psycopg/psycopg?label=latest)](https://github.com/psycopg/psycopg)
-[![](https://img.shields.io/badge/example-snippet-darkcyan)](#python)
+[![](https://img.shields.io/badge/example-snippet-darkcyan)](#psycopg3)
 ```
 :::
 

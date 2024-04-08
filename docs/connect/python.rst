@@ -8,6 +8,8 @@ This guide demonstrates how to connect to a CrateDB Cloud cluster using differen
 kinds of Python drivers. Individual drivers offer specific features for specific
 needs of your application, so consider reading this enumeration carefully.
 
+.. _crate-python:
+
 crate-python
 ------------
 
@@ -24,9 +26,11 @@ The package can be installed using ``pip install crate[sqlalchemy]``.
 
 	with conn:
 	    cursor = conn.cursor()
-	    cursor.execute("SELECT name FROM sys.cluster")
+	    cursor.execute("SELECT * FROM sys.summits")
 	    result = cursor.fetchone()
 	    print(result)
+
+.. _psycopg2:
 
 psycopg2
 --------
@@ -44,9 +48,11 @@ For more information, see the `psycopg documentation`_.
 
 	with conn:
 	    with conn.cursor() as cursor:
-	        cursor.execute("SELECT name FROM sys.cluster")
+	        cursor.execute("SELECT * FROM sys.summits")
 	        result = cursor.fetchone()
 	        print(result)
+
+.. _psycopg3:
 
 psycopg3
 --------
@@ -95,12 +101,14 @@ For more information, see the `aiopg documentation`_.
 	    async with aiopg.create_pool(host="<name-of-your-cluster>.cratedb.net", port=5432, user="admin", password="<PASSWORD>", sslmode="require") as pool:
 	        async with pool.acquire() as conn:
 	            async with conn.cursor() as cursor:
-	                await cursor.execute("SELECT name FROM sys.cluster")
+	                await cursor.execute("SELECT * FROM sys.summits")
 	                result = await cursor.fetchone()
 	    print(result)
 
 	loop = asyncio.get_event_loop()
 	loop.run_until_complete(run())
+
+.. _asyncpg:
 
 asyncpg
 -------
@@ -118,7 +126,7 @@ For more information, see the `asyncpg documentation`_.
 	async def run():
 	    conn = await asyncpg.connect(host="<name-of-your-cluster>.cratedb.net", port=5432, user="admin", password="<PASSWORD>", ssl=True)
 	    try:
-	        result = await conn.fetch("SELECT name FROM sys.cluster")
+	        result = await conn.fetch("SELECT * FROM sys.summits")
 	    finally:
 	        await conn.close()
 	    print(result)
