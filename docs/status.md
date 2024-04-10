@@ -92,6 +92,13 @@ on behalf of [cratedb-examples].
 <b>Topic</b>
 </td>
 <td>
+<div>
+<b>Time Series</b>
+<br>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/timeseries.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/timeseries.yml?label=Time%20Series" loading="lazy"></a>
+</div>
+<div>
 <b>Machine Learning</b>
 <br>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/ml-automl.yml">
@@ -100,6 +107,7 @@ on behalf of [cratedb-examples].
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/ml-langchain.yml?label=LangChain" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/ml-mlflow.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/ml-mlflow.yml?label=MLflow" loading="lazy"></a>
+</div>
 </td>
 </tr>
 
