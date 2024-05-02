@@ -195,7 +195,7 @@ CrateDB integrates with many different tools. Some of these are:
 .. _CrateDB DBAL: https://cratedb.com/docs/clients/dbal/en/latest/
 .. _CrateDB driver for Laravel: https://github.com/RatkoR/laravel-crate.io
 .. _CrateDB integration tutorials: https://community.cratedb.com/t/overview-of-cratedb-integration-tutorials/1015
-.. _crate-jdbc: https://cratedb.com/docs/clients/jdbc/en/latest/
+.. _crate-jdbc: https://cratedb.com/docs/jdbc/en/latest/
 .. _cratejs: https://www.npmjs.com/package/cratejs
 .. _crate-python: https://cratedb.com/docs/clients/python/en/latest/
 .. _craterl: https://github.com/crate/craterl
@@ -215,7 +215,7 @@ CrateDB integrates with many different tools. Some of these are:
 .. _node-crate: https://www.npmjs.com/package/node-crate
 .. _node-postgres: https://node-postgres.com/
 .. _Npgsql: https://www.npgsql.org/
-.. _our JDBC driver: https://cratedb.com/docs/reference/jdbc
+.. _our JDBC driver: https://cratedb.com/docs/jdbc/en/latest/
 .. _pair CrateDB with Grafana: https://cratedb.com/blog/visualizing-time-series-data-with-grafana-and-cratedb
 .. _Pentaho: https://www.pentaho.com
 .. _Pentaho Kettle: https://github.com/pentaho/pentaho-kettle
