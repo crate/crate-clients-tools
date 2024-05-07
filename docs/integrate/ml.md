@@ -47,6 +47,25 @@ LangChain's conversational memory subsystem.
 ```
 
 
+## MindsDB
+
+```{div}
+:style: "float: right"
+[!![MindsDB_Logo](https://github.com/crate/crate-clients-tools/assets/32901682/feca1369-811e-4dd8-b4a8-d70e734de87e)
+{w=180px}](https://mindsdb.com/)
+```
+
+[MindsDB](https://github.com/mindsdb/mindsdb) is the platform for customizing AI from enterprise data. With MindsDB and its nearly 200 integrations to [data sources](https://docs.mindsdb.com/integrations/data-overview) and [AI/ML frameworks](https://docs.mindsdb.com/integrations/ai-overview), any developer can use their enterprise data to customize AI for their purpose, faster and more securely.
+
+MindsDB integrates with CrateDB, making data from CrateDB accessible to a diverse range of AI/ML models.
+
+Follow MindsDB's [documentation](https://docs.mindsdb.com/integrations/data-integrations/cratedb) to learn more about it's integration with CrateDB and see examples.
+
+```{div}
+:style: "clear: both"
+```
+
+
 ## MLflow
 
 ```{div}
@@ -131,6 +150,7 @@ A modular design invites extensions to expand and enrich functionality.
 
 [LangChain]: https://python.langchain.com/
 [LangChain adapter for CrateDB]: https://github.com/crate-workbench/langchain
+[MindsDB]: https://github.com/mindsdb/mindsdb
 [MLflow]: https://mlflow.org/
 [mlflow-cratedb]: https://pypi.org/project/mlflow-cratedb/
 [MLflow adapter for CrateDB]: https://github.com/crate-workbench/mlflow-cratedb
