@@ -17,6 +17,8 @@ linkcheck_ignore = [
     "https://www.microsoft.com",
     # 500 Server Error: Internal Server Error for url
     "https://sigmod.org/",
+    # 403 Client Error: Forbidden for url
+    "https://www.datanami.com/",
 ]
 
 linkcheck_timeout = 5
