@@ -16,7 +16,7 @@ crate-python
 The ``crate`` Python package offers a database client implementation compatible
 with the Python Database API 2.0 specification, and also includes the CrateDB
 SQLAlchemy dialect. See the full documentation :ref:`here <crate-python:index>`.
-The package can be installed using ``pip install crate[sqlalchemy]``.
+The package can be installed using ``pip install crate``.
 
 .. code-block:: python
 
@@ -29,6 +29,27 @@ The package can be installed using ``pip install crate[sqlalchemy]``.
 	    cursor.execute("SELECT * FROM sys.summits")
 	    result = cursor.fetchone()
 	    print(result)
+
+.. _sqlalchemy-cratedb:
+
+sqlalchemy-cratedb
+------------------
+
+The `SQLAlchemy`_ dialect for CrateDB, based on the HTTP-based DBAPI client
+library `crate-python`_.
+See the full documentation :ref:`here <sqlalchemy-cratedb:index>`.
+The package can be installed using ``pip install sqlalchemy-cratedb``.
+
+.. code-block:: python
+
+    import sqlalchemy as sa
+
+    engine = sa.create_engine("crate://localhost:4200", echo=True)
+    connection = engine.connect()
+
+    result = connection.execute(sa.text("SELECT * FROM sys.summits;"))
+    for record in result.all():
+        print(record)
 
 .. _psycopg2:
 
@@ -139,3 +160,4 @@ For more information, see the `asyncpg documentation`_.
 .. _asyncpg documentation: https://magicstack.github.io/asyncpg/current/
 .. _psycopg documentation: https://www.psycopg.org/docs/
 .. _Psycopg 3: https://www.psycopg.org/psycopg3/docs/
+.. _SQLAlchemy: https://www.sqlalchemy.org/
