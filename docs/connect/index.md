@@ -415,7 +415,7 @@ For connecting to CrateDB from Python. Has support for [CrateDB BLOBs].
 ```{sd-item}
 [![](https://img.shields.io/github/v/tag/crate/crate-python?label=latest)](https://github.com/crate/crate-python)
 [![](https://img.shields.io/badge/docs-by%20example-darkgreen)][python-dbapi-by-example]
-[![](https://img.shields.io/badge/example-snippet-darkcyan)](#python)
+[![](https://img.shields.io/badge/example-snippet-darkcyan)](#crate-python)
 ```
 :::
 
@@ -423,15 +423,15 @@ For connecting to CrateDB from Python. Has support for [CrateDB BLOBs].
 ```{sd-item} Python
 ```
 ```{sd-item}
-[SQLAlchemy dialect](https://cratedb.com/docs/python/en/latest/sqlalchemy.html)
+[SQLAlchemy dialect](https://cratedb.com/docs/sqlalchemy-cratedb/)
 ```
 ```{sd-item}
 For connecting to CrateDB from Python, using SQLAlchemy.
 ```
 ```{sd-item}
-[![](https://img.shields.io/github/v/tag/crate/crate-python?label=latest)](https://github.com/crate/crate-python)
+[![](https://img.shields.io/github/v/tag/crate/sqlalchemy-cratedb?label=latest)](https://github.com/crate/sqlalchemy-cratedb)
 [![](https://img.shields.io/badge/docs-by%20example-darkgreen)][python-sqlalchemy-by-example]
-[![](https://img.shields.io/badge/example-snippet-darkcyan)](#python)
+[![](https://img.shields.io/badge/example-snippet-darkcyan)](#sqlalchemy-cratedb)
 ```
 :::
 
@@ -497,6 +497,6 @@ ruby
 [ODBC]: https://en.wikipedia.org/wiki/Open_Database_Connectivity
 [PostgreSQL wire protocol]: https://www.postgresql.org/docs/current/protocol.html
 [python-dbapi-by-example]: inv:crate-python:*:label#by-example
-[python-sqlalchemy-by-example]: inv:crate-python:*:label#sqlalchemy-by-example
+[python-sqlalchemy-by-example]: inv:sqlalchemy-cratedb:*:label#by-example
 [schema]: inv:crate-reference:*:label#ddl-create-table-schemas
 [superuser]: inv:crate-reference:*:label#administration_user_management
