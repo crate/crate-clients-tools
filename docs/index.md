@@ -64,19 +64,19 @@ List of HTTP and PostgreSQL client drivers, and tutorials.
 :::
 
 
-:::{grid-item-card} {material-outlined}`crop_landscape;2em` DataFrame Libraries
-:link: df
-:link-type: ref
-
-Connectivity with DataFrame libraries like pandas and Dask.
-:::
-
-
 :::{grid-item-card} {material-outlined}`data_object;2em` ORM Libraries
 :link: orm
 :link-type: ref
 
 Connectivity with ORM libraries like SQLAlchemy.
+:::
+
+
+:::{grid-item-card} {material-outlined}`crop_landscape;2em` DataFrame Libraries
+:link: df
+:link-type: ref
+
+Connectivity with DataFrame libraries like pandas and Dask.
 :::
 
 
@@ -107,6 +107,15 @@ All on one page.
 ::::{grid} 1 2 2 2
 :margin: 4 4 0 0
 :gutter: 1
+
+
+:::{grid-item-card} {material-outlined}`code;2em` Programming Frameworks
+:link: framework
+:link-type: ref
+
+Connectivity with open-source programming frameworks and libraries
+like Gradio, Plotly, or Streamlit.
+:::
 
 
 :::{grid-item-card} {material-outlined}`transform;2em` ETL
@@ -173,13 +182,14 @@ Looking for the previous content on this page? Visit [](#index-legacy).
 IDE applications <connect/ide>
 CLI programs <connect/cli>
 Database Drivers <connect/index>
-DataFrame Libraries <connect/df>
 ORM Libraries <connect/orm>
+DataFrame Libraries <connect/df>
 ```
 
 ```{toctree}
 :hidden:
 
+Programming Frameworks <integrate/framework>
 Load and Export <integrate/etl>
 System Metrics <integrate/metrics>
 Data Visualization <integrate/visualize>
