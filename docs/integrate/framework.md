@@ -84,7 +84,6 @@ out Python data applications. It provides fast, interactive prototyping, and liv
 _Streamlit 101 - A faster way to build and share data applications._
 
 
-
 [Gradio]: https://www.gradio.app/
 [Hugging Face]: https://en.wikipedia.org/wiki/Hugging_Face
 [Streamlit]: https://streamlit.io/
