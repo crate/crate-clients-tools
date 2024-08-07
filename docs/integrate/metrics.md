@@ -7,7 +7,7 @@ scenarios. CrateDB offers corresponding integration adapters.
 ::::{card} {material-outlined}`lightbulb;2em` Tutorials
 :margin: 0 0 5 5
 :shadow: md
-:link: guide:metrics
+:link: guide:integrate-metrics
 :link-type: ref
 
 Learn how to use CrateDB together with popular metrics collection agents,
