@@ -19,6 +19,8 @@ linkcheck_ignore = [
     "https://sigmod.org/",
     # 403 Client Error: Forbidden for url
     "https://www.datanami.com/",
+    # 403 Client Error: Forbidden for url
+    "https://www.tableau.com/",
 ]
 
 linkcheck_timeout = 5
