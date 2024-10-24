@@ -133,7 +133,7 @@ A modular design invites extensions to expand and enrich functionality.
 [LangChain adapter for CrateDB]: https://github.com/crate-workbench/langchain
 [MLflow]: https://mlflow.org/
 [mlflow-cratedb]: https://pypi.org/project/mlflow-cratedb/
-[MLflow adapter for CrateDB]: https://github.com/crate-workbench/mlflow-cratedb
+[MLflow adapter for CrateDB]: https://github.com/crate/mlflow-cratedb
 [MLflow Tracking]: https://mlflow.org/docs/latest/tracking.html
 [pandas]: https://pandas.pydata.org/
 [PyCaret]: https://www.pycaret.org
