@@ -135,7 +135,7 @@ frameworks, and environments.
 The drivers listed in this section all use the [CrateDB PostgreSQL interface].
 
 ::::{sd-table}
-:widths: 1 3 6 2
+:widths: 2 3 5 2
 :row-class: top-border
 
 :::{sd-row}
@@ -344,7 +344,7 @@ For connecting to CrateDB from Python, supporting Python's `asyncio`.
 The drivers listed in this section all use the [CrateDB HTTP interface].
 
 ::::{sd-table}
-:widths: 1 3 6 2
+:widths: 2 3 5 2
 :row-class: top-border
 
 :::{sd-row}
