@@ -85,8 +85,8 @@ BI tools, also breaking down information and knowledge barriers.
 - **Dashboards as code** – each step from data to dashboard has versioning, Git
   sharing, and easy project rehydration
 
-![](https://global.discourse-cdn.com/business7/uploads/crate/original/2X/a/aff8ddc9f63840a330e8bf735de3cfd1179ef354.png){h=200px}
-![](https://global.discourse-cdn.com/business7/uploads/crate/original/2X/0/050718f5eb81abfc06db1f040984a53bfd95e296.png){h=200px}
+![](https://docs.rilldata.com/assets/images/2023-london-compare-2b2f15940cdb64e156bb65a5a99b1e87.png){h=200px}
+![](https://docs.rilldata.com/assets/images/time-compare-5c9f07747e6e50ac55cb51625532d33d.png){h=200px}
 
 
 (tableau)=

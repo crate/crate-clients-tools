@@ -285,7 +285,7 @@ functionality to Kestra.
 
 ```{div}
 :style: "float: right"
-[![](https://global.discourse-cdn.com/business6/uploads/nodered/original/1X/778549404735e222c89ce5449482a189ace8cdae.png){w=180px}](https://nodered.org/)
+[![](https://upload.wikimedia.org/wikipedia/commons/2/2b/Node-red-icon.png){w=180px}](https://nodered.org/)
 ```
 
 [Node-RED] is a programming tool for wiring together hardware devices, APIs
