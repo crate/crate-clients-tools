@@ -383,7 +383,7 @@ A JavaScript library connecting to the CrateDB HTTP API.
 ```
 ```{sd-item}
 [![](https://img.shields.io/github/v/tag/megastef/node-crate?label=latest)](https://github.com/megastef/node-crate)
-[![](https://img.shields.io/badge/example-application-darkcyan)](https://github.com/simonprickett/cratedb-demo)
+[![](https://img.shields.io/badge/example-application-darkcyan)](https://github.com/crate/devrel-shipping-forecast-geo-demo)
 ```
 :::
 
