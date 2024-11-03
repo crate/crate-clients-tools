@@ -26,7 +26,7 @@ defines a style we don't want to apply here, specifically on `connect/index`.
 ## Integrations
 
 End-to-end QA integration tests against CrateDB Nightly,
-on behalf of [cratedb-examples].
+on behalf of [cratedb-examples] and [academy-fundamentals-course].
 
 <table>
 <tbody>
@@ -57,6 +57,18 @@ on behalf of [cratedb-examples].
 
 <tr>
 <td>
+<b>Framework</b>
+</td>
+<td>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/framework-gradio.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/framework-gradio.yml?label=Gradio" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/framework-streamlit.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/framework-streamlit.yml?label=Streamlit" loading="lazy"></a>
+</td>
+</tr>
+
+<tr>
+<td>
 <b>Language</b>
 </td>
 <td>
@@ -70,6 +82,8 @@ on behalf of [cratedb-examples].
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-php-amphp.yml?label=PHP AMPHP" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-php-pdo.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-php-pdo.yml?label=PHP PDO" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-python-dbapi.yml">
+      <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-python-dbapi.yml?label=Python DB API" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-python-sqlalchemy.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-python-sqlalchemy.yml?label=Python SQLAlchemy" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-ruby.yml">
@@ -84,6 +98,10 @@ on behalf of [cratedb-examples].
 <td>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/testing-testcontainers-java.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/testing-testcontainers-java.yml?label=Testcontainers for Java" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/testing-testcontainers-python.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/testing-testcontainers-python.yml?label=Testcontainers for Python" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/testing-native-python.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/testing-native-python.yml?label=Native testing for Python" loading="lazy"></a>
 </td>
 </tr>
 
@@ -93,10 +111,10 @@ on behalf of [cratedb-examples].
 </td>
 <td>
 <div>
-<b>Time Series</b>
+<b>Academy</b>
 <br>
-<a href="https://github.com/crate/cratedb-examples/actions/workflows/timeseries.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/timeseries.yml?label=Time%20Series" loading="lazy"></a>
+<a href="https://github.com/crate/academy-fundamentals-course/actions/workflows/tests.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/academy-fundamentals-course/tests.yml?label=Fundamentals Course" loading="lazy"></a>
 </div>
 <div>
 <b>Machine Learning</b>
@@ -105,8 +123,16 @@ on behalf of [cratedb-examples].
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/ml-automl.yml?label=AutoML" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/ml-langchain.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/ml-langchain.yml?label=LangChain" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/ml-llamaindex.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/ml-llamaindex.yml?label=LlamaIndex" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/ml-mlflow.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/ml-mlflow.yml?label=MLflow" loading="lazy"></a>
+</div>
+<div>
+<b>Time Series</b>
+<br>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/timeseries.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/timeseries.yml?label=Time%20Series" loading="lazy"></a>
 </div>
 </td>
 </tr>
@@ -130,12 +156,6 @@ to CrateDB.
 <td>
 <a href="https://github.com/crate/cratedb-airflow-tutorial/actions/workflows/main.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-airflow-tutorial/main.yml?label=Apache Airflow" loading="lazy"></a>
-<a href="https://github.com/crate/cratedb-toolkit/actions/workflows/main.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-toolkit/main.yml?label=CrateDB Toolkit" loading="lazy"></a>
-<a href="https://github.com/crate/cratedb-toolkit/actions/workflows/influxdb.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-toolkit/influxdb.yml?label=Toolkit%2BInfluxDB" loading="lazy"></a>
-<a href="https://github.com/crate/cratedb-toolkit/actions/workflows//mongodb.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-toolkit/mongodb.yml?label=Toolkit%2BMongoDB" loading="lazy"></a>
 <a href="https://github.com/crate/mlflow-cratedb/actions/workflows/main.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/mlflow-cratedb/main.yml?label=MLflow for CrateDB" loading="lazy"></a>
 </td>
@@ -184,10 +204,29 @@ to CrateDB.
 CI outcomes for a range of client drivers connecting your applications to CrateDB.
 
 ### CrateDB
-Drivers and dialects maintained by Crate.io.
+Drivers, dialects, and support utilities maintained by CrateDB.
 
 <a href="https://github.com/crate/crate-python/actions/workflows/tests.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/crate-python/tests.yml?label=crate-python" loading="lazy"></a>
+<a href="https://github.com/crate/sqlalchemy-cratedb/actions/workflows/tests.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/sqlalchemy-cratedb/tests.yml?label=sqlalchemy-cratedb" loading="lazy"></a>
+<a href="https://github.com/crate/micropython-cratedb/actions/workflows/tests.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/micropython-cratedb/tests.yml?label=micropython-cratedb" loading="lazy"></a>
+<br>
+<a href="https://github.com/crate/cratedb-sqlparse/actions/workflows/python.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-sqlparse/python.yml?label=cratedb-sqlparse (python)" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-sqlparse/actions/workflows/javascript.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-sqlparse/javascript.yml?label=cratedb-sqlparse (javascript)" loading="lazy"></a>
+<br>
+<a href="https://github.com/crate/cratedb-toolkit/actions/workflows/main.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-toolkit/main.yml?label=CrateDB Toolkit" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-toolkit/actions/workflows/dynamodb.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-toolkit/dynamodb.yml?label=CTK%2BDynamoDB" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-toolkit/actions/workflows/influxdb.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-toolkit/influxdb.yml?label=CTK%2BInfluxDB" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-toolkit/actions/workflows/mongodb.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-toolkit/mongodb.yml?label=CTK%2BMongoDB" loading="lazy"></a>
+<br>
 <a href="https://github.com/crate/crate-pdo/actions/workflows/tests.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/crate-pdo/tests.yml?label=crate-pdo" loading="lazy"></a>
 <a href="https://github.com/crate/crate-dbal/actions/workflows/tests.yml">
@@ -196,6 +235,9 @@ Drivers and dialects maintained by Crate.io.
     <img src="https://img.shields.io/github/actions/workflow/status/crate/crate_ruby/tests.yml?label=crate_ruby" loading="lazy"></a>
 <a href="https://github.com/crate/activerecord-crate-adapter/actions/workflows/tests.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/activerecord-crate-adapter/tests.yml?label=activerecord-crate-adapter" loading="lazy"></a>
+
+<br>
+<br>
 
 ### PostgreSQL
 Standard PostgreSQL drivers for different languages.
@@ -213,6 +255,8 @@ Standard PostgreSQL drivers for different languages.
 <a href="https://github.com/brianc/node-postgres/actions/workflows/ci.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/brianc/node-postgres/ci.yml?label=node-postgres" loading="lazy"></a>
 
+<br><br>
+
 
 ```{note}
 Please note that the designated status of drivers maintained by community
@@ -222,4 +266,5 @@ reflected within the topmost section of this page.
 ```
 
 
+[academy-fundamentals-course]: https://github.com/crate/academy-fundamentals-course
 [cratedb-examples]: https://github.com/crate/cratedb-examples
