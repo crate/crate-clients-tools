@@ -212,6 +212,8 @@ Drivers, dialects, and support utilities maintained by CrateDB.
     <img src="https://img.shields.io/github/actions/workflow/status/crate/sqlalchemy-cratedb/tests.yml?branch=main&label=sqlalchemy-cratedb" loading="lazy"></a>
 <a href="https://github.com/crate/micropython-cratedb/actions/workflows/tests.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/micropython-cratedb/tests.yml?branch=main&label=micropython-cratedb" loading="lazy"></a>
+<a href="https://github.com/crate/pytest-cratedb/actions/workflows/tests.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/pytest-cratedb/tests.yml?branch=master&label=pytest-cratedb" loading="lazy"></a>
 <br>
 <a href="https://github.com/crate/cratedb-sqlparse/actions/workflows/python.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-sqlparse/python.yml?branch=main&label=cratedb-sqlparse (python)" loading="lazy"></a>
