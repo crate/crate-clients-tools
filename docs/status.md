@@ -143,7 +143,7 @@ on behalf of [cratedb-examples] and [academy-fundamentals-course].
 </table>
 
 
-## Frameworks and SDKs
+## Applications, Frameworks, SDKs
 
 CI outcomes for a range of applications, frameworks, and libraries connecting
 to CrateDB.
