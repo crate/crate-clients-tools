@@ -206,10 +206,10 @@ to CrateDB.
 CI outcomes for a range of client drivers connecting your applications to CrateDB.
 
 ### CrateDB
-Drivers, dialects, and support utilities maintained by CrateDB.
+Adapters, drivers, dialects, and support utilities maintained by CrateDB.
 
 <a href="https://github.com/crate/crate-python/actions/workflows/tests.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/crate/crate-python/tests.yml?branch=master&label=crate-python" loading="lazy"></a>
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/crate-python/tests.yml?branch=main&label=crate-python" loading="lazy"></a>
 <a href="https://github.com/crate/sqlalchemy-cratedb/actions/workflows/tests.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/sqlalchemy-cratedb/tests.yml?branch=main&label=sqlalchemy-cratedb" loading="lazy"></a>
 <a href="https://github.com/crate/micropython-cratedb/actions/workflows/tests.yml">
