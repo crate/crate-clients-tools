@@ -225,6 +225,8 @@ to CrateDB.
 <b>Testing</b>
 </td>
 <td>
+<a href="https://github.com/crate/crate-java-testing/actions/workflows/tests.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/crate-java-testing/tests.yml?branch=master&label=crate-java-testing" loading="lazy"></a>
 <a href="https://github.com/crate/pytest-cratedb/actions/workflows/tests.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/pytest-cratedb/tests.yml?branch=main&label=pytest-cratedb" loading="lazy"></a>
 </td>
