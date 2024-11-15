@@ -62,7 +62,7 @@ A native PostgreSQL connection string.
 `postgresql://<username>@<clustername>.cratedb.net/crate`
 
 A connection string for SQLAlchemy or Apache Flink.
-`crate://<username>@<clustername>.cratedb.net/crate`
+`crate://<username>@<clustername>.cratedb.net/crate?ssl=true`
 
 An HTTP URL to visit Admin UI.
 `https://<username>@<clustername>.cratedb.net:4200/`
