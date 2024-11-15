@@ -59,10 +59,10 @@ applications and drivers may obtain connection properties in different formats.
 **Connection-string examples**
 
 A native PostgreSQL connection string.
-`postgresql://<username>@<clustername>.cratedb.net/crate`
+`postgresql://<username>@<clustername>.cratedb.net/`
 
 A connection string for SQLAlchemy or Apache Flink.
-`crate://<username>@<clustername>.cratedb.net/crate?ssl=true`
+`crate://<username>@<clustername>.cratedb.net/?ssl=true`
 
 An HTTP URL to visit Admin UI.
 `https://<username>@<clustername>.cratedb.net:4200/`
@@ -101,10 +101,10 @@ An HTTP URL to visit Admin UI.
 **Connection-string examples**
 
 A native PostgreSQL connection string.
-`postgresql://crate@localhost:5432/crate`
+`postgresql://crate@localhost:5432/`
 
 A connection string for SQLAlchemy or Apache Flink.
-`crate://crate@localhost/crate`
+`crate://crate@localhost/`
 
 An HTTP URL to visit Admin UI.
 `http://crate@localhost:4200/`
