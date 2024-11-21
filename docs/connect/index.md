@@ -30,9 +30,15 @@ configured with corresponding connection properties. Please note that different
 applications and drivers may obtain connection properties in different formats.
 
 <style>
-/* Verbatim inline code needs to be smaller to fit into their containers. */
-code span.pre {
-  font-size: smaller;
+/* Code blocks need to be slimmer */
+.driver-slim div.highlight-default {
+  margin-top: 0.2em;
+}
+.driver-slim pre {
+  padding: 0.4em;
+}
+.driver-slim p {
+  margin-bottom: 0;
 }
 </style>
 
@@ -51,9 +57,9 @@ code span.pre {
 
 **Connection properties**
 
-:Host: `<clustername>`.cratedb.net
+:Host: `<cluster>`.cratedb.net
 :Port: 5432 (PostgreSQL) or<br>4200 (HTTP)
-:User: `<username>`
+:User: `<user>`
 :Pass: `<password>`
 
 :::
@@ -62,24 +68,35 @@ code span.pre {
 :columns: 8
 :margin: 0
 :padding: 0
+:class: driver-slim
 
 **Connection-string examples**
+<br><br>
 
-A native PostgreSQL connection string, e.g. for `psql`.
-<br>
-`postgresql://<username>:<password>@<clustername>.cratedb.net:5432/crate`
+**Native PostgreSQL, psql**
+```
+postgresql://<user>:<password>@<cluster>.cratedb.net:5432/doc
+```
 
-A connection string for the CrateDB JDBC Driver, e.g. for Apache Flink.
-<br>
-`jdbc:crate://<username>:<password>@<clustername>.cratedb.net:5432/`
+**JDBC: PostgreSQL pgJDBC**
+```
+jdbc:postgresql://<user>:<password>@<cluster>.cratedb.net:5432/doc
+```
 
-A connection string for SQLAlchemy.
-<br>
-`crate://<username>:<password>@<clustername>.cratedb.net:4200/?ssl=true`
+**JDBC: CrateDB JDBC, e.g. Apache Flink**
+```
+jdbc:crate://<user>:<password>@<cluster>.cratedb.net:5432/doc
+```
 
-An HTTP URL to visit Admin UI, or use with `crash`.
-<br>
-`https://<username>:<password>@<clustername>.cratedb.net:4200/`
+**HTTP: Admin UI, CLI, CrateDB drivers**
+```
+https://<user>:<password>@<cluster>.cratedb.net:4200/
+```
+
+**SQLAlchemy**
+```
+crate://<user>:<password>@<cluster>.cratedb.net:4200/?schema=doc&ssl=true
+```
 
 :::
 
@@ -111,24 +128,35 @@ An HTTP URL to visit Admin UI, or use with `crash`.
 :columns: 8
 :margin: 0
 :padding: 0
+:class: driver-slim
 
 **Connection-string examples**
+<br><br>
 
-A native PostgreSQL connection string, e.g. for `psql`.
-<br>
-`postgresql://crate@localhost:5432/crate`
+**Native PostgreSQL, psql**
+```
+postgresql://crate@localhost:5432/doc
+```
 
-A connection string for the CrateDB JDBC Driver, e.g. for Apache Flink.
-<br>
-`jdbc:crate://crate@localhost:5432/`
+**JDBC: PostgreSQL pgJDBC**
+```
+jdbc:crate://crate@localhost:5432/doc
+```
 
-A connection string for SQLAlchemy.
-<br>
-`crate://crate@localhost:4200/`
+**JDBC: CrateDB JDBC, e.g. Apache Flink**
+```
+jdbc:crate://<user>:<password>@localhost:5432/doc
+```
 
-An HTTP URL to visit Admin UI, or use with `crash`.
-<br>
-`http://crate@localhost:4200/`
+**HTTP: Admin UI, CLI, CrateDB drivers**
+```
+http://crate@localhost:4200/
+```
+
+**SQLAlchemy**
+```
+crate://crate@localhost:4200/?schema=doc
+```
 
 :::
 
