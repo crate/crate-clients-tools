@@ -167,11 +167,17 @@ crate://crate@localhost:4200/?schema=doc
 
 
 ```{tip}
-- Specify the [schema] name `doc`, if you are asked for a *database name*.
-- The default [superuser] on a vanilla CrateDB cluster is called `crate`,
-  without a password.
-- When aiming to authenticate properly, please learn about the available
-  [authentication] options. 
+- CrateDB's fixed catalog name is `crate`, the default schema name is `doc`.
+- CrateDB does not implement the notion of a database,
+  however tables can be created in different [schemas].
+- When asked for a *database name*, specifying a schema name (any),
+  or the fixed catalog name `crate` may be applicable.
+- If a database-/schema-name is omitted while connecting,
+  the PostgreSQL drivers may default to the "username".
+- The predefined [superuser] on an unconfigured CrateDB cluster is
+  called `crate`, defined without a password.
+- For authenticating properly, please learn about the available
+  [authentication] options.
 ```
 
 
@@ -562,4 +568,5 @@ ruby
 [python-dbapi-by-example]: inv:crate-python:*:label#by-example
 [python-sqlalchemy-by-example]: inv:sqlalchemy-cratedb:*:label#by-example
 [schema]: inv:crate-reference:*:label#ddl-create-table-schemas
+[schemas]: inv:crate-reference:*:label#ddl-create-table-schemas
 [superuser]: inv:crate-reference:*:label#administration_user_management
