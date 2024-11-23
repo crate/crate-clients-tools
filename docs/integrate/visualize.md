@@ -17,55 +17,6 @@ Guidelines about data analysis and visualization with CrateDB.
 ::::
 
 
-(apache-superset)=
-(preset)=
-(superset)=
-## Apache Superset / Preset
-
-```{div}
-:style: "float: right"
-[![](https://cratedb.com/hs-fs/hubfs/Apache-Superset-Logo-392x140@2x.png?width=604&height=216&name=Apache-Superset-Logo-392x140@2x.png){w=180px}](https://superset.apache.org/)
-
-[![](https://github.com/crate/crate-clients-tools/assets/453543/9d07da87-8aff-4569-bf2a-0a16bf89f4bc){w=180px}](https://preset.io/)
-```
-
-[Apache Superset] is an open-source modern data exploration and visualization
-platform, written in Python.
-
-[Preset] offers a managed, elevated, and enterprise-grade SaaS for open-source
-Apache Superset.
-
-![](https://superset.apache.org/img/hero-screenshot.jpg){h=200px}
-![](https://github.com/crate/crate-clients-tools/assets/453543/0f8f7bd8-2e30-4aca-bcf3-61fbc81da855){h=200px}
-
-```{seealso}
-[CrateDB and Superset]
-```
-
-:::{dropdown} **Managed Superset**
-```{div}
-:style: "float: right"
-[![](https://github.com/crate/crate-clients-tools/assets/453543/9d07da87-8aff-4569-bf2a-0a16bf89f4bc){w=180px}](https://preset.io/)
-```
-
-[Preset Cloud] is a fully-managed, open-source BI for the modern data stack,
-based on Apache Superset.
-
-- **Hassle-free setup:** There is no need to install or maintain software with Preset.
-  Get the latest version of Superset in a secure, reliable, and scalable SaaS experience.
-- **Up-to-date Superset, always:** Access all the latest features of Superset
-  released and thoroughly tested every two weeks.
-- **One-click to deploy multiple workspaces:** Give each team in your organization
-  a separate Superset workspace to protect sensitive data.
-- **Control user roles and access:** Easily assign roles and fine-tune data access
-  using RBAC and row-level security (RLS).
-
-```{div}
-:style: "clear: both"
-```
-:::
-
-
 ## Cluvio
 
 ```{div}
@@ -200,10 +151,8 @@ with none of the work or hidden costs that come with self-hosting.
 :::
 
 
-[Apache Superset]: https://superset.apache.org/
 [Cluvio]: https://www.cluvio.com/
 [CrateDB and Grafana]: https://cratedb.com/integrations/cratedb-and-grafana
-[CrateDB and Superset]: https://cratedb.com/integrations/cratedb-and-apache-superset
 [CrateDB and Metabase]: https://cratedb.com/integrations/cratedb-and-metabase
 [Explo]: https://www.explo.co/
 [Explo Explore]: https://www.explo.co/products/explore
