@@ -158,62 +158,6 @@ worldwide across every industry.
 ![](https://github.com/crate/crate-clients-tools/assets/453543/ccfa4ac7-0d60-432f-b952-2b50789cd325){h=120px}
 
 
-## dbt
-
-```{div}
-:style: "float: right"
-[![](https://www.getdbt.com/ui/img/logos/dbt-logo.svg){w=180px}](https://www.getdbt.com/)
-```
-
-[dbt] is an open source tool for transforming data in data warehouses using Python and
-SQL. It is an SQL-first transformation workflow platform that lets teams quickly and
-collaboratively deploy analytics code following software engineering best practices
-like modularity, portability, CI/CD, and documentation.
-
-> dbt enables data analysts and engineers to transform their data using the same
-> practices that software engineers use to build applications.
-
-With dbt, anyone on your data team can safely contribute to production-grade data
-pipelines.
-
-The idea is that data engineers make source data available to an environment where
-dbt projects run, for example with [Debezium](#debezium) or with [Airflow](#apache-airflow).
-Afterwards, data analysts can run their dbt projects against this data to produce models
-(tables and views) that can be used with a number of [BI tools](#bi-tools).
-
-![](https://www.getdbt.com/ui/img/products/what-is-dbt-main-image.png){h=120px}
-![](https://www.getdbt.com/ui/img/products/what-is-dbt-deploy.svg){h=120px}
-![](https://www.getdbt.com/ui/img/products/what-is-dbt-eliminate-silos.svg){h=120px}
-
-:::{dropdown} **Managed dbt**
-```{div}
-:style: "float: right"
-[![](https://www.getdbt.com/ui/img/hero-dbt-cloud-features-2x5.png){w=180px}](https://www.getdbt.com/product/dbt-cloud/)
-```
-
-With [dbt Cloud], you can ditch time-consuming setup, and the struggles
-of scaling your data production. dbt Cloud is a full-suite service that is built for
-scale.
-
-- Start building data products quickly using the dbt Cloud IDE with integrated security
-  and governance controls.
-- Schedule, deploy, and monitor your data products using the scalable and reliable dbt
-  Cloud Scheduler.
-- Help your data teams discover and reuse data products using hosted docs or integrations
-  with the powerful Discovery API.
-- Extend your workflow beyond dbt Cloud with 30+ seamless integrations covering a range
-  of use cases across the Modern Data Stack, from observability and data quality to
-  visualization, reverse ETL, and much more.
-- Ship more high-quality data and scale your development like the 1000s of companies that
-  use dbt Cloud. They’ve used its convenient and collaboration-friendly interface to
-  eliminate the bottlenecks that keep growth limited.
-
-```{div}
-:style: "clear: both"
-```
-:::
-
-
 ## Debezium
 
 ```{div}
@@ -374,8 +318,6 @@ an SSIS Catalog database to store, run, and manage packages.
 [CrateDB and Apache Kafka]: https://cratedb.com/integrations/cratedb-and-kafka
 [CrateDB and Kestra]: https://cratedb.com/integrations/cratedb-and-kestra
 [CrateDB and Node-RED]: https://cratedb.com/integrations/cratedb-and-node-red
-[dbt]: https://www.getdbt.com/
-[dbt Cloud]: https://www.getdbt.com/product/dbt-cloud/
 [Debezium]: https://debezium.io/
 [DoubleCloud Managed Service for Apache Kafka]: https://double.cloud/services/managed-kafka/
 [FlowFuse]: https://flowfuse.com/
