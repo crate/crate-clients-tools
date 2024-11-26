@@ -76,32 +76,6 @@ journey. Spend time where it counts.
 :::
 
 
-## Apache Flink
-
-```{div}
-:style: "float: right"
-[![](https://flink.apache.org/flink-header-logo.svg){w=180px}](https://flink.apache.org/)
-```
-
-[Apache Flink] is a framework and distributed processing engine for stateful
-computations over unbounded and bounded data streams, written in Java.
-
-Flink has been designed to run in all common cluster environments, perform
-computations at in-memory speed and at any scale. It received the [2023 SIGMOD
-Systems Award].
-
-> Apache Flink greatly expanded the use of stream data-processing.
-
-![](https://flink.apache.org/img/flink-home-graphic.png){h=200px}
-
-:::{dropdown} **Managed Flink**
-A few companies are specializing in offering managed Flink services.
-
-- [Aiven] offers their managed [Aiven for Apache Flink] solution.
-- [Immerok Cloud]'s offering is being converged into [Flink managed by Confluent].
-:::
-
-
 ## Apache Hop
 
 ```{div}
@@ -386,13 +360,9 @@ an SSIS Catalog database to store, run, and manage packages.
 ```
 
 
-[2023 SIGMOD Systems Award]: https://sigmod.org/2023-sigmod-systems-award/
-[Aiven]: https://aiven.io/
-[Aiven for Apache Flink]: https://aiven.io/flink
 [Aiven for Apache Kafka]: https://aiven.io/kafka
 [Amazon Managed Streaming for Apache Kafka (MSK)]: https://aws.amazon.com/msk/
 [Apache Airflow]: https://airflow.apache.org/
-[Apache Flink]: https://flink.apache.org/
 [Apache Hop]: https://hop.apache.org/
 [Apache Kafka]: https://kafka.apache.org/
 [Apache Kafka on Azure]: https://azuremarketplace.microsoft.com/marketplace/consulting-services/canonical.0001-com-ubuntu-managed-kafka
@@ -408,10 +378,8 @@ an SSIS Catalog database to store, run, and manage packages.
 [dbt Cloud]: https://www.getdbt.com/product/dbt-cloud/
 [Debezium]: https://debezium.io/
 [DoubleCloud Managed Service for Apache Kafka]: https://double.cloud/services/managed-kafka/
-[Flink managed by Confluent]: https://www.datanami.com/2023/05/17/confluents-new-cloud-capabilities-address-data-streaming-hurdles/
 [FlowFuse]: https://flowfuse.com/
 [FlowFuse Cloud]: https://app.flowforge.com/
-[Immerok Cloud]: https://web.archive.org/web/20230602085618/https://www.immerok.io/product
 [Introduction to FlowFuse]: https://flowfuse.com/webinars/2023/introduction-to-flowforge/
 [Kestra]: https://kestra.io/
 [Meltano]: https://meltano.com/
