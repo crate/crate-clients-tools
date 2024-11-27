@@ -19,34 +19,6 @@ for MLOps and Vector database operations.
 ::::
 
 
-## LangChain
-
-```{div}
-:style: "float: right; font-size: 4em; margin-left: 0.3em"
-🦜️🔗
-```
-
-[LangChain] is a framework for developing applications powered by language models,
-written in Python, and with a strong focus on composability. As a language model
-integration framework, LangChain's use-cases largely overlap with those of language
-models in general, including document analysis and summarization, chatbots, and
-code analysis.
-
-LangChain supports retrieval-augmented generation (RAG), which is a technique for
-augmenting LLM knowledge with additional, often private or real-time, data, and mixing
-in "prompt engineering" as the process of structuring text that can be interpreted and
-understood by a generative AI model. A prompt is natural language text describing the
-task that an AI should perform.
-
-The [LangChain adapter for CrateDB] provides support to use CrateDB as a vector store
-database, to load documents using LangChain's DocumentLoader, and also supports
-LangChain's conversational memory subsystem.
-
-```{div}
-:style: "clear: both"
-```
-
-
 ## MLflow
 
 ```{div}
@@ -129,8 +101,6 @@ A modular design invites extensions to expand and enrich functionality.
 ```
 
 
-[LangChain]: https://python.langchain.com/
-[LangChain adapter for CrateDB]: https://github.com/crate-workbench/langchain
 [MLflow]: https://mlflow.org/
 [mlflow-cratedb]: https://pypi.org/project/mlflow-cratedb/
 [MLflow adapter for CrateDB]: https://github.com/crate/mlflow-cratedb
