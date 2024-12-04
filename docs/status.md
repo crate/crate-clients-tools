@@ -38,6 +38,10 @@ on behalf of [cratedb-examples] and [academy-fundamentals-course].
 <td>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/application-apache-superset.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/application-apache-superset.yml?branch=main&label=Apache Superset" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/application-cratedb-toolkit.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/application-cratedb-toolkit.yml?branch=main&label=CrateDB Toolkit" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/application-metabase.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/application-metabase.yml?branch=main&label=Metabase" loading="lazy"></a>
 </td>
 </tr>
 
