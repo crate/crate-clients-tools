@@ -36,8 +36,6 @@ on behalf of [cratedb-examples] and [academy-fundamentals-course].
 <b>Application</b>
 </td>
 <td>
-<a href="https://github.com/crate/cratedb-examples/actions/workflows/application-apache-kafka-flink.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/application-apache-kafka-flink.yml?branch=main&label=Apache Kafka, Apache Flink" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/application-apache-superset.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/application-apache-superset.yml?branch=main&label=Apache Superset" loading="lazy"></a>
 </td>
@@ -60,6 +58,8 @@ on behalf of [cratedb-examples] and [academy-fundamentals-course].
 <b>Framework</b>
 </td>
 <td>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/framework-flink-kafka-java.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/framework-flink-kafka-java.yml?branch=main&label=Apache Kafka, Apache Flink" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/framework-dbt.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/framework-dbt.yml?branch=main&label=dbt" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/framework-gradio.yml">
