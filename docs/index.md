@@ -35,7 +35,7 @@ SQLAlchemy and Flink dialects, and more.
 
 
 :::{grid-item-card} {material-outlined}`code;2em` IDE
-:link: ide
+:link: guide:ide
 :link-type: ref
 
 Connect to CrateDB using a database IDE like DataGrip or DBeaver.
@@ -179,7 +179,6 @@ Looking for the previous content on this page? Visit [](#index-legacy).
 ```{toctree}
 :hidden:
 
-IDE applications <connect/ide>
 CLI programs <connect/cli>
 Database Drivers <connect/index>
 ORM Libraries <connect/orm>
