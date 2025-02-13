@@ -1,0 +1,43 @@
+name: build-status
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: lock-threads
+
+jobs:
+  actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4 
+
+      - name: Checkout cratedb-github-summary
+        uses: actions/checkout@v4
+        with:
+          repository: crate/cratedb-github-summary
+          path: cratedb-github-summary
+          ref: main
+          token: ${{ github.token }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Build report
+        run: |
+          # Login to gh so script can call it
+          echo "${{ github.token }}" | gh auth login --with-token
+          # Generate the report
+          REPORT=$(uv run https://github.com/tech-writing/rapporto/raw/refs/heads/main/rapporto.py -- qa --repositories-file=cratedb-github-summary/cratedb-repositories-ecosystem.txt)
+          echo "report=$REPORT" >> "$GITHUB_OUTPUT"
+
+      - name: Send report data to the Slack workflow 
+        uses: slackapi/slack-github-action@v2
+        with:
+          webhook: ${{ secrets.SLACKURL_BUILD_STATUS }}
+          webhook-type: webhook-trigger
+          payload: |
+            report: ${{ github.event.report }}
