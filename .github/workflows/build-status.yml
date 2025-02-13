@@ -21,7 +21,7 @@ jobs:
           repository: crate/cratedb-github-summary
           path: cratedb-github-summary
           ref: main
-          token: ${{ github.token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install uv
         uses: astral-sh/setup-uv@v5
@@ -29,7 +29,7 @@ jobs:
       - name: Build report
         run: |
           # Login to gh so script can call it
-          echo "${{ github.token }}" | gh auth login --with-token
+          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
           # Generate the report
           REPORT=$(uv run https://github.com/tech-writing/rapporto/raw/refs/heads/main/rapporto.py -- qa --repositories-file=cratedb-github-summary/cratedb-repositories-ecosystem.txt)
           echo "report=$REPORT" >> "$GITHUB_OUTPUT"
