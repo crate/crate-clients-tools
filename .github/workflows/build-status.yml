@@ -2,7 +2,7 @@ name: build-status
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4 
+        uses: actions/checkout@v4
 
       - name: Checkout cratedb-github-summary
         uses: actions/checkout@v4
@@ -21,23 +21,28 @@ jobs:
           repository: crate/cratedb-github-summary
           path: cratedb-github-summary
           ref: main
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
 
       - name: Install uv
         uses: astral-sh/setup-uv@v5
 
       - name: Build report
+        id: build-report
         run: |
           # Login to gh so script can call it
           echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
           # Generate the report
-          REPORT=$(uv run https://github.com/tech-writing/rapporto/raw/refs/heads/main/rapporto.py -- qa --repositories-file=cratedb-github-summary/cratedb-repositories-ecosystem.txt)
-          echo "report=$REPORT" >> "$GITHUB_OUTPUT"
+          echo "REPORT<<EOF" >> $GITHUB_ENV
+          uv run https://github.com/tech-writing/rapporto/raw/refs/heads/main/rapporto.py -- qa --repositories-file=cratedb-github-summary/cratedb-repositories-ecosystem.txt>> $GITHUB_ENV
+          echo "EOF" >> "$GITHUB_ENV"
 
-      - name: Send report data to the Slack workflow 
-        uses: slackapi/slack-github-action@v2
+      - name: Send report data to the Slack workflow
+        uses: slackapi/slack-github-action@v2.0.0
         with:
           webhook: ${{ secrets.SLACKURL_BUILD_STATUS }}
-          webhook-type: webhook-trigger
+          webhook-type: incoming-webhook
           payload: |
-            report: ${{ github.event.report }}
+            report: 
+              type: "mrdwn"
+              text: "${{ env.REPORT }}"
+
