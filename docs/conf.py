@@ -21,6 +21,9 @@ linkcheck_ignore = [
     "https://www.datanami.com/",
     # 403 Client Error: Forbidden for url
     "https://www.tableau.com/",
+    # [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+    "https://streamsets.com/",
+    "https://www.softwareag.com/",
 ]
 
 linkcheck_timeout = 5
