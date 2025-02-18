@@ -33,7 +33,7 @@ jobs:
           echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
           # Generate the report
           echo "REPORT<<EOF" >> $GITHUB_ENV
-          uv run https://github.com/tech-writing/rapporto/raw/refs/heads/main/rapporto.py -- qa --repositories-file=cratedb-github-summary/cratedb-repositories-ecosystem.txt>> $GITHUB_ENV
+          uv run https://github.com/tech-writing/rapporto/raw/refs/tags/v0.0.2/rapporto.py -- qa --repositories-file=cratedb-github-summary/cratedb-repositories-ecosystem.txt>> $GITHUB_ENV
           echo "EOF" >> "$GITHUB_ENV"
 
       - name: Send report data to the Slack workflow
