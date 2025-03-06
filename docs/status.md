@@ -147,9 +147,9 @@ on behalf of [cratedb-examples] and [academy-fundamentals-course].
 </table>
 
 
-## Applications, Frameworks, SDKs
+## Applications, Connectors, SDKs
 
-CI outcomes for a range of applications, frameworks, and libraries connecting
+CI outcomes for a range of applications, connectors, and libraries connecting
 to CrateDB.
 
 <table>
@@ -171,17 +171,17 @@ to CrateDB.
 
 <tr>
 <td>
-<b>Framework</b>
+<b>Connector</b>
 </td>
 <td>
 <a href="https://github.com/crate/cratedb-airflow-tutorial/actions/workflows/main.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-airflow-tutorial/main.yml?branch=main&label=airflow-tutorial" loading="lazy"></a>
-<a href="https://github.com/crate-workbench/dbt-cratedb2/actions/workflows/integration-tests.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/crate-workbench/dbt-cratedb2/integration-tests.yml?branch=main&label=dbt-cratedb2" loading="lazy"></a>
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-airflow-tutorial/main.yml?branch=main&label=Airflow" loading="lazy"></a>
+<a href="https://github.com/crate/dbt-cratedb2/actions/workflows/integration-tests.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/dbt-cratedb2/integration-tests.yml?branch=main&label=dbt" loading="lazy"></a>
 <a href="https://github.com/crate/langchain-cratedb/actions/workflows/ci.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/crate/langchain-cratedb/ci.yml?branch=main&label=langchain-cratedb" loading="lazy"></a>
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/langchain-cratedb/ci.yml?branch=main&label=LangChain" loading="lazy"></a>
 <a href="https://github.com/crate/mlflow-cratedb/actions/workflows/main.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/crate/mlflow-cratedb/main.yml?branch=main&label=mlflow-cratedb" loading="lazy"></a>
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/mlflow-cratedb/main.yml?branch=main&label=MLflow" loading="lazy"></a>
 </td>
 </tr>
 
@@ -197,7 +197,7 @@ to CrateDB.
 
 <tr>
 <td>
-<b>Operation</b>
+<b>Operations</b>
 </td>
 <td>
 <a href="https://github.com/crate/crate-operator/actions/workflows/main.yml">
