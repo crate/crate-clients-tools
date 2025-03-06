@@ -182,6 +182,8 @@ to CrateDB.
     <img src="https://img.shields.io/github/actions/workflow/status/crate/langchain-cratedb/ci.yml?branch=main&label=LangChain" loading="lazy"></a>
 <a href="https://github.com/crate/mlflow-cratedb/actions/workflows/main.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/mlflow-cratedb/main.yml?branch=main&label=MLflow" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-tableau-connector/actions/workflows/main.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-tableau-connector/main.yml?branch=main&label=Tableau" loading="lazy"></a>
 </td>
 </tr>
 
