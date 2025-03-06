@@ -178,6 +178,8 @@ to CrateDB.
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-airflow-tutorial/main.yml?branch=main&label=Airflow" loading="lazy"></a>
 <a href="https://github.com/crate/dbt-cratedb2/actions/workflows/integration-tests.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/dbt-cratedb2/integration-tests.yml?branch=main&label=dbt" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-estuary">
+    <img src="https://img.shields.io/badge/Estuary-passing-success" loading="lazy"></a>
 <a href="https://github.com/crate/langchain-cratedb/actions/workflows/ci.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/langchain-cratedb/ci.yml?branch=main&label=LangChain" loading="lazy"></a>
 <a href="https://github.com/crate/mlflow-cratedb/actions/workflows/main.yml">
