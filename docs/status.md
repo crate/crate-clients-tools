@@ -140,6 +140,12 @@ on behalf of [cratedb-examples] and [academy-fundamentals-course].
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/timeseries.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/timeseries.yml?branch=main&label=Time%20Series" loading="lazy"></a>
 </div>
+<div>
+<b>Datasets</b>
+<br>
+<a href="https://github.com/crate/cratedb-datasets/actions/workflows/publish.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-datasets/publish.yml?branch=main&label=Datasets" loading="lazy"></a>
+</div>
 </td>
 </tr>
 
