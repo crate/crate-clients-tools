@@ -68,6 +68,8 @@ on behalf of [cratedb-examples] and [academy-fundamentals-course].
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/framework-dbt.yml?branch=main&label=dbt" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/framework-gradio.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/framework-gradio.yml?branch=main&label=Gradio" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/framework-mcp.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/framework-mcp.yml?branch=main&label=MCP" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/framework-streamlit.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/framework-streamlit.yml?branch=main&label=Streamlit" loading="lazy"></a>
 </td>
