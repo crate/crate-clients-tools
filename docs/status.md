@@ -84,10 +84,10 @@ on behalf of [cratedb-examples] and [academy-fundamentals-course].
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-csharp-npgsql.yml?branch=main&label=C%23 Npgsql" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-csharp-efcore.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-csharp-efcore.yml?branch=main&label=C%23 EF Core" loading="lazy"></a>
-<a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-java-jooq.yml">
-      <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-java-jooq.yml?branch=main&label=Java jOOQ" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-java-maven.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-java-maven.yml?branch=main&label=Java JDBC" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-java-jooq.yml">
+      <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-java-jooq.yml?branch=main&label=Java jOOQ" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-php-amphp.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-php-amphp.yml?branch=main&label=PHP AMPHP" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-php-pdo.yml">
