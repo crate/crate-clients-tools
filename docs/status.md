@@ -84,6 +84,8 @@ on behalf of [cratedb-examples] and [academy-fundamentals-course].
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-csharp-npgsql.yml?branch=main&label=C%23 Npgsql" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-csharp-efcore.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-csharp-efcore.yml?branch=main&label=C%23 EF Core" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-elixir-postgrex.yml">
+      <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-elixir-postgrex.yml?branch=main&label=Elixir Postgrex" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-java-maven.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-java-maven.yml?branch=main&label=Java JDBC" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-java-jooq.yml">
@@ -96,8 +98,12 @@ on behalf of [cratedb-examples] and [academy-fundamentals-course].
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-python-dbapi.yml?branch=main&label=Python DB API" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-python-sqlalchemy.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-python-sqlalchemy.yml?branch=main&label=Python SQLAlchemy" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-r.yml">
+      <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-r.yml?branch=main&label=R" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-ruby.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-ruby.yml?branch=main&label=Ruby" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-rust-postgres.yml">
+      <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-rust-postgres.yml?branch=main&label=Rust Postgres" loading="lazy"></a>
 </td>
 </tr>
 
