@@ -103,7 +103,7 @@ on behalf of [cratedb-examples] and [academy-fundamentals-course].
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-ruby.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-ruby.yml?branch=main&label=Ruby" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-rust-postgres.yml">
-      <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-rust-postgres.yml?branch=main&label=Rust Postgres" loading="lazy"></a>
+      <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-rust-postgres.yml?branch=main&label=Rust postgres" loading="lazy"></a>
 </td>
 </tr>
 
