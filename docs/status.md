@@ -100,6 +100,8 @@ on behalf of [cratedb-examples] and [academy-fundamentals-course].
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-python-dbapi.yml?branch=main&label=Python DB API" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-python-sqlalchemy.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-python-sqlalchemy.yml?branch=main&label=Python SQLAlchemy" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-python-turbodbc.yml">
+      <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-python-turbodbc.yml?branch=main&label=Python turbodbc" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-r.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-examples/lang-r.yml?branch=main&label=R" loading="lazy"></a>
 <a href="https://github.com/crate/cratedb-examples/actions/workflows/lang-ruby.yml">
