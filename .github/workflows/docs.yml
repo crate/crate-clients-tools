@@ -4,26 +4,32 @@ on:
   push:
     branches:
       - main
-
+  
+  # Allow job to be triggered manually.
+  workflow_dispatch:
+  
+# Cancel in-progress jobs when pushing to the same branch.
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   documentation:
-    name: Build docs on ${{ matrix.os }}
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest, macos-latest]
+    name: Build docs on ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Acquire sources
+        uses: actions/checkout@v4
+
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.11
+          python-version: "3.11"
+          cache: 'pip'
+          cache-dependency-path: |
+            docs/requirements.txt
+      
       - name: Build docs
         run: |
           cd docs && make check
