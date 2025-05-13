@@ -182,6 +182,8 @@ to CrateDB.
     <img src="https://img.shields.io/github/actions/workflow/status/crate/crash/main.yml?branch=master&label=Crash CLI" loading="lazy"></a>
 <a href="https://github.com/crate/croud/actions/workflows/main.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/croud/main.yml?branch=master&label=Croud CLI" loading="lazy"></a>
+<a href="https://github.com/crate/cratedb-mcp/actions/workflows/tests.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/cratedb-mcp/tests.yml?branch=main&label=CrateDB MCP" loading="lazy"></a>
 </td>
 </tr>
 
