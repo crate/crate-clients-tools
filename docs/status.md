@@ -213,6 +213,16 @@ to CrateDB.
 
 <tr>
 <td>
+<b>Documentation</b>
+</td>
+<td>
+<a href="https://github.com/crate/about/actions/workflows/tests.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/crate/about/tests.yml?branch=main&label=About CrateDB" loading="lazy"></a>
+</td>
+</tr>
+
+<tr>
+<td>
 <b>Metrics</b>
 </td>
 <td>
