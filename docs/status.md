@@ -176,7 +176,7 @@ to CrateDB.
 <b>CLI / UI</b>
 </td>
 <td>
-<a href="https://github.com/crate/crate-admin/actions/workflows/main.yml">
+<a href="https://github.com/crate/crate-admin/actions/workflows/tests.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/crate-admin/tests.yml?branch=main&label=CrateDB Admin UI" loading="lazy"></a>
 <a href="https://github.com/crate/crash/actions/workflows/main.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/crate/crash/main.yml?branch=master&label=Crash CLI" loading="lazy"></a>
