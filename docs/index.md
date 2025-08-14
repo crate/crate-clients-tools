@@ -173,34 +173,13 @@ element.
 
 ```{seealso}
 Looking for the previous content on this page? Visit [](#index-legacy).
-```
-
-
-```{toctree}
-:hidden:
-
-CLI programs <connect/cli>
-Database Drivers <connect/index>
-ORM Libraries <connect/orm>
-DataFrame Libraries <connect/df>
+Looking for the status of integration tests? See the {ref}`build status <build-status>` page.
 ```
 
 ```{toctree}
 :hidden:
 
-Programming Frameworks <integrate/framework>
-Load and Export <integrate/etl>
-System Metrics <integrate/metrics>
-Data Visualization <integrate/visualize>
-Business Intelligence <integrate/bi>
-Machine Learning <integrate/ml>
-```
-
-```{toctree}
-:hidden:
-
-Build Status <status>
-Legacy documentation <legacy>
+Legacy driver page <legacy>
 ```
 
 
