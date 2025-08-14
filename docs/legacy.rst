@@ -203,7 +203,7 @@ CrateDB integrates with many different tools. Some of these are:
 .. _crate-scala: https://github.com/alexanderjarvis/crate-scala
 .. _crate-connector: https://github.com/LiamHaworth/crate-connector
 .. _create a data enrichment pipeline: https://cratedb.com/docs/crate/howtos/en/latest/integrations/azure-functions.html
-.. _create a Machine Learning pipeline: https://cratedb.com/docs/crate/howtos/en/latest/integrations/r.html
+.. _create a Machine Learning pipeline: https://cratedb.com/docs/guide/topic/ml/r.html
 .. _DBD::Crate: https://github.com/mamod/DBD-Crate
 .. _get in touch: https://cratedb.com/contact
 .. _GitHub: https://github.com/crate/crate-clients-tools
