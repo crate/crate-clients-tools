@@ -1,3 +1,8 @@
+**⚠️ IMPORTANT**
+
+**This repository is deprecated and archived.**
+Please see the `CrateDB Guide <https://github.com/crate/guide>`_ for a list of integrations.
+
 =========================
 CrateDB Clients and Tools
 =========================
